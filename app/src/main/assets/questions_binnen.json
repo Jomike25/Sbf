@@ -235,7 +235,7 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": null
+    "image": "images/binnen/binnen-17.png"
   },
   {
     "id": "binnen-18",
@@ -277,7 +277,7 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": null
+    "image": "images/binnen/binnen-20.png"
   },
   {
     "id": "binnen-21",
@@ -319,7 +319,7 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": "images/binnen/binnen-23.png"
   },
   {
     "id": "binnen-24",
@@ -641,7 +641,7 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": null
+    "image": "images/binnen/binnen-46.png"
   },
   {
     "id": "binnen-47",
@@ -669,7 +669,7 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": null
+    "image": "images/binnen/binnen-48.png"
   },
   {
     "id": "binnen-49",
@@ -977,7 +977,7 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": "images/binnen/binnen-70.png"
   },
   {
     "id": "binnen-71",
@@ -1061,7 +1061,7 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": null
+    "image": "images/binnen/binnen-76.png"
   },
   {
     "id": "binnen-77",
@@ -1313,7 +1313,7 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": "images/binnen/binnen-94.png"
   },
   {
     "id": "binnen-95",
@@ -1327,7 +1327,7 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": null
+    "image": "images/binnen/binnen-95.png"
   },
   {
     "id": "binnen-96",
@@ -1579,7 +1579,7 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": null
+    "image": "images/binnen/binnen-113.png"
   },
   {
     "id": "binnen-114",
@@ -1607,7 +1607,7 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": "images/binnen/binnen-115.png"
   },
   {
     "id": "binnen-116",
@@ -1663,7 +1663,7 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": null
+    "image": "images/binnen/binnen-119.png"
   },
   {
     "id": "binnen-120",
@@ -1845,7 +1845,7 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": null
+    "image": "images/binnen/binnen-132.png"
   },
   {
     "id": "binnen-133",
@@ -1873,7 +1873,7 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": "images/binnen/binnen-134.png"
   },
   {
     "id": "binnen-135",
@@ -2125,7 +2125,7 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": "images/binnen/binnen-152.png"
   },
   {
     "id": "binnen-153",
@@ -2279,7 +2279,7 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-163.png"
+    "image": null
   },
   {
     "id": "binnen-164",
@@ -2349,7 +2349,7 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": "images/binnen/binnen-168.png"
   },
   {
     "id": "binnen-169",
@@ -2363,7 +2363,7 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": null
+    "image": "images/binnen/binnen-169.png"
   },
   {
     "id": "binnen-170",
