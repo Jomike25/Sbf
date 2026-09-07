@@ -35,7 +35,8 @@ object QuestionRepository {
                     question = obj.getString("question"),
                     options = options,
                     correctIndex = obj.getInt("correctIndex"),
-                    hasImage = obj.optBoolean("hasImage", false)
+                    hasImage = obj.optBoolean("hasImage", false),
+                    imagePath = if (obj.isNull("image")) null else obj.optString("image", null)
                 )
             )
         }

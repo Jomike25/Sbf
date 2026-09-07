@@ -6,5 +6,6 @@ data class Question(
     val question: String,
     val options: List<String>,
     val correctIndex: Int,
-    val hasImage: Boolean
+    val hasImage: Boolean,
+    val imagePath: String?
 )

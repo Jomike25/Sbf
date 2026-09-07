@@ -1,6 +1,7 @@
 package com.sbftrainer.app
 
 import android.content.Intent
+import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
@@ -63,7 +64,7 @@ class QuizActivity : AppCompatActivity() {
             R.string.quiz_progress_format, currentIndex + 1, SessionState.questions.size
         )
         binding.textQuestion.text = q.question
-        binding.textImageHint.visibility = if (q.hasImage) View.VISIBLE else View.GONE
+        showQuestionImage(q)
 
         val letters = listOf("A", "B", "C", "D")
         for (slot in 0..3) {
@@ -81,6 +82,25 @@ class QuizActivity : AppCompatActivity() {
         } else {
             getString(R.string.quiz_next)
         }
+    }
+
+    private fun showQuestionImage(q: Question) {
+        val path = q.imagePath
+        if (path != null) {
+            val bitmap = try {
+                assets.open(path).use { BitmapFactory.decodeStream(it) }
+            } catch (e: Exception) {
+                null
+            }
+            if (bitmap != null) {
+                binding.imageQuestion.setImageBitmap(bitmap)
+                binding.imageQuestion.visibility = View.VISIBLE
+                binding.textImageHint.visibility = View.GONE
+                return
+            }
+        }
+        binding.imageQuestion.visibility = View.GONE
+        binding.textImageHint.visibility = if (q.hasImage) View.VISIBLE else View.GONE
     }
 
     private fun selectOption(slot: Int) {

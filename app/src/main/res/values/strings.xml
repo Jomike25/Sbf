@@ -32,6 +32,7 @@
 
     <string name="quiz_progress_format">Frage %1$d / %2$d</string>
     <string name="quiz_image_hint">🖼 Bildfrage – Original-Symbol nicht in dieser App enthalten, ggf. im Fragenkatalog nachschlagen</string>
+    <string name="quiz_question_image_content_description">Bild zur Frage</string>
     <string name="quiz_next">Weiter</string>
     <string name="quiz_finish">Ergebnis anzeigen</string>
     <string name="quiz_mark_content_description">Frage markieren</string>

@@ -10,7 +10,8 @@
       "Die dem Wind abgewandte Seite."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-2",
@@ -23,7 +24,8 @@
       "Manövrierbehinderter Schleppverband über 200 m Länge."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/see/see-2.png"
   },
   {
     "id": "see-3",
@@ -36,7 +38,8 @@
       "Überholverbot für Fahrzeuge unter 20 m Länge."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/see/see-3.png"
   },
   {
     "id": "see-4",
@@ -49,7 +52,8 @@
       "Durch umsichtiges Verhalten und Beachtung der Verkehrsvorschriften."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-5",
@@ -62,7 +66,8 @@
       "Sie hilft beim Manövrieren."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-6",
@@ -75,7 +80,8 @@
       "Fahrzeug seefest hinterlassen und den Hafenmeister verständigen."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-7",
@@ -88,7 +94,8 @@
       "Beide Gase sind schwerer als Luft und bilden mit Wasser ein explosives Gemisch."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-8",
@@ -101,7 +108,8 @@
       "Ausweichmanöver des Ausweichpflichtigen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-9",
@@ -114,7 +122,8 @@
       "Sie dürfen innerhalb der äußeren Trennlinien nur in einer Fahrtrichtung befahren werden."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-10",
@@ -127,7 +136,8 @@
       "Ein manövrierunfähiges Fahrzeug in Fahrt."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-11",
@@ -140,7 +150,8 @@
       "Ein manövrierunfähiges Fahrzeug."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-12",
@@ -153,7 +164,8 @@
       "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz (- • •)."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/see/see-12.png"
   },
   {
     "id": "see-13",
@@ -166,7 +178,8 @@
       "Das Segelfahrzeug muss seinen Kurs nach Steuerbord ändern."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-14",
@@ -179,7 +192,8 @@
       "Ein ausweichpflichtiges Fahrzeug wird auf seine Ausweichpflicht aufmerksam gemacht."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/see/see-14.png"
   },
   {
     "id": "see-15",
@@ -192,7 +206,8 @@
       "Sie dürfen die sichere Durchfahrt eines dem Einbahnweg folgenden Maschinenfahrzeugs nicht behindern."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-16",
@@ -205,7 +220,8 @@
       "Ein manövrierbehindertes Fahrzeug ohne Fahrt durchs Wasser, das die Schifffahrt behindert. Es ist an der Seite zu passieren, an der zwei rote Rundumlichter senkrecht übereinander angeordnet sind."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-17",
@@ -218,7 +234,8 @@
       "Er ist verpflichtet, bei der Nutzung einer UKW-Funkanlage im Besitz des entsprechenden Funkzeugnisses zu sein."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-18",
@@ -231,7 +248,8 @@
       "Eine Dreifarbenlaterne."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-19",
@@ -244,7 +262,8 @@
       "Im Fahrwasser, wenn es durch die Generaldirektion Wasserstraßen und Schifffahrt (GDWS) bekanntgemacht worden ist. Außerhalb des Fahrwassers auf Abschnitten, die durch die GDWS bekanntgemacht oder durch entsprechende Sichtzeichen bezeichnet sind."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-20",
@@ -257,7 +276,8 @@
       "Kennzeichnung von Sperrgebieten."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/see/see-20.png"
   },
   {
     "id": "see-21",
@@ -270,7 +290,8 @@
       "Westlicher Quadrant einer allgemeinen Gefahrenstelle, die westlich passiert werden muss."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-22",
@@ -283,7 +304,8 @@
       "Im Bundesnaturschutzgesetz."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-23",
@@ -296,7 +318,8 @@
       "Zeitraum vom Einsetzen der Taktkennung bis zum Einsetzen der nächsten gleichen Taktkennung."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-24",
@@ -309,7 +332,8 @@
       "Dass die Seekarte auf mittleres Tidehochwasser bezogen ist."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-25",
@@ -322,7 +346,8 @@
       "Steigen des Wassers nach Eintritt des niedrigsten Wasserstands."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-26",
@@ -335,7 +360,8 @@
       "Abbildung eines Hochdruckgebietes auf der Südhalbkugel, Isobaren mit Angabe des Luftdrucks in hPa, Zugrichtung Südwest."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-27",
@@ -348,7 +374,8 @@
       "Im Fahrwasser äußerst rechts halten und den nächstgelegenen Hafen oder Liegeplatz anlaufen. Im Zweifel andere Fahrzeuge nach Position und richtigem Kurs fragen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-28",
@@ -361,7 +388,8 @@
       "Einen schwarzen Kegel, Spitze oben."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-29",
@@ -374,7 +402,8 @@
       "Es muss das leewärtige Fahrzeug dem luvwärtigen Fahrzeug ausweichen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-30",
@@ -387,7 +416,8 @@
       "Wenn beim Handauflegen auf die Ankerkette oder -leine kein Rucken zu verspüren ist und das Fahrzeug nicht schwojt."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-31",
@@ -400,7 +430,8 @@
       "Die Steuerbord- oder Backbordseite je nach Ruderlage."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-32",
@@ -413,7 +444,8 @@
       "Jährlich, jeweils vor Beginn der Wassersportsaison."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-33",
@@ -426,7 +458,8 @@
       "Luftdruckänderung, Luftfeuchtigkeit und Temperatur."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-34",
@@ -439,7 +472,8 @@
       "Der Fahrzeugführer hat die verantwortlichen Besatzungsmitglieder über die Sicherheitsvorkehrungen an Bord zu unterrichten, in die Handhabung der Rettungs- und Feuerlöschmittel einzuweisen und auf geeignete Maßnahmen gegen das Überbordfallen hinzuweisen, zudem darauf, dass ständig angelegte Rettungswesten die Überlebenschancen im Wasser erhöhen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-35",
@@ -452,7 +486,8 @@
       "Wenn jedes Fahrzeug auch bei unsichtigem Wetter optisch wahrgenommen werden kann."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-36",
@@ -465,7 +500,8 @@
       "Manövrierbehinderter Schleppverband in Fahrt von 200 m Länge oder weniger."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-37",
@@ -478,7 +514,8 @@
       "Drei rote Rundumlichter senkrecht übereinander und zusätzlich die Seitenlichter und das Hecklicht."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/see/see-37.png"
   },
   {
     "id": "see-38",
@@ -491,7 +528,8 @@
       "Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Segelfahrzeug in Fahrt, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker, ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-39",
@@ -504,7 +542,8 @@
       "Ein Fahrzeug vor Anker von weniger als 100 m Länge."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-40",
@@ -517,7 +556,8 @@
       "Die sichere Durchfahrt des Fahrzeugs darf nicht behindert werden."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-41",
@@ -530,7 +570,8 @@
       "Man gibt mindestens fünf kurze Töne mit der Pfeife ab und führt das \"Manöver des letzten Augenblicks\" durch. Dabei ist so zu manövrieren, wie es zur Vermeidung eines Zusammenstoßes am dienlichsten ist."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-42",
@@ -543,7 +584,8 @@
       "Kollisionsverhütungsregeln und Schifffahrtsordnung Emsmündung."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-43",
@@ -556,7 +598,8 @@
       "Es ist die Seite, die ein von See kommendes Schiff an seiner Steuerbordseite hat."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-44",
@@ -569,7 +612,8 @@
       "Sie haben untereinander nach den Regeln der Seeschifffahrtsstraßen-Ordnung auszuweichen, wenn sie dadurch vorfahrtberechtigte Fahrzeuge nicht gefährden oder behindern."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-45",
@@ -582,7 +626,8 @@
       "Die Regeln der Binnenschifffahrtsstraßen-Ordnung."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-46",
@@ -595,7 +640,8 @@
       "Dauernde Sperrung einer Teilstrecke der Seeschifffahrtsstraße."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-47",
@@ -608,7 +654,8 @@
       "3,8 Knoten."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-48",
@@ -621,7 +668,8 @@
       "Unterbrochen (2) rot, Heultonne."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-49",
@@ -634,7 +682,8 @@
       "Kennzeichnung einer allgemeinen Gefahrenstelle, Nordquadrant. Sie ist nördlich zu passieren."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-50",
@@ -647,7 +696,8 @@
       "Beim Übergang vom Ankündigungssektor in den Kursänderungssektor die Kursänderung vornehmen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-51",
@@ -660,7 +710,8 @@
       "Die Tiere sollen nicht gestört oder vertrieben werden."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-52",
@@ -673,7 +724,8 @@
       "Sie enthalten alle Veränderungen hinsichtlich Betonnung, Befeuerung, Wracks, Untiefen sowie andere die Schifffahrt betreffende Maßnahmen und Ereignisse."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-53",
@@ -686,7 +738,8 @@
       "Das Feststellen der Entfernung zu einem bekannten feststehenden Objekt."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-54",
@@ -699,7 +752,8 @@
       "Eintritt des niedrigsten Wasserstands beim Übergang vom Fallen zum Steigen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-55",
@@ -712,7 +766,8 @@
       "Leuchtrakete mit rotem Leuchtstern oder rot brennende Handfackel, anhaltendes Ertönen eines Nebelsignalgerätes, dreimaliges Geben (• • • - - - • • •) per Licht oder Ton, dreimal das Wort MAYDAY über Sprechfunk, seitliches Heben und Senken der Arme, Flaggensignal , NC, EPIRB, DSC , Radartransponder."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-56",
@@ -725,7 +780,8 @@
       "Wenn es durch das Segeln keine Fahrt über Grund macht."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-57",
@@ -738,7 +794,8 @@
       "Die 10 goldenen Regeln für Wassersportler."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-58",
@@ -751,7 +808,8 @@
       "Das kleinere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen und kollidieren oder kentern, in flachen Gewässern extrem versetzt werden."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-59",
@@ -764,7 +822,8 @@
       "Ein Winkel von 90° bis 100°."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-60",
@@ -777,7 +836,8 @@
       "Defektes Thermostat, defekte Impellerpumpe, geschlossenes Seeventil, zu niedriger Kühlwasserstand."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-61",
@@ -790,7 +850,8 @@
       "Verringerung der Geschwindigkeit, um schädlichen Sog und Wellenschlag zu vermeiden."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-62",
@@ -803,7 +864,8 @@
       "Die Verpflichtung zur Beachtung von Vorsichtsmaßregeln der Kollisionsverhütungsregeln (KVR), der Grundregeln für das Verhalten im Verkehr und der Ausweichregeln mit dem Manöver des letzten Augenblicks."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-63",
@@ -816,7 +878,8 @@
       "Die Geschwindigkeit muss der Verkehrslage, dem Verkehrsaufkommen, den Seegangs- und Windverhältnissen angepasst sein, so dass kein Sog und Wellenschlag entsteht."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-64",
@@ -829,7 +892,8 @@
       "Drei rote Rundumlichter senkrecht übereinander."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-65",
@@ -842,7 +906,8 @@
       "Das luvwärtige Fahrzeug dem leewärtigen Fahrzeug."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-66",
@@ -855,7 +920,8 @@
       "Die Fahrt ist auf das für die Steuerfähigkeit erforderliche Mindestmaß zu reduzieren; im Zweifelsfall muss ganz aufgestoppt werden."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-67",
@@ -868,7 +934,8 @@
       "Auf dem entsprechenden Einbahnweg in Verkehrsrichtung links von der Trennzone fahren, so nah wie möglich an der Trennzone/Trennlinie fahren, in der Regel an den Enden des Einbahnweges ein- oder auslaufen, seitliches Ein- oder Auslaufen in möglichst rechtem Winkel zur allgemeinen Verkehrsrichtung."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-68",
@@ -881,7 +948,8 @@
       "Es muss warten. Alle dem Einbahnweg folgenden Fahrzeuge haben Vorfahrt."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-69",
@@ -894,7 +962,8 @@
       "Fahrzeug, das mit Netzen, Leinen, Schleppnetzen oder anderen Fanggeräten fischt und auf sich aufmerksam macht. Ausreichenden Abstand halten."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-70",
@@ -907,7 +976,8 @@
       "Es darf in der Zeit zwischen Sonnenuntergang und Sonnenaufgang nicht fahren."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-71",
@@ -920,7 +990,8 @@
       "Ergänzende Vorschriften für den NOK in der Seeschifffahrtsstraßen-Ordnung sowie in den Kollisionsverhütungsregeln."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-72",
@@ -933,7 +1004,8 @@
       "Ein Ausweichpflichtiger wird vom Vorfahrtberechtigten auf seine Ausweichpflicht hingewiesen; sofort Ausweichmanöver einleiten."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-73",
@@ -946,7 +1018,8 @@
       "Fahrzeug des öffentlichen Dienstes, anhalten."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-74",
@@ -959,7 +1032,8 @@
       "Steuerbordseite des durchgehenden Fahrwassers/Backbordseite des abzweigenden oder einmündenden Fahrwassers."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-75",
@@ -972,7 +1046,8 @@
       "Ober- und Unterfeuer, die in Deckung zu bringen sind."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-76",
@@ -985,7 +1060,8 @@
       "Lichterscheinung länger als Verdunkelung, Blitz mindestens 2 s lang."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-77",
@@ -998,7 +1074,8 @@
       "Nur Bioabfälle und restentleerte Behälter auf See entsorgen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-78",
@@ -1011,7 +1088,8 @@
       "In den Bekanntmachungen und Nachrichten für Seefahrer."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-79",
@@ -1024,7 +1102,8 @@
       "Der Kollisionsverhütung."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-80",
@@ -1037,7 +1116,8 @@
       "Bleib-weg-Signal."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/see/see-80.png"
   },
   {
     "id": "see-81",
@@ -1050,7 +1130,8 @@
       "Etwa 2 - 6 Sekunden."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-82",
@@ -1063,7 +1144,8 @@
       "Beim Umweltbundesamt."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-83",
@@ -1076,7 +1158,8 @@
       "Zu hohe Motordrehzahl."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-84",
@@ -1089,7 +1172,8 @@
       "Es darf immer ohne Fahrerlaubnis geführt werden, unabhängig von der Antriebsleistung."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-85",
@@ -1102,7 +1186,8 @@
       "ABC-Pulver- und Schaumlöscher, mindestens alle 2 Jahre."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-86",
@@ -1115,7 +1200,8 @@
       "Der Fahrzeugführer oder sein Stellvertreter."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-87",
@@ -1128,7 +1214,8 @@
       "Das Maschinenfahrzeug muss seinen Kurs nach Steuerbord ändern."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-88",
@@ -1141,7 +1228,8 @@
       "Das Seesicherheitsuntersuchungsgesetz sowie die Verordnung über die Sicherung der Seefahrt, die jeweils wichtige Vorschriften über das Verhalten nach einem Zusammenstoß auf den jeweiligen Seeschifffahrtsstraßen enthalten."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-89",
@@ -1154,7 +1242,8 @@
       "Zwei Gruppen von je vier kurzen Tönen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-90",
@@ -1167,7 +1256,8 @@
       "Sie haben einen kurzen Ton als Achtungssignal abzugeben."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-91",
@@ -1180,7 +1270,8 @@
       "An Engstellen, unübersichtlichen Krümmungen, in Schleusenbereichen, innerhalb durch Überholverbotszeichen gekennzeichneter Strecken, in der Nähe nicht frei fahrender Fähren in Fahrt, und in Verkehrstrennungsgebieten."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-92",
@@ -1193,7 +1284,8 @@
       "Grünes Blitzfeuer, Funkelfeuer oder Blinkfeuer."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-93",
@@ -1206,7 +1298,8 @@
       "Lichterscheinung zweifach länger als Verdunkelung."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-94",
@@ -1219,7 +1312,8 @@
       "Die Versetzung des Schiffes über Grund in Richtung und Distanz."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-95",
@@ -1232,7 +1326,8 @@
       "In den Gezeitentafeln oder dem Gezeitenkalender des Bundesamtes für Seeschifffahrt und Hydrographie."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-96",
@@ -1245,7 +1340,8 @@
       "Windstärken 11, 12 und 13 der Beaufortskala."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-97",
@@ -1258,7 +1354,8 @@
       "Schiffsdaten (statisch), reisebezogene Daten."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-98",
@@ -1271,7 +1368,8 @@
       "Sicherheitsleinen bzw. -gurte aufschießen, Sicherheitsgurt anlegen und in die Reling einpicken."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-99",
@@ -1284,7 +1382,8 @@
       "Fahrzeug verlässt Liegeplatz."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-100",
@@ -1297,7 +1396,8 @@
       "Etwa 2 Sekunden."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-101",
@@ -1310,7 +1410,8 @@
       "Festmache- und Liegeverbot für gewerbliche Schiffe."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/see/see-101.png"
   },
   {
     "id": "see-102",
@@ -1323,7 +1424,8 @@
       "Von achtern gesehen in Vorausfahrt Drehung des Propellers im Uhrzeigersinn."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-103",
@@ -1336,7 +1438,8 @@
       "Internationales Signalbuch und Verordnung über die Sicherung der Seefahrt."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-104",
@@ -1349,7 +1452,8 @@
       "Die Anlage muss abgenommen sein, Leitungen und Anschlüsse müssen dicht sein. Haupthahn und andere Absperrventile sind zu öffnen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-105",
@@ -1362,7 +1466,8 @@
       "Wenn Gefahr für Leib oder Leben von Personen, erhebliche Sachwerte oder die maritime Umwelt besteht."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-106",
@@ -1375,7 +1480,8 @@
       "Sportboote, die entweder vor Anker liegen oder an Land festgemacht sind oder auf Grund sitzen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-107",
@@ -1388,7 +1494,8 @@
       "Segelfahrzeuge, fischende Fahrzeuge und geschleppte Fahrzeuge."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-108",
@@ -1401,7 +1508,8 @@
       "Mindestens alle zwei Minuten ein kräftiges Schallsignal, das mit den vorgeschriebenen nicht verwechselt werden kann."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-109",
@@ -1414,7 +1522,8 @@
       "Das Maschinenfahrzeug muss Kurs und Geschwindigkeit beibehalten."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-110",
@@ -1427,7 +1536,8 @@
       "Wenn ein Fahrzeug ein anderes Fahrzeug zur Hilfeleistung auffordert."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-111",
@@ -1440,7 +1550,8 @@
       "Sie haben bei Annäherung an andere Fahrzeuge aufzustoppen und Sog und Wellenschlag zu vermeiden."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-112",
@@ -1453,7 +1564,8 @@
       "Geschwindigkeit von 8 km/h Fahrt durch das Wasser, die innerhalb eines Bereiches von 500 m von der jeweiligen Uferlinie wegen Badebetriebs nicht überschritten werden darf."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-113",
@@ -1466,7 +1578,8 @@
       "An bestimmten Tag- und Nachtsignalen, die nach der Schifffahrtsordnung der Generaldirektion Wasserstraßen und Schifffahrt (GDWS) für militärische Sperr- und Warngebiete an entsprechenden Signalstellen am Ufer und auf Sicherungsfahrzeugen gezeigt werden."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-114",
@@ -1479,7 +1592,8 @@
       "In Fahrtrichtung Ober- und Unterfeuer in Deckung halten."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-115",
@@ -1492,7 +1606,8 @@
       "Befahrensregelungen sowie Festlegungen der Ordnungsämter beachten."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-116",
@@ -1505,7 +1620,8 @@
       "In den Seehandbüchern."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-117",
@@ -1518,7 +1634,8 @@
       "Wenn es weder vor Anker liegt noch an Land festgemacht ist noch Fahrt über Grund macht."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-118",
@@ -1531,7 +1648,8 @@
       "Das Heck dreht nach Steuerbord."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-119",
@@ -1544,7 +1662,8 @@
       "Motor abstellen, Feuerlöscher bereithalten, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-120",
@@ -1557,7 +1676,8 @@
       "Möglichst an Deck, geschützt vor Sonneneinstrahlung, sonst in einem besonders abgeschlossenen Raum für Gasbehälter, der oben belüftet ist."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-121",
@@ -1570,7 +1690,8 @@
       "Hilfe leisten und so lange am Unfallort bleiben, bis ein weiterer Beistand nicht mehr erforderlich ist; die Wasserschutzpolizei benachrichtigen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-122",
@@ -1583,7 +1704,8 @@
       "Die Vorschrift der Kollisionsverhütungsregeln (KVR)."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-123",
@@ -1596,7 +1718,8 @@
       "Zwei weiße Rundumlichter an gut sichtbarer Stelle."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-124",
@@ -1609,7 +1732,8 @@
       "Es muss das luvwärtige Fahrzeug dem leewärtigen Fahrzeug ausweichen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-125",
@@ -1622,7 +1746,8 @@
       "Kurs nach Steuerbord ändern, Geschwindigkeit zunächst beibehalten und dem Ausweichpflichtigen besondere Aufmerksamkeit widmen."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-126",
@@ -1635,7 +1760,8 @@
       "Außerhalb des Fahrwassers, wenn es nicht von der Generaldirektion Wasserstraßen- und Schifffahrt (GDWS) durch Bekanntmachung verboten ist. Im Fahrwasser auf Abschnitten, die durch die GDWS bekanntgemacht oder durch blaue Tafeln mit dem weißen Symbol eines Wasserskiläufers, eines Wassermotorrades oder eines Segelsurfers bezeichnet sind."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-127",
@@ -1648,7 +1774,8 @@
       "Eine Einzelgefahrenstelle, die an allen Seiten passiert werden kann."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-128",
@@ -1661,7 +1788,8 @@
       "Die Lichterscheinung ist stets länger als die Verdunkelung."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-129",
@@ -1674,7 +1802,8 @@
       "Befahrensverbote, Befahrensbeschränkungen, Geschwindigkeitsbeschränkungen, besondere Regelungen für das Wasserskilaufen, das Fahren mit Wassermotorrädern und das Segelsurfen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-130",
@@ -1687,7 +1816,8 @@
       "In Meter und Dezimeter."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-131",
@@ -1700,7 +1830,8 @@
       "Der Steuerstrich muss parallel zur Kiellinie verlaufen. Der Kompass muss gut ablesbare Zahlen aufweisen und darf nicht in der Nähe von Eisenteilen aufgestellt werden."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-132",
@@ -1713,7 +1844,8 @@
       "Wind aus Richtung Nordwest; Stärke: 3; wolkenlos."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-133",
@@ -1726,7 +1858,8 @@
       "Möglichst am Fahrzeug bleiben und die Besatzung zusammenhalten; unnötigen Kräfteverschleiß vermeiden und Aufmerksamkeit zur Hilfeleistung erregen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-134",
@@ -1739,7 +1872,8 @@
       "Bleib-weg-Signal."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-135",
@@ -1752,7 +1886,8 @@
       "Wenn man infolge körperlicher oder geistiger Mängel oder infolge des Genusses alkoholischer Getränke oder anderer berauschender Mittel in der sicheren Führung behindert ist oder wenn eine Blutalkoholkonzentration von 0,8 ‰ oder mehr im Körper vorhanden ist."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-136",
@@ -1765,7 +1900,8 @@
       "Kurze Unterbrechung des Motorlaufs."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-137",
@@ -1778,7 +1914,8 @@
       "Von vorne gesehen in Rückwärtsfahrt Drehung des Propellers im Uhrzeigersinn."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-138",
@@ -1791,7 +1928,8 @@
       "Handhabungshinweise durchlesen und den Feuerlöscher sofort einsetzen, dabei das Feuer möglichst von unten bekämpfen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-139",
@@ -1804,7 +1942,8 @@
       "Auf der Hohen See und den deutschen Seeschifffahrtsstraßen, die von Seeschiffen befahren werden."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-140",
@@ -1817,7 +1956,8 @@
       "Es muss im letzten Augenblick von jedem durchgeführt werden, wenn ein Zusammenstoß sonst nicht mehr vermieden werden kann."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-141",
@@ -1830,7 +1970,8 @@
       "Ein vor Anker liegendes Fahrzeug von 100 und mehr Meter Länge."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-142",
@@ -1843,7 +1984,8 @@
       "Wenn sich der Abstand zum anderen Fahrzeug verringert und sich der Kurs nicht oder nicht merklich ändert."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-143",
@@ -1856,7 +1998,8 @@
       "Das Maschinenfahrzeug muss ausweichen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-144",
@@ -1869,7 +2012,8 @@
       "Es darf die sichere Durchfahrt des Maschinenfahrzeugs nicht behindern."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-145",
@@ -1882,7 +2026,8 @@
       "Man informiert die Deutsche Gesellschaft zur Rettung Schiffbrüchiger, damit das Hindernis gekennzeichnet werden kann."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-146",
@@ -1895,7 +2040,8 @@
       "Dauernde Sperrung der Seeschifffahrtsstraße; Weiterfahrt verboten."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-147",
@@ -1908,7 +2054,8 @@
       "Schießgebiet."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-148",
@@ -1921,7 +2068,8 @@
       "Sektorenfeuer, das auf eine Kursänderung im Fahrwasser hinweist."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-149",
@@ -1934,7 +2082,8 @@
       "12 Knoten über Grund."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-150",
@@ -1947,7 +2096,8 @@
       "Die Differenz zwischen Hoch- und Niedrigwasser."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-151",
@@ -1960,7 +2110,8 @@
       "Die Wellenhöhe und die Windgeschwindigkeit bei Sturmstärke."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-152",
@@ -1973,7 +2124,8 @@
       "Insbesondere alle Navigationsanlagen sorgfältig gebrauchen, die Sichtbarkeit des eigenen Fahrzeugs erhöhen (z. B. Radarreflektor, AIS) und die Verkehrszentrale ständig über Kurs und Geschwindigkeit informieren."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-153",
@@ -1986,7 +2138,8 @@
       "Ein Inhaber eines Sportbootführerscheins muss die Fahrzeugführung übernehmen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-154",
@@ -1999,7 +2152,8 @@
       "Weil dadurch Sog und Wellenschlag vermieden wird."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-155",
@@ -2012,7 +2166,8 @@
       "Zu viel Motoröl im Motor."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-156",
@@ -2025,7 +2180,8 @@
       "Gaszuführung absperren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen und keinen Funk und keine Mobiltelefone benutzen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-157",
@@ -2038,7 +2194,8 @@
       "Wenn es wegen der Art seines Einsatzes behindert ist und deshalb nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-158",
@@ -2051,7 +2208,8 @@
       "Seitenlichter rot und grün und ein weißes Hecklicht."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-159",
@@ -2064,7 +2222,8 @@
       "Ein Fahrzeug mit gefährlicher Ladung vor Anker von weniger als 100 m Länge."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/see/see-159.png"
   },
   {
     "id": "see-160",
@@ -2077,7 +2236,8 @@
       "Das Maschinenfahrzeug muss ausweichen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-161",
@@ -2090,7 +2250,8 @@
       "Es sind mindestens fünf kurze Töne mit der Pfeife abzugeben und das Manöver des letzten Augenblicks durchzuführen. Dabei ist so zu manövrieren, wie es zur Vermeidung eines Zusammenstoßes am dienlichsten ist."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-162",
@@ -2103,7 +2264,8 @@
       "Wenn ein weißes Funkellicht gezeigt wird."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-163",
@@ -2116,7 +2278,8 @@
       "30 bis 40 aufeinanderfolgende Lichterscheinungen pro Minute."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-164",
@@ -2129,7 +2292,8 @@
       "Seekarten, Leuchtfeuerverzeichnis, Seehandbücher, Gezeitentafeln oder -kalender, Jachtfunkdienst, Nachrichten für Seefahrer (NfS), Bekanntmachungen für Seefahrer (BfS)."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-165",
@@ -2142,7 +2306,8 @@
       "Das sind die in einer Stunde zurückgelegten Seemeilen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-166",
@@ -2155,7 +2320,8 @@
       "Schiffsort, der unter Berücksichtigung der gesteuerten Kurse und zurückgelegten Distanzen infolge mehrerer Peilungen ermittelt wird."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-167",
@@ -2168,7 +2334,8 @@
       "Unterschied zwischen den Höhen zweier aufeinanderfolgender Hochwasser."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-168",
@@ -2181,7 +2348,8 @@
       "Gleichmäßig verteilen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-169",
@@ -2194,7 +2362,8 @@
       "Durch Schraubenstrom und Anstellwinkel des Propellers."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-170",
@@ -2207,7 +2376,8 @@
       "Wenn es sich einem anderen Fahrzeug gegenüber in einer Richtung von mehr als 22,5° achterlicher als querab (Bereich des Hecklichtes) befindet."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-171",
@@ -2220,7 +2390,8 @@
       "Solche, die gemäß der Kollisionsverhütungsregeln (KVR), der Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und der Schifffahrtsordnung Emsmündung (EmsSchO) vorgeschrieben sind und ein CE-Zeichen haben."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-172",
@@ -2233,7 +2404,8 @@
       "Schleppverband von mehr als 50 m Länge."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-173",
@@ -2246,7 +2418,8 @@
       "Ein Fahrzeug mit gefährlicher Ladung vor Anker von weniger als 100 m Länge."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-174",
@@ -2259,7 +2432,8 @@
       "In der Seeschifffahrtsstraßen-Ordnung."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-175",
@@ -2272,7 +2446,8 @@
       "200 m bis 300 m."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-176",
@@ -2285,7 +2460,8 @@
       "Lichterscheinung länger als Verdunkelung, Blink mindestens 2 s lang."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-177",
@@ -2298,7 +2474,8 @@
       "Sie entspricht der in einer Stunde zurückgelegten Distanz in Meter, 16,52 km."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-178",
@@ -2311,7 +2488,8 @@
       "Aus dem Betriebshandbuch des Kompassherstellers."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-179",
@@ -2324,7 +2502,8 @@
       "Die Schleppleine ist den Seegangsverhältnissen anzupassen. Die Schleppgeschwindigkeit darf nicht größer sein als die Geschwindigkeit, die der Anhang frei fahrend bei Verdrängerfahrt erreichen kann. Ein ruckartiges Steifkommen der Schleppleine ist zu vermeiden."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-180",
@@ -2337,7 +2516,8 @@
       "Windstärke 7 der Beaufortskala."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-181",
@@ -2350,7 +2530,8 @@
       "Es muss das leewärtige Fahrzeug dem luvwärtigen Fahrzeug ausweichen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-182",
@@ -2363,7 +2544,8 @@
       "Weil sich durch den Radeffekt ein Unterdruck am Ruder entwickelt."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-183",
@@ -2376,7 +2558,8 @@
       "Ein Fahrzeug vor Anker von weniger als 100 m Länge."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-184",
@@ -2389,7 +2572,8 @@
       "Es sind Wasserflächen, die durchgehend durch Fahrwasserseitenbezeichnung begrenzt oder gekennzeichnet sind und auf denen das Wasserskifahren sowie das Fahren mit Wassermotorrädern erlaubt ist, sofern die durchgehende Schifffahrt nicht behindert wird."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-185",
@@ -2402,7 +2586,8 @@
       "Ein kurzer und ein langer Ton."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/see/see-185.png"
   },
   {
     "id": "see-186",
@@ -2415,7 +2600,8 @@
       "An der in der Seekarte abgebildeten Kompassrose."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-187",
@@ -2428,7 +2614,8 @@
       "Durch mehrmaliges Peilen eines anderen Fahrzeugs."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-188",
@@ -2441,7 +2628,8 @@
       "Leinenverbindung, Badeleiter, Treibanker, Rettungsschlaufe, Bergenetz, Talje."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-189",
@@ -2454,7 +2642,8 @@
       "Fahrzeug des öffentlichen Dienstes."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-190",
@@ -2467,7 +2656,8 @@
       "Die dem Wind zugekehrte Seite."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-191",
@@ -2480,7 +2670,8 @@
       "Zwei rote Rundumlichter senkrecht übereinander."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-192",
@@ -2493,7 +2684,8 @@
       "Einfahrt frei, Schleusentor öffnet."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-193",
@@ -2506,7 +2698,8 @@
       "Belüftungsschraube geschlossen; verstopfte Kraftstoffleitung."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-194",
@@ -2519,7 +2712,8 @@
       "Wenn es wegen seines Tiefgangs im Verhältnis zu der vorhandenen Tiefe und Breite des befahrbaren Gewässers erheblich behindert ist, von seinem zu verfolgenden Kurs abzuweichen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-195",
@@ -2532,7 +2726,8 @@
       "Es muss mit sicherer, den verminderten Sichtverhältnissen angepasster Geschwindigkeit gefahren werden, es müssen Schallsignale gegeben werden, das Radargerät muss eingeschaltet werden und es muss Ausguck gegangen werden."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-196",
@@ -2545,7 +2740,8 @@
       "Die Kollisionsverhütungsregeln (KVR), die Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und die Schifffahrtsordnung Emsmündung (EmsSchO)."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-197",
@@ -2558,7 +2754,8 @@
       "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz (- • •)."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/see/see-197.png"
   },
   {
     "id": "see-198",
@@ -2571,7 +2768,8 @@
       "Das Queren ist möglichst zu vermeiden. Falls gequert werden muss, hat dies möglichst mit der Kielrichtung im rechten Winkel zur allgemeinen Verkehrsrichtung zu erfolgen. Die Kielrichtung des querenden Fahrzeugs muss auch dann einen rechten Winkel zur allgemeinen Verkehrsrichtung bilden, wenn das Fahrzeug durch Wind oder Strom versetzt wird."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-199",
@@ -2584,7 +2782,8 @@
       "Seenotsignal."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-200",
@@ -2597,7 +2796,8 @@
       "Leuchtfeuerverzeichnis, Seehandbuch, Kollisionsverhütungsregeln."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-201",
@@ -2610,7 +2810,8 @@
       "Windstärke 7 und mehr der Beaufortskala."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-202",
@@ -2623,7 +2824,8 @@
       "Schießübung."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-203",
@@ -2636,7 +2838,8 @@
       "Eine Dreifarbenlaterne an oder nahe der Mastspitze."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-204",
@@ -2649,7 +2852,8 @@
       "Das mit dem Strom fahrende Fahrzeug hat aufzustoppen."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-205",
@@ -2662,7 +2866,8 @@
       "Motortemperatur, Öldruck, Ladekontrolle."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-206",
@@ -2675,7 +2880,8 @@
       "Es sind bekannt gemachte Fahrwasser, die durch Trennlinien oder Trennzonen in Einbahnwege geteilt sind."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-207",
@@ -2688,7 +2894,8 @@
       "Es darf die sichere Durchfahrt des zu überholenden Fahrzeugs nicht behindern."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-208",
@@ -2701,7 +2908,8 @@
       "Rotes Blitzfeuer, Funkelfeuer oder Festfeuer."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-209",
@@ -2714,7 +2922,8 @@
       "Die Richtung und Stärke der Meeresströmung."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-210",
@@ -2727,7 +2936,8 @@
       "Die Differenz zwischen Hoch- und Niedrigwasser."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-211",
@@ -2740,7 +2950,8 @@
       "Mit dem Treibanker oder anderen geeigneten schwimmfähigen Gegenständen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-212",
@@ -2753,7 +2964,8 @@
       "Durch Isoklinen und in Dezipascal."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-213",
@@ -2766,7 +2978,8 @@
       "Fahrzeug in Seenot."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-214",
@@ -2779,7 +2992,8 @@
       "Sie zeigt Fahrtrichtung und Position eines Fahrzeugs an."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-215",
@@ -2792,7 +3006,8 @@
       "Da es dem großen in Fahrt befindlichen Fahrzeug sonst nicht ausweichen kann."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-216",
@@ -2805,7 +3020,8 @@
       "Das seitliche Versetzen des Bugs."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-217",
@@ -2818,7 +3034,8 @@
       "Blockierte Kraftstoffzufuhr."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-218",
@@ -2831,7 +3048,8 @@
       "Die Mitte eines Schifffahrtsweges."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "see-219",
@@ -2844,7 +3062,8 @@
       "Ober- und Unterfeuer mit unterschiedlichen Farbsektoren."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-220",
@@ -2857,7 +3076,8 @@
       "In der Seeschifffahrtsstraßen-Ordnung."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-221",
@@ -2870,7 +3090,8 @@
       "Ausgewiesene Wasserflächen für bestimmte Sportbootverkehre."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-222",
@@ -2883,7 +3104,8 @@
       "Der Tidenstrom glättet die Windsee."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-223",
@@ -2896,7 +3118,8 @@
       "Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Niedrigwasser"
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-224",
@@ -2909,7 +3132,8 @@
       "Windstärke 5 und 6 der Beaufortskala."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-225",
@@ -2922,7 +3146,8 @@
       "Türen schließen, lose Gegenstände festzurren, Rettungsweste und andere Rettungsmittel bereithalten, Radar, Ruder und UKW besetzen."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-226",
@@ -2935,7 +3160,8 @@
       "Von abends 18:00 Uhr bis morgens 06:00 Uhr und bei verminderter Sicht."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-227",
@@ -2948,7 +3174,8 @@
       "Weil diese Zonen vielfach Rast- und Brutplätze besonders schutzwürdiger Vögel oder Fischlaichplätze sind."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-228",
@@ -2961,7 +3188,8 @@
       "Mindestens zwei- oder dreifache Wassertiefe."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-229",
@@ -2974,7 +3202,8 @@
       "Um die Schlinger- und Rollbewegungen zu minimieren."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-230",
@@ -2987,7 +3216,8 @@
       "Mit Starkwind oder Sturm."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-231",
@@ -3000,7 +3230,8 @@
       "Haupthahn und Absperrventile sind zu schließen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-232",
@@ -3013,7 +3244,8 @@
       "Bestimmte Wassersportgeräte."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "see-233",
@@ -3026,6 +3258,7 @@
       "Orte gleicher Wolkenbildung."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/see/see-233.png"
   }
 ]

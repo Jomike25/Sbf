@@ -10,7 +10,8 @@
       "Die Seite in Fahrtrichtung links."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-2",
@@ -23,7 +24,8 @@
       "Allgemeines Gefahr- und Warnsignal."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-2.png"
   },
   {
     "id": "binnen-3",
@@ -36,7 +38,8 @@
       "Überholverbot."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-3.png"
   },
   {
     "id": "binnen-4",
@@ -49,7 +52,8 @@
       "Durch umweltbewusstes Verhalten und Beachtung der \"Zehn Grundregeln für den Wassersport\"."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-5",
@@ -62,7 +66,8 @@
       "Sie hilft beim Überholen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-6",
@@ -75,7 +80,8 @@
       "Tagestank schließen und Kraftstofffilter entwässern."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-7",
@@ -88,7 +94,8 @@
       "Beide Gase sind schwerer als Wasser und bilden mit Wasser ein explosives Gemisch."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-8",
@@ -101,7 +108,8 @@
       "Bei unmittelbar bevorstehendem Überholvorgang."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-9",
@@ -114,7 +122,8 @@
       "Moselschifffahrtspolizeiverordnung, Donauschifffahrtspolizeiverordnung."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-10",
@@ -127,7 +136,8 @@
       "Moselschifffahrtspolizeiverordnung, Donauschifffahrtspolizeiverordnung."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-11",
@@ -140,7 +150,8 @@
       "Den Teil der Wasserstraße, in dem für den durchgehenden Schiffsverkehr bestimmte Breiten und Tiefen vorgehalten bzw. angestrebt werden."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-12",
@@ -153,7 +164,8 @@
       "Einstellung der Schifffahrt."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-13",
@@ -166,7 +178,8 @@
       "Die linke Fahrrinnenseite, gekennzeichnet durch grüne Spitztonnen oder Schwimmstangen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-14",
@@ -179,7 +192,8 @@
       "Hindernis an der rechten Seite der Wasserstraße."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-15",
@@ -192,7 +206,8 @@
       "Empfohlene Durchfahrt ohne Gegenverkehr."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-15.png"
   },
   {
     "id": "binnen-16",
@@ -205,7 +220,8 @@
       "Kleinfahrzeuge fahren nach den Fahrzeugen, die nicht Kleinfahrzeuge sind und ohne Aufforderung durch die Schleusenaufsicht in die Schleuse ein."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-17",
@@ -218,7 +234,8 @@
       "Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-18",
@@ -231,7 +248,8 @@
       "Wenn es 15 m oder länger ist."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-19",
@@ -244,7 +262,8 @@
       "Dreifarbenlaterne im Topp."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-20",
@@ -257,7 +276,8 @@
       "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der rot- weißen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-21",
@@ -270,7 +290,8 @@
       "Wenden über Steuerbord."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-21.png"
   },
   {
     "id": "binnen-22",
@@ -283,7 +304,8 @@
       "Eine Folge von mindestens 2 Tönen von je etwa einer viertel Sekunde Dauer und mit je einer viertel Sekunde Pause."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-23",
@@ -296,7 +318,8 @@
       "Fahrzeug B ist ausweichpflichtig."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-24",
@@ -309,7 +332,8 @@
       "Die der Binnenschifffahrtsstraßen-Ordnung."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-25",
@@ -322,7 +346,8 @@
       "Auf allen Wasserstraßen ist ohne Radar und Sprechfunk die Fahrt unverzüglich einzustellen."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-26",
@@ -335,7 +360,8 @@
       "Einer Person, die mindestens 18 Jahre alt, sowie körperlich und geistig geeignet ist."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-27",
@@ -348,7 +374,8 @@
       "Sonnenaufgang bis -untergang, Sicht 1 000 m und mehr."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-28",
@@ -361,7 +388,8 @@
       "Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung links fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-29",
@@ -374,7 +402,8 @@
       "Verbot der Durchfahrt und Sperrung der Schifffahrt."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-29.png"
   },
   {
     "id": "binnen-30",
@@ -387,7 +416,8 @@
       "Ein rotes Licht im oberen Halbkreis schwenken."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-31",
@@ -400,7 +430,8 @@
       "Einen schwarzen Kegel, Spitze oben."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-32",
@@ -413,7 +444,8 @@
       "Dasjenige Fahrzeug muss ausweichen, welches das Andere an seiner Backbordseite hat."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-33",
@@ -426,7 +458,8 @@
       "Wenn beim Handauflegen auf die Ankerkette oder -leine kein Rucken zu verspüren ist und das Fahrzeug nicht schwojt."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-34",
@@ -439,7 +472,8 @@
       "Die Steuerbordseite - der Radeffekt zieht das Fahrzeug an die Pier."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-35",
@@ -452,7 +486,8 @@
       "Jährlich, jeweils vor Beginn der Wassersportsaison."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-36",
@@ -465,7 +500,8 @@
       "Luftdruckänderung, Luftfeuchtigkeit und Temperatur."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-37",
@@ -478,7 +514,8 @@
       "Bis zu einer Länge von weniger als 25 m (ohne Ruder und Bugspriet)."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-38",
@@ -491,7 +528,8 @@
       "Die Wasserstraßen- und Schifffahrtsverwaltung oder die Wasserschutzpolizei ist mit genauer Angabe der Hindernisstelle zu benachrichtigen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-39",
@@ -504,7 +542,8 @@
       "Durch Aushang bei Wasserschutzpolizei-Stationen."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-40",
@@ -517,7 +556,8 @@
       "Rote Spierentonnen oder Schwimmstangen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-41",
@@ -530,7 +570,8 @@
       "Stangen mit Toppzeichen: grüner Kegel, Spitze nach oben, oder grün-weiß gestreifte Schwimmstange mit grünem Kegel."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-42",
@@ -543,7 +584,8 @@
       "Mit einem grünen Döpper."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-43",
@@ -556,7 +598,8 @@
       "Die Durchfahrt ist nur durch diese Brückenöffnung und in beide Richtungen gestattet."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-43.png"
   },
   {
     "id": "binnen-44",
@@ -569,7 +612,8 @@
       "Einfahrt verboten, Öffnen der Schleuse wird vorbereitet."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-45",
@@ -582,7 +626,8 @@
       "Fahrzeug der Überwachungsbehörden im Einsatz."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-46",
@@ -595,7 +640,8 @@
       "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-47",
@@ -608,7 +654,8 @@
       "Rechtzeitig, klar erkennbar und entschlossen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-48",
@@ -621,7 +668,8 @@
       "Frei fahrende Fähre."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-49",
@@ -634,7 +682,8 @@
       "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage für den Binnenschifffahrtsfunk."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-50",
@@ -647,7 +696,8 @@
       "Drei kurze Töne geben, keine Glockenschläge."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-51",
@@ -660,7 +710,8 @@
       "Außerhalb der Fahrrinne."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-52",
@@ -673,7 +724,8 @@
       "Es ist gegebenenfalls die Genehmigung des Eigentümers einzuholen sowie die jeweilige Befahrensordnung zu beachten."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-53",
@@ -686,7 +738,8 @@
       "Ab 15 cbm Wasserverdrängung."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-54",
@@ -699,7 +752,8 @@
       "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-55",
@@ -712,7 +766,8 @@
       "Wenn das Fahrzeug eine Länge von 20 m hat."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-56",
@@ -725,7 +780,8 @@
       "Eine Fahrt am Tage mit Radar."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-57",
@@ -738,7 +794,8 @@
       "Wenn es durch das Segeln keine Fahrt durchs Wasser macht."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-58",
@@ -751,7 +808,8 @@
       "Die 15 Verhaltensregeln für Wassersportler."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-59",
@@ -764,7 +822,8 @@
       "Das größere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen und kollidieren oder querschlagen, in flachen Gewässern auf Grund laufen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-60",
@@ -777,7 +836,8 @@
       "Ein Winkel von 60° bis 70°."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-61",
@@ -790,7 +850,8 @@
       "Zu viel Motoröl, defekte Impellerpumpe, geschlossenes Seeventil, zu niedriger Kühlwasserstand."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-62",
@@ -803,7 +864,8 @@
       "Auf Höhe der festgemachten Fahrzeuge aufstoppen und überprüfen, dass kein Dritter behindert oder geschädigt wird."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-63",
@@ -816,7 +878,8 @@
       "Für Sportboote von mehr als 11,03 kW (15 PS) Nutzleistung bei Verwendung eines Verbrennungsmotors bzw. 7,5 kW bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb) und mehr als 20 m Länge."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-64",
@@ -829,7 +892,8 @@
       "Es ist der Teil der Wasserstraße, deren Breite mindestens 150 m und deren Tiefe mindestens 3,00 m beträgt."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-65",
@@ -842,7 +906,8 @@
       "Ein Ankerlieger, der zwei Anker ausgelegt hat."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-66",
@@ -855,7 +920,8 @@
       "Verbot der Durchfahrt und Sperrung der Schifffahrt."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-66.png"
   },
   {
     "id": "binnen-67",
@@ -868,7 +934,8 @@
       "Maschine geht rückwärts."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-68",
@@ -881,7 +948,8 @@
       "Wenn sich zwei Fahrzeuge einander nähern und sich der Kurs der Fahrzeuge nicht ändert."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-69",
@@ -894,7 +962,8 @@
       "Ausweichpflichtig ist das Fahrzeug, welches das andere an seiner Steuerbordseite sieht."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-70",
@@ -907,7 +976,8 @@
       "A ist ausweichpflichtig. Segelfahrzeuge mit Wind von Backbord müssen Segelfahrzeugen mit Wind von Steuerbord ausweichen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-71",
@@ -920,7 +990,8 @@
       "Rettungswesten anlegen und mit geeigneten Mitteln Hilfe herbeiholen. Gegebenenfalls Segel bergen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-72",
@@ -933,7 +1004,8 @@
       "Nacht, Schneefall, starker Regen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-73",
@@ -946,7 +1018,8 @@
       "Besseres Wetter, Sonne."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-74",
@@ -959,7 +1032,8 @@
       "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-75",
@@ -972,7 +1046,8 @@
       "Kenntlichmachung einer gesperrten Brückendurchfahrt."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-76",
@@ -985,7 +1060,8 @@
       "Empfohlene Durchfahrt ohne Gegenverkehr und seitlicher Begrenzung der erlaubten Brückendurchfahrt."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-77",
@@ -998,7 +1074,8 @@
       "Schutzbedürftiges Fahrzeug, Geschwindigkeit vermindern."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-78",
@@ -1011,7 +1088,8 @@
       "Eine rote Flagge im unteren Halbkreis schwenken."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-79",
@@ -1024,7 +1102,8 @@
       "Etwa 1 - 2 Sekunden."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-80",
@@ -1037,7 +1116,8 @@
       "Beim Umweltbundesamt."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-81",
@@ -1050,7 +1130,8 @@
       "Lichtmaschine bzw. Regler der Lichtmaschine defekt."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-82",
@@ -1063,7 +1144,8 @@
       "Bis zu einer Antriebsleistung von 11,03 Kilowatt Betriebsart S1 (Dauerbetrieb)."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-83",
@@ -1076,7 +1158,8 @@
       "Feuerlöscher mit Löschschaum, mindestens einmal pro Jahr."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-84",
@@ -1089,7 +1172,8 @@
       "Vermeidung der Gefährdung von Menschenleben, von Beschädigungen an Fahrzeugen, Anlagen oder Ufern, Behinderung der Schifffahrt und Beeinträchtigung der Umwelt."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-85",
@@ -1102,7 +1186,8 @@
       "Alle Schallzeichen wahrnehmen zu können und nach allen Seiten genügend freie Sicht zu haben."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-86",
@@ -1115,7 +1200,8 @@
       "Grüne Spierentonnen oder Schwimmstangen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-87",
@@ -1128,7 +1214,8 @@
       "Begegnen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-88",
@@ -1141,7 +1228,8 @@
       "Empfohlene Durchfahrt nur in eine Richtung."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-88.png"
   },
   {
     "id": "binnen-89",
@@ -1154,7 +1242,8 @@
       "Die eigenen Segel anleuchten."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-90",
@@ -1167,7 +1256,8 @@
       "Weißes Rundumlicht."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-91",
@@ -1180,7 +1270,8 @@
       "Wenn sie den Wind nicht von derselben Seite haben, muss das Segelfahrzeug mit Wind von Steuerbord dem Segelfahrzeug mit Wind von Backbord ausweichen."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-92",
@@ -1193,7 +1284,8 @@
       "Achtung!"
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-93",
@@ -1206,7 +1298,8 @@
       "Zügig überholen; überholen nur auf der Steuerbordseite erlaubt, ausreichend Abstand halten."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-94",
@@ -1219,7 +1312,8 @@
       "Boot A, weil leeseitig."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-95",
@@ -1232,7 +1326,8 @@
       "Hubbrücke."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-96",
@@ -1245,7 +1340,8 @@
       "Schlechtes Wetter ist nicht zu erwarten."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-97",
@@ -1258,7 +1354,8 @@
       "Am Rande der Fahrrinne fahren."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-98",
@@ -1271,7 +1368,8 @@
       "Um die jeweils geltenden Vorschriften einhalten zu können."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-99",
@@ -1284,7 +1382,8 @@
       "Der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-100",
@@ -1297,7 +1396,8 @@
       "Die europäische Schiffsnummer, gefolgt vom Kennbuchstaben für die ausstellende Organisation."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-101",
@@ -1310,7 +1410,8 @@
       "Er hat das Fahrverbot für Fahrzeuge ohne Sprechfunk zu beachten."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-102",
@@ -1323,7 +1424,8 @@
       "Drei weiße Topplichter in einem Dreieck angebracht, die Seitenlichter und drei weiße Hecklichter waagerecht nebeneinander."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-103",
@@ -1336,7 +1438,8 @@
       "Weniger als 1 Sekunde."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-104",
@@ -1349,7 +1452,8 @@
       "Festmache- und Liegeverbot für gewerbliche Schiffe."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-104.png"
   },
   {
     "id": "binnen-105",
@@ -1362,7 +1466,8 @@
       "Von vorne gesehen in Vorausfahrt Drehung des Propellers im Uhrzeigersinn."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-106",
@@ -1375,7 +1480,8 @@
       "Nautische Publikationen wie \"Sicherheit auf dem Wasser\" und \"Sicher auf See\"."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-107",
@@ -1388,7 +1494,8 @@
       "Die Abnahme der Anlage darf nicht länger als drei Jahre zurückliegen. Haupthahn und andere Absperrventile sind zu öffnen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-108",
@@ -1401,7 +1508,8 @@
       "Wenn Gefahr für Leib oder Leben von Personen oder erhebliche Sachwerte besteht und daher Hilfe benötigt wird."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-109",
@@ -1414,7 +1522,8 @@
       "Mindestalter 16 Jahre."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-110",
@@ -1427,7 +1536,8 @@
       "An den Pegeln und den Einsenkungsmarken der Fahrzeuge."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-111",
@@ -1440,7 +1550,8 @@
       "Das letzte Kleinfahrzeug muss so weit einfahren, dass es beim Leeren der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-112",
@@ -1453,7 +1564,8 @@
       "Fahrzeug der Überwachungsbehörden im Einsatz."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-113",
@@ -1466,7 +1578,8 @@
       "Geschlepptes Fahrzeug eines Schleppverbandes."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-114",
@@ -1479,7 +1592,8 @@
       "Es muss ausweichen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-115",
@@ -1492,7 +1606,8 @@
       "Ein festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-116",
@@ -1505,7 +1620,8 @@
       "Durch rote Tonnen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-117",
@@ -1518,7 +1634,8 @@
       "Gefahr eines Zusammenstoßes."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-118",
@@ -1531,7 +1648,8 @@
       "In der Binnenschifferpatentverordnung, bei der Wasserstraßen- und Schifffahrtsverwaltung und der Wasserschutzpolizei."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-119",
@@ -1544,7 +1662,8 @@
       "Sog und Wellenschlag vermeiden."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-120",
@@ -1557,7 +1676,8 @@
       "Ein Schutzkleinspannungsschalter."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-121",
@@ -1570,7 +1690,8 @@
       "Kreisförmiges Schwenken der Arme oder eines Gegenstandes."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-122",
@@ -1583,7 +1704,8 @@
       "An Bord sammeln und bei einer Liegestelle an Land stellen."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-123",
@@ -1596,7 +1718,8 @@
       "In der Binnenschiffsuntersuchungsordnung."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-124",
@@ -1609,7 +1732,8 @@
       "Der Allgemeine Deutsche Automobilclub."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-125",
@@ -1622,7 +1746,8 @@
       "Wenn es weder vor Anker liegt noch an Land festgemacht ist noch Fahrt über Grund macht."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-126",
@@ -1635,7 +1760,8 @@
       "Der Kurs des Schiffes ändert sich nicht."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-127",
@@ -1648,7 +1774,8 @@
       "Fenster schließen, keine elektrischen Schalter betätigen, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-128",
@@ -1661,7 +1788,8 @@
       "Möglichst unten im Schiff, geschützt vor Sonneneinstrahlung, sonst in einem besonders abgeschlossenen Raum für Gasbehälter, der in Bodenhöhe eine Öffnung nach außenbords hat."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-129",
@@ -1674,7 +1802,8 @@
       "Hilfe leisten und so lange am Unfallort bleiben, bis ein weiterer Beistand nicht mehr erforderlich ist; Notsignal geben."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-130",
@@ -1687,7 +1816,8 @@
       "Topplicht: weiß 135°, Hecklicht 225° weiß, Seitenlichter: Backbord rot und Steuerbord grün, jeweils 112,5°"
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-131",
@@ -1700,7 +1830,8 @@
       "Die Segelyacht mit Wind von Steuerbord, weil sie als Kleinfahrzeug unter Segel gilt."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-132",
@@ -1713,7 +1844,8 @@
       "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Seite mit dem rot-weiß-roten Tafelzeichen gestattet; grün-weiß-grüne Seite gesperrt."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-133",
@@ -1726,7 +1858,8 @@
       "Das aus- und die einfahrenden Fahrzeuge passieren sich an der Backbordseite, das Kleinfahrzeug ist nur zu erhöhter Aufmerksamkeit verpflichtet."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-134",
@@ -1739,7 +1872,8 @@
       "Das Fahrzeug unter Segel ist ausweichpflichtig."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-135",
@@ -1752,7 +1886,8 @@
       "Boot B ist ausweichpflichtig, weil es sich um ein Kleinfahrzeug handelt und Kleinfahrzeuge anderen Kleinfahrzeugen unter Segel ausweichen müssen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-136",
@@ -1765,7 +1900,8 @@
       "Kleinfahrzeug unter Segel."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-137",
@@ -1778,7 +1914,8 @@
       "Vor Hafeneinmündungen, an Lade-, Lösch- und Liegeplätzen, in der Nähe frei fahrender Fähren, auf gekennzeichneten Strecken, in der Nähe schwimmender Geräte bei der Arbeit."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-138",
@@ -1791,7 +1928,8 @@
       "Rettungsweste anlegen. Segel setzen, versuchen die Gewässermitte anzulaufen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-139",
@@ -1804,7 +1942,8 @@
       "Er muss uferseitig des Kielwassers fahren."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-140",
@@ -1817,7 +1956,8 @@
       "Amtliche Kennzeichen und amtlich anerkannte Kennzeichen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-141",
@@ -1830,7 +1970,8 @@
       "Ein Fahrzeug, das brennbare Stoffe geladen hat."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-142",
@@ -1843,7 +1984,8 @@
       "Wenn man infolge körperlicher oder geistiger Mängel oder infolge des Genusses alkoholischer Getränke oder anderer berauschender Mittel in der sicheren Führung behindert ist oder wenn eine Blutalkoholkonzentration von 0,3 ‰ oder mehr im Körper vorhanden ist."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-143",
@@ -1856,7 +1998,8 @@
       "Automatisches Anlassen des Motors."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-144",
@@ -1869,7 +2012,8 @@
       "Von achtern gesehen in Vorausfahrt Drehung des Propellers gegen den Uhrzeigersinn."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-145",
@@ -1882,7 +2026,8 @@
       "Luftzufuhr verhindern, Feuerlöscher erst am Brandherd einsetzen und das Feuer möglichst von unten bekämpfen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-146",
@@ -1895,7 +2040,8 @@
       "Bei zweifelhafter Tauglichkeit wegen Alkoholmissbrauch."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-147",
@@ -1908,7 +2054,8 @@
       "Fahrzeug hat brennbare Stoffe geladen. Abstand beim Stillliegen 10 m."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-148",
@@ -1921,7 +2068,8 @@
       "Es muss ein zweites weißes Topplicht geführt werden."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-149",
@@ -1934,7 +2082,8 @@
       "Es muss ausweichen."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-150",
@@ -1947,7 +2096,8 @@
       "Fahrzeuge begegnen sich an Steuerbord. Dieses Zeichen gilt auch für alle Kleinfahrzeuge."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-151",
@@ -1960,7 +2110,8 @@
       "Das Fahrzeug ohne Segel ist ausweichpflichtig."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-152",
@@ -1973,7 +2124,8 @@
       "B ist ausweichpflichtig. Das luvseitige Boot muss dem leeseitigen ausweichen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-153",
@@ -1986,7 +2138,8 @@
       "Kleinfahrzeug unter Segel mit Maschinenantrieb."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-154",
@@ -1999,7 +2152,8 @@
       "Unterwasserarbeiten dürfen nur von zertifizierten Fachbetrieben, nach den Bestimmungen des Umweltschutzes ausgeführt werden."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-155",
@@ -2012,7 +2166,8 @@
       "Wenn kein anderer Verkehrsteilnehmer behindert wird."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-156",
@@ -2025,7 +2180,8 @@
       "Der verantwortliche Schiffsführer muss gewählt werden."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-157",
@@ -2038,7 +2194,8 @@
       "Weil sich das Fahrzeug dabei sicherer manövrieren lässt."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-158",
@@ -2051,7 +2208,8 @@
       "Druckschalter bzw. Öldruckpumpe defekt."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-159",
@@ -2064,7 +2222,8 @@
       "Gasleitung entleeren und die Gasfreiheit mit dem Feuerzeug prüfen sowie über Funk oder Mobiltelefon Hilfe anfordern."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-160",
@@ -2077,7 +2236,8 @@
       "In der Binnenschiffsuntersuchungsordnung."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-161",
@@ -2090,7 +2250,8 @@
       "Die Fahrt in Richtung Quelle."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-162",
@@ -2103,7 +2264,8 @@
       "Liegestelle für Fahrzeuge mit gefährlichen Gütern, auch für Kleinfahrzeuge."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-162.png"
   },
   {
     "id": "binnen-163",
@@ -2116,7 +2278,8 @@
       "Die Durchfahrt ist nur durch diese Brückenöffnung und in beide Richtungen gestattet."
     ],
     "correctIndex": 1,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-163.png"
   },
   {
     "id": "binnen-164",
@@ -2129,7 +2292,8 @@
       "Es hält Kurs und reduziert die Geschwindigkeit."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-165",
@@ -2142,7 +2306,8 @@
       "Ein langer, vier kurze Töne. Bei Tag eine rote Flagge, bei Nacht ein rotes Licht setzen."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-166",
@@ -2155,7 +2320,8 @@
       "Es darf ein anderes Kleinfahrzeug, das sein steuerbordseitiges Ufer anhält, nicht zum Ausweichen zwingen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-167",
@@ -2168,7 +2334,8 @@
       "Kleinfahrzeuge sind gegenüber anderen Fahrzeugen, die nicht Kleinfahrzeuge sind, nicht ausweichpflichtig."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-168",
@@ -2181,7 +2348,8 @@
       "C gegenüber A und B, B gegenüber A."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-169",
@@ -2194,7 +2362,8 @@
       "Kleinfahrzeug mit Maschinenantrieb."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-170",
@@ -2207,7 +2376,8 @@
       "Alle Schiffe müssen mit Fäkalientanks ausgerüstet sein und geeignete Behältnisse für die getrennte Aufnahme von Abfällen an Bord haben."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-171",
@@ -2220,7 +2390,8 @@
       "Auf allen Landesgewässern."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-172",
@@ -2233,7 +2404,8 @@
       "Autoreifen sind schwimmfähig und können in der Schleuse zu erheblichen Störungen führen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-173",
@@ -2246,7 +2418,8 @@
       "Mit Lappen aufnehmen und umweltgerecht entsorgen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-174",
@@ -2259,7 +2432,8 @@
       "Durch den Schraubenwiderstand und Anstellwinkel des Propellers."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-175",
@@ -2272,7 +2446,8 @@
       "Sie muss mindestens 16 Jahre alt und Inhaber des Sportbootführerscheins mit dem Geltungsbereich Binnenschifffahrtsstraßen für Sportboote mit Antriebsmaschine sein."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-176",
@@ -2285,7 +2460,8 @@
       "Donauschifffahrtspolizeiverordnung, Binnenschifffahrtsstraßen-Ordnung."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-177",
@@ -2298,7 +2474,8 @@
       "Die Fahrt in Richtung Quelle."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-178",
@@ -2311,7 +2488,8 @@
       "Vor Brücken und nach Hochspannungsleitungen."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-179",
@@ -2324,7 +2502,8 @@
       "Fahrzeug mit Maschinenantrieb."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-180",
@@ -2337,7 +2516,8 @@
       "Bessere Erkennbarkeit des Sportbootes auf Radarbildschirmen."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-181",
@@ -2350,7 +2530,8 @@
       "Der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-182",
@@ -2363,7 +2544,8 @@
       "Jedes Fahrzeug muss seinen Kurs nach Steuerbord ändern."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-183",
@@ -2376,7 +2558,8 @@
       "Stoppsignal für alle Fahrzeuge."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-183.png"
   },
   {
     "id": "binnen-184",
@@ -2389,7 +2572,8 @@
       "Weil sie erst mit Anströmung des Ruderblattes einsetzt."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-185",
@@ -2402,7 +2586,8 @@
       "Bei der Bergfahrt liegt die rechte Uferseite rechts."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-186",
@@ -2415,7 +2600,8 @@
       "Lichter eines Kleinfahrzeugs mit Maschinenantrieb."
     ],
     "correctIndex": 3,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-187",
@@ -2428,7 +2614,8 @@
       "Achtung!"
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-188",
@@ -2441,7 +2628,8 @@
       "Verbot des Überholens auf dem Streckenabschnitt."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-188.png"
   },
   {
     "id": "binnen-189",
@@ -2454,7 +2642,8 @@
       "Ein manövrierbehindertes Fahrzeug, das durch Sichtzeichen Hilfe herbeirufen will."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-190",
@@ -2467,7 +2656,8 @@
       "Die Wasserstraßen- und Schifffahrtsämter."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-191",
@@ -2480,7 +2670,8 @@
       "Das SRC-Sprechfunkzeugnis für den Binnenschifffahrtsfunk."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-192",
@@ -2493,7 +2684,8 @@
       "Die dem Wind zugekehrte Seite."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-193",
@@ -2506,7 +2698,8 @@
       "Zwei rote Rundumlichter senkrecht übereinander."
     ],
     "correctIndex": 2,
-    "hasImage": true
+    "hasImage": true,
+    "image": null
   },
   {
     "id": "binnen-194",
@@ -2519,7 +2712,8 @@
       "Einfahrt frei, Schleusentor öffnet."
     ],
     "correctIndex": 0,
-    "hasImage": true
+    "hasImage": true,
+    "image": "images/binnen/binnen-194.png"
   },
   {
     "id": "binnen-195",
@@ -2532,7 +2726,8 @@
       "Schraube an der Welle lose."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-196",
@@ -2545,7 +2740,8 @@
       "Mindestalter 16 Jahre."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-197",
@@ -2558,7 +2754,8 @@
       "Geschwindigkeitsbeschränkung und Fahrverbot für Fahrzeuge ohne Sprechfunk."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-198",
@@ -2571,7 +2768,8 @@
       "Die linke Fahrrinnenseite, gekennzeichnet durch rote Stumpftonnen oder Schwimmstangen."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-199",
@@ -2584,7 +2782,8 @@
       "Eine Dreifarbenlaterne an gut sichtbarer Stelle."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-200",
@@ -2597,7 +2796,8 @@
       "Geschwindigkeit herabsetzen und ausreichenden Passierabstand halten."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-201",
@@ -2610,7 +2810,8 @@
       "Kühlwasseraustritt, Drehzahlmesser, Keilriemenspannung."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-202",
@@ -2623,7 +2824,8 @@
       "Fahrrinnenspaltung. Vorbeifahrt an beiden Seiten möglich."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-203",
@@ -2636,7 +2838,8 @@
       "Ein von allen Seiten sichtbares weißes Blinklicht auf der Fahrwasserseite."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-204",
@@ -2649,7 +2852,8 @@
       "Sie zeigt Fahrtrichtung und Lage eines Fahrzeugs an."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-205",
@@ -2662,7 +2866,8 @@
       "Da es dem großen in Fahrt befindlichen Fahrzeug sonst nicht ausweichen kann."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-206",
@@ -2675,7 +2880,8 @@
       "Das Versetzen nach hinten."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-207",
@@ -2688,7 +2894,8 @@
       "Verschmutzter Luftfilter."
     ],
     "correctIndex": 0,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-208",
@@ -2701,7 +2908,8 @@
       "Auf den Bundeswasserstraßen und allen Landesgewässern."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-209",
@@ -2714,7 +2922,8 @@
       "Von abends 18:00 Uhr bis morgens 06:00 Uhr und bei verminderter Sicht."
     ],
     "correctIndex": 1,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-210",
@@ -2727,7 +2936,8 @@
       "Weil diese Zonen vielfach Rast- und Brutplätze besonders schutzwürdiger Vögel oder Fischlaichplätze sind."
     ],
     "correctIndex": 3,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-211",
@@ -2740,7 +2950,8 @@
       "Sie befindet sich auf der linken Fahrrinnenseite und muss an Backbordseite des Schiffes passiert werden."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-212",
@@ -2753,7 +2964,8 @@
       "Die Anlage ist gasfrei zu machen."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   },
   {
     "id": "binnen-213",
@@ -2766,6 +2978,7 @@
       "Fahrzeuge die geschoben werden."
     ],
     "correctIndex": 2,
-    "hasImage": false
+    "hasImage": false,
+    "image": null
   }
 ]
