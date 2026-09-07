@@ -220,7 +220,7 @@
       "Ein manövrierbehindertes Fahrzeug ohne Fahrt durchs Wasser, das die Schifffahrt behindert. Es ist an der Seite zu passieren, an der zwei rote Rundumlichter senkrecht übereinander angeordnet sind."
     ],
     "correctIndex": 0,
-    "hasImage": false,
+    "hasImage": true,
     "image": "images/see/see-16.png"
   },
   {
@@ -360,7 +360,7 @@
       "Abbildung eines Hochdruckgebietes auf der Südhalbkugel, Isobaren mit Angabe des Luftdrucks in hPa, Zugrichtung Südwest."
     ],
     "correctIndex": 0,
-    "hasImage": false,
+    "hasImage": true,
     "image": "images/see/see-26.png"
   },
   {
@@ -542,7 +542,7 @@
       "Ein Fahrzeug vor Anker von weniger als 100 m Länge."
     ],
     "correctIndex": 3,
-    "hasImage": false,
+    "hasImage": true,
     "image": "images/see/see-39.png"
   },
   {
@@ -906,7 +906,7 @@
       "Das luvwärtige Fahrzeug dem leewärtigen Fahrzeug."
     ],
     "correctIndex": 3,
-    "hasImage": false,
+    "hasImage": true,
     "image": null
   },
   {
@@ -1032,7 +1032,7 @@
       "Steuerbordseite des durchgehenden Fahrwassers/Backbordseite des abzweigenden oder einmündenden Fahrwassers."
     ],
     "correctIndex": 3,
-    "hasImage": false,
+    "hasImage": true,
     "image": "images/see/see-74.png"
   },
   {
@@ -2418,7 +2418,7 @@
       "Ein Fahrzeug mit gefährlicher Ladung vor Anker von weniger als 100 m Länge."
     ],
     "correctIndex": 2,
-    "hasImage": false,
+    "hasImage": true,
     "image": "images/see/see-173.png"
   },
   {
@@ -2558,8 +2558,8 @@
       "Ein Fahrzeug vor Anker von weniger als 100 m Länge."
     ],
     "correctIndex": 0,
-    "hasImage": false,
-    "image": null
+    "hasImage": true,
+    "image": "images/see/see-183.png"
   },
   {
     "id": "see-184",
@@ -2964,7 +2964,7 @@
       "Durch Isoklinen und in Dezipascal."
     ],
     "correctIndex": 1,
-    "hasImage": false,
+    "hasImage": true,
     "image": null
   },
   {
@@ -3260,5 +3260,593 @@
     "correctIndex": 2,
     "hasImage": true,
     "image": null
+  },
+  {
+    "id": "see-234",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Mindestabstand zu anderen Fahrzeugen in Metern, der im bekanntgemachten Streckenabschnitt nicht unterschritten werden darf.",
+      "Mindestabstand in Metern, der in der nachfolgenden Strecke vom Aufstellungsort der Tafel an eingehalten werden muss.",
+      "Die Geschwindigkeit durch das Wasser in km/h, auf dem Nord-Ostsee- Kanal (NOK) über Grund in km/h, die nicht überschritten werden darf.",
+      "Die Geschwindigkeit durch das Wasser in kn (Knoten) auf dem Nord- Ostsee-Kanal (NOK) über Grund in sm/h, die nicht überschritten werden darf."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-234.png"
+  },
+  {
+    "id": "see-235",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Schifffahrtszeichen?",
+    "options": [
+      "Die Backbordseite des Fahrwassers.",
+      "Die Steuerbordseite des Fahrwassers.",
+      "Die Mitte eines Wattfahrwassers.",
+      "Die Kennzeichnung eines Hindernisses im Wattfahrwasser."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/see/see-235.png"
+  },
+  {
+    "id": "see-236",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Verbot der Durchfahrt, jedoch für Kleinfahrzeuge ohne Antriebsmaschine befahrbar.",
+      "Verbot der Durchfahrt, jedoch für Kleinfahrzeuge ohne laufende Antriebsmaschine befahrbar.",
+      "Verbot der Durchfahrt und Sperrung für Kleinfahrzeuge.",
+      "Verbot der Durchfahrt und Sperrung der Schifffahrt."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/see/see-236.png"
+  },
+  {
+    "id": "see-237",
+    "category": "see",
+    "question": "Welche Bedeutung haben folgende Sichtzeichen?",
+    "options": [
+      "Ende einer Gebots- oder Verbotsstrecke. Freie Weiterfahrt.",
+      "Außergewöhnliche Schifffahrtsbehinderung. Vorsichtig passieren.",
+      "Schutzbedürftige Anlage. Sog und Wellenschlag vermeiden.",
+      "Dauernde Sperrung der Seeschifffahrtsstraße. Weiterfahrt verboten."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/see/see-237.png"
+  },
+  {
+    "id": "see-238",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Überholverbot; mit Gegenverkehr muss gerechnet werden.",
+      "Begegnungsverbot für Fahrzeuge über 12 m Länge.",
+      "Begegnungsverbot an einer Engstelle.",
+      "Überholverbot für alle Fahrzeuge."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-238.png"
+  },
+  {
+    "id": "see-239",
+    "category": "see",
+    "question": "Welches Fahrzeug führt diese Lichter?",
+    "options": [
+      "Ein manövrierbehindertes Fahrzeug, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert.",
+      "Manövrierbehinderter Schleppverband in Fahrt von mehr als 200 m Länge, ohne Fahrt durch das Wasser.",
+      "Manövrierbehinderter Schleppverband in Fahrt von 200 m Länge oder weniger.",
+      "Manövrierbehinderter Schleppverband in Fahrt von mehr als 200 m Länge."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/see/see-239.png"
+  },
+  {
+    "id": "see-240",
+    "category": "see",
+    "question": "Was ist das für ein Fahrzeug und was ist zu beachten?",
+    "options": [
+      "Fahrzeug des öffentlichen Dienstes. Es darf von den Verkehrsregeln abweichen.",
+      "Fahrzeug mit Taucher im Einsatz. Großen Abstand halten.",
+      "Fahrzeug in Seenot. Hilfe leisten bzw. weitere Hilfe anfordern.",
+      "Fahrzeug mit gefährlichen Gütern, Abstand halten, Rauchen und offenes Feuer verboten."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/see/see-240.png"
+  },
+  {
+    "id": "see-241",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Gebot zur Abgabe eines langen Signaltons.",
+      "Dauernde Sperrung einer Teilstrecke der Wasserstraße.",
+      "Weiterfahrt für Sportfahrzeuge verboten.",
+      "Haltegebot vor beweglichen Brücken, Sperrwerken und Schleusen."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/see/see-241.png"
+  },
+  {
+    "id": "see-242",
+    "category": "see",
+    "question": "Welches Fahrzeug führt diese Lichter?",
+    "options": [
+      "Maschinenfahrzeug in Fahrt von 50 und mehr Meter Länge.",
+      "Ein manövrierbehindertes Fahrzeug mit Fahrt durchs Wasser von 50 und mehr Meter Länge.",
+      "Ein manövrierunfähiges Fahrzeug in Fahrt.",
+      "Maschinenfahrzeug in Fahrt von weniger als 50 m Länge."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/see/see-242.png"
+  },
+  {
+    "id": "see-243",
+    "category": "see",
+    "question": "Welches Fahrzeug führt diese Lichter?",
+    "options": [
+      "Ein Grundsitzer von 50 m und mehr Meter Länge.",
+      "Ein Grundsitzer von weniger als 50 m Länge.",
+      "Ein manövrierunfähiges Fahrzeug in Fahrt.",
+      "Ein manövrierbehindertes Fahrzeug."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/see/see-243.png"
+  },
+  {
+    "id": "see-244",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Schallsignal:",
+    "options": [
+      "Maschinenfahrzeug, das seine Maschinen gestoppt hat und keine Fahrt durchs Wasser macht.",
+      "Ein Ankerlieger macht ein sich näherndes Fahrzeug auf eine gefährliche Annäherung aufmerksam.",
+      "Schutzbedürftige Anlage; Geschwindigkeit reduzieren, Sog und Wellenschlag vermeiden.",
+      "Die Maschine des Fahrzeugs läuft rückwärts."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/see/see-244.png"
+  },
+  {
+    "id": "see-245",
+    "category": "see",
+    "question": "Was ist das für ein Fahrzeug und was ist zu beachten?",
+    "options": [
+      "Ein manövrierbehindertes Fahrzeug, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es darf an keiner Seite passiert werden.",
+      "Ein manövrierbehindertes Fahrzeug, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, an der zwei schwarze Rhomben senkrecht übereinander angeordnet sind.",
+      "Ein manövrierbehindertes Fahrzeug, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, die in meiner Fahrtrichtung rechts liegt.",
+      "Ein manövrierbehindertes Fahrzeug, das die Schifffahrt behindert. Es ist an der Seite zu passieren, an der zwei schwarze Bälle senkrecht übereinander angeordnet sind."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/see/see-245.png"
+  },
+  {
+    "id": "see-246",
+    "category": "see",
+    "question": "Was ist das für ein Fahrzeug und was ist zu beachten?",
+    "options": [
+      "Tiefgangbehindertes Fahrzeug. Es darf nicht behindert werden.",
+      "Fahrzeug des öffentlichen Dienstes im Einsatz. Es darf von den Verkehrsvorschriften abweichen.",
+      "Fahrzeug der Bundesmarine im Einsatz. Es hat Munition oder andere Gefahrgüter an Bord.",
+      "Lotsenfahrzeug mit Sonderrechten im Einsatz. Es darf vom Rechtsfahrgebot abweichen."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/see/see-246.png"
+  },
+  {
+    "id": "see-247",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgende Tonne?",
+    "options": [
+      "Backbordseite des durchgehenden Fahrwassers.",
+      "Steuerbordseite des durchgehenden Fahrwassers, Backbordseite des abzweigenden oder einmündenden Fahrwassers.",
+      "Backbordseite des durchgehenden Fahrwassers, Steuerbordseite des abzweigenden oder einmündenden Fahrwassers.",
+      "Steuerbordseite des durchgehenden Fahrwassers."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-247.png"
+  },
+  {
+    "id": "see-248",
+    "category": "see",
+    "question": "Was zeigt die folgende Abbildung?",
+    "options": [
+      "Abbildung eines Tiefdruckgebietes auf der Nordhalbkugel mit Kaltfront vor der Warmfront, Angabe des Luftdrucks in hPa, Warmfront südlich, Kaltfront nördlich des Zentrums.",
+      "Abbildung eines Tiefdruckgebietes auf der Südhalbkugel mit Kalt- und Warmfront, Isobaren mit Angabe des Luftdrucks in hPa, kalte und warme Luftströmung.",
+      "Abbildung eines Tiefdruckgebietes auf der Nordhalbkugel mit Warm- und Kaltfront, Isobaren mit Angabe des Luftdrucks in hPa, warme und kalte Luftströmung.",
+      "Abbildung eines Tiefdruckgebietes auf der Südhalbkugel mit Warmfront vor der Kaltfront, Angabe des Luftdrucks in hPa, Darstellung des Kalt- und Warmluftstroms."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-248.png"
+  },
+  {
+    "id": "see-249",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Abgabe eines kurzen Tons.",
+      "Abgabe eines kurzen und eines langen Tons.",
+      "Abgabe eines langen Tons.",
+      "Abgabe von zwei langen Tönen."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-249.png"
+  },
+  {
+    "id": "see-250",
+    "category": "see",
+    "question": "Welches Fahrzeug führt diese Signalkörper?",
+    "options": [
+      "Ein manövrierbehindertes Fahrzeug in Fahrt.",
+      "Ein Grundsitzer von 50 und mehr Meter Länge.",
+      "Ein manövrierunfähiges Fahrzeug.",
+      "Ein fischendes Fahrzeug in Fahrt."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-250.png"
+  },
+  {
+    "id": "see-251",
+    "category": "see",
+    "question": "Welches Fahrzeug führt diese Lichter?",
+    "options": [
+      "Ein manövrierbehindertes Fahrzeug in Fahrt.",
+      "Ein fischendes Fahrzeug in Fahrt oder vor Anker, das nicht trawlt, z. B. Treibnetzfischer.",
+      "Ein Lotsenfahrzeug im Einsatz.",
+      "Ein fischender Trawler (Fischereifahrzeug) mit Fahrt durchs Wasser von 50 und mehr Meter Länge."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/see/see-251.png"
+  },
+  {
+    "id": "see-252",
+    "category": "see",
+    "question": "Welches Fahrzeug muss diese Lichter führen?",
+    "options": [
+      "Ein manövrierbehindertes Fahrzeug, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert.",
+      "Ein Grundsitzer von 200 und mehr Meter Länge.",
+      "Ein vor Anker liegendes Fahrzeug von 100 und mehr Meter Länge.",
+      "Ein fischender Trawler (Fischereifahrzeug) mit Fahrt durchs Wasser von 50 und mehr Meter Länge."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-252.png"
+  },
+  {
+    "id": "see-253",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Schifffahrtszeichen?",
+    "options": [
+      "Die Steuerbordseite des Fahrwassers.",
+      "Die Backbordseite des Fahrwassers.",
+      "Die Kennzeichnung von Hindernissen.",
+      "Die Mitte eines Schifffahrtsweges."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/see/see-253.png"
+  },
+  {
+    "id": "see-254",
+    "category": "see",
+    "question": "Welche Bedeutung haben folgende Tafelzeichen?",
+    "options": [
+      "Genehmigungsfreie Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.",
+      "Fahren mit Wasserski oder Wassermotorrädern erlaubt. Wasserskiläufer und Wassermotorräder haben Vorfahrt.",
+      "Wasserflächen, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.",
+      "Genehmigungspflichtige Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-254.png"
+  },
+  {
+    "id": "see-255",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Schallsignal:",
+    "options": [
+      "Brücke/Schleuse kann vorübergehend nicht geöffnet werden.",
+      "Sofort anhalten (Fahrzeug des öffentlichen Dienstes).",
+      "Allgemeines \"Gefahr- und Warnsignal\".",
+      "Sperrung der Seeschifffahrtsstraße."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-255.png"
+  },
+  {
+    "id": "see-256",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Queren des Fahrwassers ist gestattet.",
+      "Wechseln der Fahrwasserseite ist gestattet.",
+      "Streckenabschnitt für eine nicht frei fahrende Fähre.",
+      "Ende einer Gebots- oder Verbotsstrecke."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/see/see-256.png"
+  },
+  {
+    "id": "see-257",
+    "category": "see",
+    "question": "Welches Fahrzeug führt diese Lichter?",
+    "options": [
+      "Ein manövrierbehindertes Fahrzeug.",
+      "Ein manövrierunfähiges Fahrzeug in Fahrt.",
+      "Ein Grundsitzer von 50 und mehr Meter Länge.",
+      "Ein Grundsitzer von weniger als 50 m Länge."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-257.png"
+  },
+  {
+    "id": "see-258",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Schifffahrtszeichen?",
+    "options": [
+      "Einzelgefahrenstelle, erkennbar an ihrer Farbgebung, die an allen Seiten mit einer maximalen Geschwindigkeit von 4,3 Knoten passiert werden kann.",
+      "Kennzeichnung besonderer Gebiete und Stellen, z. B. Warngebiet.",
+      "Höchstgeschwindigkeit von 4,3 Knoten Fahrt durch das Wasser, die innerhalb von 500 m von der jeweiligen Uferlinie wegen Badebetriebs nicht überschritten werden darf.",
+      "Gesperrt für alle Maschinenfahrzeuge und Wassermotorräder wegen Badebetriebs."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/see/see-258.png"
+  },
+  {
+    "id": "see-259",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgende Tonne?",
+    "options": [
+      "Kennzeichnung einer Reede.",
+      "Kennzeichnung der Mitte von Schifffahrtswegen.",
+      "Kennzeichnung der Backbordseite eines Fahrwassers.",
+      "Kennzeichnung von Einzelgefahrenstellen."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/see/see-259.png"
+  },
+  {
+    "id": "see-260",
+    "category": "see",
+    "question": "Welche Bedeutung haben folgende Sichtzeichen?",
+    "options": [
+      "Schutzbedürftige Anlage.",
+      "Außergewöhnliche Schifffahrtsbehinderung.",
+      "Dauernde Sperrung der Seeschifffahrtsstraße.",
+      "Zeitweilige Sperrung der Seeschifffahrtsstraße."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/see/see-260.png"
+  },
+  {
+    "id": "see-261",
+    "category": "see",
+    "question": "Welches Fahrzeug führt diese Lichter?",
+    "options": [
+      "Ein manövrierbehindertes Fahrzeug in Fahrt.",
+      "Ein Grundsitzer von 50 und mehr Meter Länge.",
+      "Ein manövrierunfähiges Fahrzeug in Fahrt.",
+      "Ein tiefgangbehindertes Fahrzeug in Fahrt."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-261.png"
+  },
+  {
+    "id": "see-262",
+    "category": "see",
+    "question": "Welches Fahrzeug führt diese Signalkörper?",
+    "options": [
+      "Ein manövrierunfähiges Fahrzeug in Fahrt.",
+      "Ein tiefgangbehindertes Fahrzeug in Fahrt.",
+      "Ein manövrierbehindertes Fahrzeug in Fahrt.",
+      "Ein Grundsitzer von weniger als 50 Meter Länge."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/see/see-262.png"
+  },
+  {
+    "id": "see-263",
+    "category": "see",
+    "question": "Was ist das für ein Fahrzeug und was ist zu beachten?",
+    "options": [
+      "Ein manövrierbehindertes Fahrzeug mit Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt nicht behindert. Es ist an der Seite zu passieren, die in Fahrtrichtung rechts liegt.",
+      "Ein manövrierbehindertes Fahrzeug mit Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es darf an beiden Seiten passiert werden.",
+      "Ein manövrierbehindertes Fahrzeug mit Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, die in Fahrtrichtung links liegt.",
+      "Ein manövrierunfähiges Fahrzeug mit Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, die in Fahrtrichtung rechts liegt."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/see/see-263.png"
+  },
+  {
+    "id": "see-264",
+    "category": "see",
+    "question": "Welche Bedeutung hat das Feuer einer Leuchttonne mit folgender Kennung?",
+    "options": [
+      "Kennzeichnung einer allgemeinen Gefahrenstelle, Ostquadrant.",
+      "Kennzeichnung einer allgemeinen Gefahrenstelle, Nordquadrant.",
+      "Kennzeichnung einer allgemeinen Gefahrenstelle, Westquadrant.",
+      "Kennzeichnung einer allgemeinen Gefahrenstelle, Südquadrant."
+    ],
+    "correctIndex": 3,
+    "hasImage": false,
+    "image": "images/see/see-264.png"
+  },
+  {
+    "id": "see-265",
+    "category": "see",
+    "question": "Welches Fahrzeug führt diese Lichter?",
+    "options": [
+      "Ein manövrierbehindertes Fahrzeug mit Fahrt durch das Wasser.",
+      "Ein manövrierbehindertes Fahrzeug mit Fahrt durch das Wasser von 50 und mehr Meter Länge.",
+      "Ein fischender Trawler (Fischereifahrzeug) mit Fahrt durch das Wasser von 50 und mehr Meter Länge.",
+      "Ein manövrierunfähiges Fahrzeug mit Fahrt durch das Wasser."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/see/see-265.png"
+  },
+  {
+    "id": "see-266",
+    "category": "see",
+    "question": "Welches Fahrzeug führt diese Signalkörper?",
+    "options": [
+      "Ein manövrierunfähiges Fahrzeug in Fahrt.",
+      "Ein Grundsitzer von weniger als 50 m Länge.",
+      "Ein fischendes Fahrzeug in Fahrt oder vor Anker.",
+      "Ein manövrierbehindertes Fahrzeug."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-266.png"
+  },
+  {
+    "id": "see-267",
+    "category": "see",
+    "question": "Welches Fahrzeug muss diese Lichter führen?",
+    "options": [
+      "Ein manövrierunfähiges Fahrzeug.",
+      "Ein Grundsitzer von weniger als 50 m Länge.",
+      "Ein manövrierbehindertes Fahrzeug.",
+      "Ein tiefgangbehindertes Fahrzeug von 50 und mehr Meter Länge in Fahrt."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/see/see-267.png"
+  },
+  {
+    "id": "see-268",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Ankern verboten für alle Fahrzeuge.",
+      "Ankern verboten für Kleinfahrzeuge unter 12 m Länge.",
+      "Ankern verboten für Kleinfahrzeuge ab 12 m Länge.",
+      "Ankern und Festmachen verboten."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/see/see-268.png"
+  },
+  {
+    "id": "see-269",
+    "category": "see",
+    "question": "Welches Fahrzeug führt diese Lichter?",
+    "options": [
+      "Ein manövrierbehindertes Fahrzeug in Fahrt.",
+      "Ein Grundsitzer von weniger als 50 m Länge.",
+      "Ein fischendes Fahrzeug in Fahrt.",
+      "Ein manövrierunfähiges Fahrzeug in Fahrt."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/see/see-269.png"
+  },
+  {
+    "id": "see-270",
+    "category": "see",
+    "question": "Welches Fahrzeug muss diese Lichter führen?",
+    "options": [
+      "Ein fischendes Fahrzeug in Fahrt, das nicht trawlt, z. B. Treibnetzfischer.",
+      "Ein manövrierbehindertes Fahrzeug in Fahrt.",
+      "Ein fischender Trawler (Fischereifahrzeug) mit Fahrt durch das Wasser von 50 und mehr Meter Länge.",
+      "Ein Behördenfahrzeug im Einsatz."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-270.png"
+  },
+  {
+    "id": "see-271",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Mindestabstand in Metern, der in der nachfolgenden Strecke vom Aufstellungsort der Tafel an eingehalten werden muss.",
+      "Maximalgeschwindigkeit in km/h, die auf der in Fahrtrichtung rechten Fahrwasserseite nicht überschritten werden darf.",
+      "Maximalabstand in Metern, der in der nachfolgenden Strecke vom Aufstellungsort der Tafel an eingehalten werden muss.",
+      "Verengung des Fahrwassers auf 40 m."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/see/see-271.png"
+  },
+  {
+    "id": "see-272",
+    "category": "see",
+    "question": "Welches Fahrzeug muss diese Lichter führen?",
+    "options": [
+      "Ein fischender Trawler (Fischereifahrzeug) mit Fahrt durch das Wasser von 50 und mehr Meter Länge.",
+      "Ein manövrierbehindertes Fahrzeug mit Fahrt durch das Wasser von 50 und mehr Meter Länge.",
+      "Ein manövrierunfähiges Fahrzeug mit Fahrt durch das Wasser von 50 und mehr Meter Länge.",
+      "Ein manövrierbehindertes Fahrzeug ohne Fahrt durch das Wasser von 50 und mehr Meter Länge."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/see/see-272.png"
+  },
+  {
+    "id": "see-273",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Schallsignal:",
+    "options": [
+      "Ankerlieger macht auf gefährliche Annäherung aufmerksam.",
+      "Polizeifahrzeug fordert zum Anhalten auf.",
+      "Manövrierbehindertes Fahrzeug blockiert das Fahrwasser.",
+      "Letzter bemannter Anhang eines Schleppverbandes."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/see/see-273.png"
+  },
+  {
+    "id": "see-274",
+    "category": "see",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Wasserstraße, die nicht jederzeit sicher befahren werden kann; Gefahr durch Seegang.",
+      "Gefährdeter Strandbereich, Überspülungsgefahr; Mindestpassierabstand 100 m.",
+      "Sog und Wellenschlag vermeiden.",
+      "Wasserstraße, die jederzeit sicher befahren werden kann; keine Gefahr durch Seegang."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/see/see-274.png"
+  },
+  {
+    "id": "see-275",
+    "category": "see",
+    "question": "Welches Fahrzeug führt diese Signalkörper?",
+    "options": [
+      "Ein manövrierunfähiges Fahrzeug in Fahrt.",
+      "Ein fischendes Fahrzeug in Fahrt.",
+      "Ein Grundsitzer von weniger als 50 m Länge.",
+      "Ein manövrierbehindertes Fahrzeug."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/see/see-275.png"
   }
 ]

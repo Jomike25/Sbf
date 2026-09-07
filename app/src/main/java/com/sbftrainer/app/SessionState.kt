@@ -9,13 +9,15 @@ object SessionState {
     var mode: QuizMode = QuizMode.ALL
     var questions: List<Question> = emptyList()
     var correctCount: Int = 0
+    var bogenNumber: Int? = null
     val missed = mutableListOf<Question>()
 
-    fun start(category: String, mode: QuizMode, questions: List<Question>) {
+    fun start(category: String, mode: QuizMode, questions: List<Question>, bogenNumber: Int? = null) {
         this.category = category
         this.mode = mode
         this.questions = questions
         this.correctCount = 0
+        this.bogenNumber = bogenNumber
         this.missed.clear()
     }
 }

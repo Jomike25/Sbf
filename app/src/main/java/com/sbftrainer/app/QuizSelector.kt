@@ -13,7 +13,14 @@ object QuizSelector {
             QuizMode.MARKED -> all.filter { ProgressStore.getStat(it.id).marked }
             QuizMode.WRONG -> all.filter { ProgressStore.getStat(it.id).timesWrong > 0 }
             QuizMode.STALE -> all
+            QuizMode.EXAM -> all
         }
+    }
+
+    fun examSession(context: Context, category: String, bogenNumber: Int): List<Question> {
+        val ids = BogenRepository.questionIdsForBogen(context, category, bogenNumber)
+        val byId = QuestionRepository.getAll(context, category).associateBy { it.id }
+        return ids.mapNotNull { byId[it] }
     }
 
     fun availableCount(context: Context, category: String, mode: QuizMode): Int =

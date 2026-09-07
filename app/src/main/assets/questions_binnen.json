@@ -318,7 +318,7 @@
       "Fahrzeug B ist ausweichpflichtig."
     ],
     "correctIndex": 0,
-    "hasImage": false,
+    "hasImage": true,
     "image": "images/binnen/binnen-23.png"
   },
   {
@@ -752,7 +752,7 @@
       "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden."
     ],
     "correctIndex": 3,
-    "hasImage": false,
+    "hasImage": true,
     "image": null
   },
   {
@@ -976,7 +976,7 @@
       "A ist ausweichpflichtig. Segelfahrzeuge mit Wind von Backbord müssen Segelfahrzeugen mit Wind von Steuerbord ausweichen."
     ],
     "correctIndex": 3,
-    "hasImage": false,
+    "hasImage": true,
     "image": "images/binnen/binnen-70.png"
   },
   {
@@ -1032,7 +1032,7 @@
       "Sie befindet sich auf der linken Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden."
     ],
     "correctIndex": 0,
-    "hasImage": false,
+    "hasImage": true,
     "image": null
   },
   {
@@ -1592,7 +1592,7 @@
       "Es muss ausweichen."
     ],
     "correctIndex": 3,
-    "hasImage": false,
+    "hasImage": true,
     "image": null
   },
   {
@@ -1606,7 +1606,7 @@
       "Ein festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet."
     ],
     "correctIndex": 2,
-    "hasImage": false,
+    "hasImage": true,
     "image": "images/binnen/binnen-115.png"
   },
   {
@@ -1830,7 +1830,7 @@
       "Die Segelyacht mit Wind von Steuerbord, weil sie als Kleinfahrzeug unter Segel gilt."
     ],
     "correctIndex": 0,
-    "hasImage": false,
+    "hasImage": true,
     "image": null
   },
   {
@@ -1970,7 +1970,7 @@
       "Ein Fahrzeug, das brennbare Stoffe geladen hat."
     ],
     "correctIndex": 0,
-    "hasImage": false,
+    "hasImage": true,
     "image": null
   },
   {
@@ -2082,7 +2082,7 @@
       "Es muss ausweichen."
     ],
     "correctIndex": 0,
-    "hasImage": false,
+    "hasImage": true,
     "image": null
   },
   {
@@ -2124,7 +2124,7 @@
       "B ist ausweichpflichtig. Das luvseitige Boot muss dem leeseitigen ausweichen."
     ],
     "correctIndex": 3,
-    "hasImage": false,
+    "hasImage": true,
     "image": "images/binnen/binnen-152.png"
   },
   {
@@ -2279,7 +2279,7 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": null
+    "image": "images/binnen/binnen-163.png"
   },
   {
     "id": "binnen-164",
@@ -2292,7 +2292,7 @@
       "Es hält Kurs und reduziert die Geschwindigkeit."
     ],
     "correctIndex": 1,
-    "hasImage": false,
+    "hasImage": true,
     "image": null
   },
   {
@@ -2950,7 +2950,7 @@
       "Sie befindet sich auf der linken Fahrrinnenseite und muss an Backbordseite des Schiffes passiert werden."
     ],
     "correctIndex": 2,
-    "hasImage": false,
+    "hasImage": true,
     "image": null
   },
   {
@@ -2980,5 +2980,411 @@
     "correctIndex": 2,
     "hasImage": false,
     "image": null
+  },
+  {
+    "id": "binnen-214",
+    "category": "binnen",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Verbot der Durchfahrt, jedoch für Kleinfahrzeuge ohne laufende Antriebsmaschine befahrbar.",
+      "Verbot der Durchfahrt, jedoch für Kleinfahrzeuge ohne Antriebsmaschine befahrbar.",
+      "Verbot der Durchfahrt und Sperrung der Schifffahrt.",
+      "Verbot der Durchfahrt und Sperrung für Kleinfahrzeuge."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/binnen/binnen-214.png"
+  },
+  {
+    "id": "binnen-215",
+    "category": "binnen",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Begegnungsverbot für Fahrzeuge über 12 m Länge.",
+      "Überholverbot für alle Fahrzeuge.",
+      "Überholverbot; mit Gegenverkehr muss gerechnet werden.",
+      "Begegnungsverbot an einer Engstelle."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/binnen/binnen-215.png"
+  },
+  {
+    "id": "binnen-216",
+    "category": "binnen",
+    "question": "Was bedeuten diese Lichter?",
+    "options": [
+      "Schubverband von achtern.",
+      "Schubverband von Steuerbordseite.",
+      "Frei fahrende Fähre.",
+      "Nicht frei fahrende Fähre."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/binnen/binnen-216.png"
+  },
+  {
+    "id": "binnen-217",
+    "category": "binnen",
+    "question": "Was bedeuten diese Lichter?",
+    "options": [
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet. Sog und Wellenschlag vermeiden.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet. Sog und Wellenschlag vermeiden.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/binnen/binnen-217.png"
+  },
+  {
+    "id": "binnen-218",
+    "category": "binnen",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Haltegebot vor beweglichen Brücken, Sperrwerken und Schleusen.",
+      "Dauernde Sperrung einer Teilstrecke der Wasserstraße.",
+      "Weiterfahrt für Sportfahrzeuge verboten.",
+      "Gebot zur Abgabe eines langen Signaltons."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/binnen/binnen-218.png"
+  },
+  {
+    "id": "binnen-219",
+    "category": "binnen",
+    "question": "Was bedeuten diese Lichter?",
+    "options": [
+      "Schubverband länger als 110 m.",
+      "Schubverband kürzer als 110 m.",
+      "Fahrzeug mit Maschinenantrieb länger als 110 m.",
+      "Fahrzeug ohne Maschinenantrieb länger als 110 m."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/binnen/binnen-219.png"
+  },
+  {
+    "id": "binnen-220",
+    "category": "binnen",
+    "question": "Was bedeuten diese Tafelzeichen an Brücken?",
+    "options": [
+      "Durchfahrt nur zwischen den beiden Tafeln erlaubt.",
+      "Empfohlene Durchfahrt nur zwischen den beiden Tafeln.",
+      "Empfohlene Durchfahrt mit Gegenverkehr.",
+      "Durchfahrt nur außerhalb der beiden Tafeln erlaubt."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/binnen/binnen-220.png"
+  },
+  {
+    "id": "binnen-221",
+    "category": "binnen",
+    "question": "Was bedeutet dieses Tafelzeichen?",
+    "options": [
+      "Vorgeschriebener Wendeplatz. Stillliegen von Kleinfahrzeugen erlaubt.",
+      "Empfohlener Wendeplatz. Stillliegen für alle Fahrzeuge verboten.",
+      "Empfohlener Wendeplatz. Stillliegen von Kleinfahrzeugen erlaubt.",
+      "Vorgeschriebener Wendeplatz. Stillliegen für alle Fahrzeuge verboten."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/binnen/binnen-221.png"
+  },
+  {
+    "id": "binnen-222",
+    "category": "binnen",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Abgabe eines langen Tons.",
+      "Abgabe von zwei langen Tönen.",
+      "Abgabe eines kurzen Tons.",
+      "Abgabe eines kurzen und eines langen Tons."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/binnen/binnen-222.png"
+  },
+  {
+    "id": "binnen-223",
+    "category": "binnen",
+    "question": "Was bedeutet dieses Tafelzeichen?",
+    "options": [
+      "Fahrverbot für Fahrzeuge ohne Antriebsmaschine.",
+      "Fahrverbot für Fahrzeuge mit Maschinenantrieb.",
+      "Fahrverbot für Kleinfahrzeuge ohne laufende Antriebsmaschine.",
+      "Fahrverbot für Kleinfahrzeuge mit Maschinenantrieb."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/binnen/binnen-223.png"
+  },
+  {
+    "id": "binnen-224",
+    "category": "binnen",
+    "question": "Was bedeutet dieses Schallsignal?",
+    "options": [
+      "Kursänderung nach Steuerbord.",
+      "Wenden über Steuerbord.",
+      "Wenden über Backbord.",
+      "Kursänderung nach Backbord."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/binnen/binnen-224.png"
+  },
+  {
+    "id": "binnen-225",
+    "category": "binnen",
+    "question": "Was bedeutet dieses Tafelzeichen?",
+    "options": [
+      "Vorgeschriebene Fahrtrichtung.",
+      "Vorgeschriebene Fahrtrichtung nur für Kleinfahrzeuge.",
+      "Empfohlene Fahrtrichtung.",
+      "Fahrtrichtung nach links verboten."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/binnen/binnen-225.png"
+  },
+  {
+    "id": "binnen-226",
+    "category": "binnen",
+    "question": "Was bedeutet dieses Tafelzeichen?",
+    "options": [
+      "Verbote in beiden angezeigten Richtungen zu fahren.",
+      "Wendeverbot in der Mitte des Fahrwassers.",
+      "Verbotene Fahrtrichtung rechts oder links.",
+      "Wendeverbot."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/binnen/binnen-226.png"
+  },
+  {
+    "id": "binnen-227",
+    "category": "binnen",
+    "question": "Welche Bedeutung haben folgende Tafelzeichen?",
+    "options": [
+      "Genehmigungsfreie Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.",
+      "Fahren mit Wasserski oder Wassermotorrädern erlaubt. Wasserskiläufer und Wassermotorräder haben Vorfahrt.",
+      "Wasserflächen, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.",
+      "Genehmigungspflichtige Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/binnen/binnen-227.png"
+  },
+  {
+    "id": "binnen-228",
+    "category": "binnen",
+    "question": "Was bedeutet dieses Tafelzeichen?",
+    "options": [
+      "Gesperrte Wasserfläche, für Kleinfahrzeuge nicht befahrbar.",
+      "Gesperrte Wasserfläche, jedoch für Kleinfahrzeuge ohne Antriebsmaschine befahrbar.",
+      "Gesperrte Wasserfläche, jedoch für Kleinfahrzeuge ohne laufende Antriebsmaschine befahrbar.",
+      "Gesperrte Wasserfläche, Verbot der Durchfahrt und Sperrung der Schifffahrt."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/binnen/binnen-228.png"
+  },
+  {
+    "id": "binnen-229",
+    "category": "binnen",
+    "question": "Was bedeutet dieses Tafelzeichen?",
+    "options": [
+      "Gebot: Geradeaus zu fahren.",
+      "Gebot: Besondere Vorsicht walten lassen.",
+      "Gebot: Vor dem Schild anhalten.",
+      "Gebot: Achtungssignal geben."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/binnen/binnen-229.png"
+  },
+  {
+    "id": "binnen-230",
+    "category": "binnen",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Ende einer Gebots- oder Verbotsstrecke.",
+      "Streckenabschnitt für eine nicht frei fahrende Fähre.",
+      "Queren des Fahrwassers ist gestattet.",
+      "Wechseln der Fahrwasserseite ist gestattet."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/binnen/binnen-230.png"
+  },
+  {
+    "id": "binnen-231",
+    "category": "binnen",
+    "question": "Was bedeuten diese Lichter?",
+    "options": [
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der roten Seite gestattet; grüne Seite gesperrt.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet. Vorbeifahrt an der roten Seite mit unverminderter Geschwindigkeit möglich."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/binnen/binnen-231.png"
+  },
+  {
+    "id": "binnen-232",
+    "category": "binnen",
+    "question": "Was bedeutet dieses Tafelzeichen?",
+    "options": [
+      "10 km/h für größere Fahrzeuge.",
+      "10 km/h Höchstgeschwindigkeit gegenüber der Strömung.",
+      "10 km/h Höchstgeschwindigkeit für Kleinfahrzeuge.",
+      "10 km/h Höchstgeschwindigkeit gegenüber dem Ufer."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/binnen/binnen-232.png"
+  },
+  {
+    "id": "binnen-233",
+    "category": "binnen",
+    "question": "Was bedeuten diese Sichtzeichen?",
+    "options": [
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der roten Seite gestattet; grüne Seite gesperrt.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet. Vorbeifahrt an der roten Seite mit unverminderter Geschwindigkeit möglich."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/binnen/binnen-233.png"
+  },
+  {
+    "id": "binnen-234",
+    "category": "binnen",
+    "question": "Was bedeuten diese Sichtzeichen?",
+    "options": [
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet. Sog und Wellenschlag vermeiden.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/binnen/binnen-234.png"
+  },
+  {
+    "id": "binnen-235",
+    "category": "binnen",
+    "question": "Was bedeuten diese Lichter?",
+    "options": [
+      "Schubverband in Fahrt von vorne.",
+      "Schubverband in Fahrt von achtern.",
+      "Schubverband unter 110 m Länge.",
+      "Schubverband vor Anker liegend."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/binnen/binnen-235.png"
+  },
+  {
+    "id": "binnen-236",
+    "category": "binnen",
+    "question": "Was bedeuten diese Sichtzeichen?",
+    "options": [
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/binnen/binnen-236.png"
+  },
+  {
+    "id": "binnen-237",
+    "category": "binnen",
+    "question": "Was bedeutet dieses Tafelzeichen?",
+    "options": [
+      "Liegestelle für Fahrzeuge mit explosiven Stoffen, für Kleinfahrzeuge verboten.",
+      "Liegestelle für alle Fahrzeuge, für Kleinfahrzeuge verboten.",
+      "Liegestelle für Fahrzeuge mit gesundheitsgefährdeten Stoffen, für Kleinfahrzeuge verboten.",
+      "Liegestelle für Fahrzeuge mit brennbaren Stoffen, für Kleinfahrzeuge verboten."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/binnen/binnen-237.png"
+  },
+  {
+    "id": "binnen-238",
+    "category": "binnen",
+    "question": "Was bedeuten diese Lichter?",
+    "options": [
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der Steuerbordseite gestattet.",
+      "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an jeder Seite gestattet."
+    ],
+    "correctIndex": 3,
+    "hasImage": true,
+    "image": "images/binnen/binnen-238.png"
+  },
+  {
+    "id": "binnen-239",
+    "category": "binnen",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Ankern verboten für Kleinfahrzeuge ab 12 m Länge.",
+      "Ankern verboten für alle Fahrzeuge.",
+      "Ankern und Festmachen verboten.",
+      "Ankern verboten für Kleinfahrzeuge unter 12 m Länge."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/binnen/binnen-239.png"
+  },
+  {
+    "id": "binnen-240",
+    "category": "binnen",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Mindestabstand in Metern, der in der nachfolgenden Strecke vom Aufstellungsort der Tafel an eingehalten werden muss.",
+      "Maximalabstand in Metern, der in der nachfolgenden Strecke vom Aufstellungsort der Tafel an eingehalten werden muss.",
+      "Maximalgeschwindigkeit in km/h, die auf der in Fahrtrichtung rechten Fahrwasserseite nicht überschritten werden darf.",
+      "Verengung des Fahrwassers auf 40 m."
+    ],
+    "correctIndex": 0,
+    "hasImage": true,
+    "image": "images/binnen/binnen-240.png"
+  },
+  {
+    "id": "binnen-241",
+    "category": "binnen",
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "options": [
+      "Wasserstraße, die jederzeit sicher befahren werden kann; keine Gefahr durch Seegang.",
+      "Gefährdeter Strandbereich, Überspülungsgefahr; Mindestpassierabstand 100 m.",
+      "Sog und Wellenschlag vermeiden.",
+      "Wasserstraße, die nicht jederzeit sicher befahren werden kann; Gefahr durch Seegang."
+    ],
+    "correctIndex": 2,
+    "hasImage": true,
+    "image": "images/binnen/binnen-241.png"
+  },
+  {
+    "id": "binnen-242",
+    "category": "binnen",
+    "question": "Was bedeuten diese Sichtzeichen?",
+    "options": [
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der roten Seite gestattet; rot-weiße Seite gesperrt. Sog und Wellenschlag vermeiden.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der rot- weißen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der rot- weißen Seite gestattet; rote Seite gesperrt. Vorbeifahrt mit unverminderter Geschwindigkeit möglich.",
+      "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der roten Seite gestattet; rot-weiße Seite gesperrt. Vorbeifahrt mit unverminderter Geschwindigkeit möglich."
+    ],
+    "correctIndex": 1,
+    "hasImage": true,
+    "image": "images/binnen/binnen-242.png"
   }
 ]

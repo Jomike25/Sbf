@@ -25,9 +25,14 @@
     <string name="mode_wrong_desc">Fokus auf deine Schwachstellen</string>
     <string name="mode_stale">Lange nicht geübt</string>
     <string name="mode_stale_desc">Fragen, die du lange nicht mehr gesehen hast</string>
+    <string name="mode_exam">Prüfungsbogen simulieren</string>
+    <string name="mode_exam_desc">Einen der 15 echten Prüfungsbögen komplett und in Originalreihenfolge üben</string>
     <string name="mode_available_format">%1$d verfügbar</string>
+    <string name="mode_bogen_count_format">%1$d Prüfungsbögen</string>
+    <string name="mode_bogen_option_format">Prüfungsbogen %1$d</string>
     <string name="mode_none_available">Noch keine Fragen in dieser Kategorie – erst „Alle Fragen“ üben</string>
     <string name="mode_length_label">Anzahl Fragen</string>
+    <string name="mode_bogen_label">Prüfungsbogen wählen</string>
     <string name="mode_start">Training starten</string>
 
     <string name="quiz_progress_format">Frage %1$d / %2$d</string>

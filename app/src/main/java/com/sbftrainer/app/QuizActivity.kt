@@ -33,7 +33,10 @@ class QuizActivity : AppCompatActivity() {
         optionViews = listOf(binding.optionA, binding.optionB, binding.optionC, binding.optionD)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        title = QuestionRepository.categoryLabel(this, SessionState.category)
+        val categoryLabel = QuestionRepository.categoryLabel(this, SessionState.category)
+        title = SessionState.bogenNumber?.let {
+            getString(R.string.mode_bogen_option_format, it) + " – " + categoryLabel
+        } ?: categoryLabel
 
         binding.optionA.setOnClickListener { selectOption(0) }
         binding.optionB.setOnClickListener { selectOption(1) }
