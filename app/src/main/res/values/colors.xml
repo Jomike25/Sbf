@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy_900">#0A2647</color>
+    <color name="navy_700">#0D47A1</color>
+    <color name="navy_500">#1565C0</color>
+    <color name="amber_500">#FFA000</color>
+    <color name="amber_700">#FF8F00</color>
+    <color name="green_correct">#2E7D32</color>
+    <color name="red_wrong">#C62828</color>
+    <color name="background_light">#F4F6FA</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="text_primary">#1B1F27</color>
+    <color name="text_secondary">#5B6472</color>
+    <color name="outline">#D8DEE8</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SBF Trainer</string>
+
+    <string-array name="count_options">
+        <item>10 Fragen</item>
+        <item>20 Fragen</item>
+        <item>50 Fragen</item>
+        <item>Alle verfügbaren</item>
+    </string-array>
+
+    <string name="home_title">SBF Trainer</string>
+    <string name="home_subtitle">Übungsfragen für den Sportbootführerschein</string>
+    <string name="category_binnen">SBF Binnen</string>
+    <string name="category_see">SBF See</string>
+    <string name="questions_count_format">%1$d Fragen</string>
+    <string name="stats_button">Fortschritt</string>
+
+    <string name="mode_title_format">%1$s – Modus wählen</string>
+    <string name="mode_all">Alle Fragen</string>
+    <string name="mode_all_desc">Komplettes Training über den gesamten Fragenkatalog</string>
+    <string name="mode_marked">Markierte Fragen</string>
+    <string name="mode_marked_desc">Nur die von dir markierten Fragen</string>
+    <string name="mode_wrong">Oft falsch beantwortet</string>
+    <string name="mode_wrong_desc">Fokus auf deine Schwachstellen</string>
+    <string name="mode_stale">Lange nicht geübt</string>
+    <string name="mode_stale_desc">Fragen, die du lange nicht mehr gesehen hast</string>
+    <string name="mode_available_format">%1$d verfügbar</string>
+    <string name="mode_none_available">Noch keine Fragen in dieser Kategorie – erst „Alle Fragen“ üben</string>
+    <string name="mode_length_label">Anzahl Fragen</string>
+    <string name="mode_start">Training starten</string>
+
+    <string name="quiz_progress_format">Frage %1$d / %2$d</string>
+    <string name="quiz_image_hint">🖼 Bildfrage – Original-Symbol nicht in dieser App enthalten, ggf. im Fragenkatalog nachschlagen</string>
+    <string name="quiz_next">Weiter</string>
+    <string name="quiz_finish">Ergebnis anzeigen</string>
+    <string name="quiz_mark_content_description">Frage markieren</string>
+    <string name="quiz_exit_title">Training abbrechen?</string>
+    <string name="quiz_exit_message">Dein bisheriger Fortschritt in dieser Runde wird gespeichert, das Training aber beendet.</string>
+    <string name="quiz_exit_confirm">Beenden</string>
+    <string name="quiz_exit_cancel">Weiter üben</string>
+
+    <string name="result_title">Ergebnis</string>
+    <string name="result_score_format">%1$d von %2$d richtig</string>
+    <string name="result_percent_format">%1$d %%</string>
+    <string name="result_missed_header">Nicht auf Anhieb richtig:</string>
+    <string name="result_no_missed">Alles richtig beantwortet – stark!</string>
+    <string name="result_restart">Neues Training</string>
+    <string name="result_home">Zur Startseite</string>
+
+    <string name="stats_title">Fortschritt</string>
+    <string name="stats_category_header_format">%1$s</string>
+    <string name="stats_answered_format">%1$d von %2$d Fragen geübt</string>
+    <string name="stats_marked_format">%1$d markiert</string>
+    <string name="stats_accuracy_format">Trefferquote: %1$d %%</string>
+    <string name="stats_weakest_header">Deine Schwachstellen</string>
+    <string name="stats_no_data">Noch keine Übungsdaten vorhanden</string>
+    <string name="stats_reset_button">Fortschritt zurücksetzen</string>
+    <string name="stats_reset_title">Fortschritt wirklich zurücksetzen?</string>
+    <string name="stats_reset_message">Alle Statistiken und Markierungen werden unwiderruflich gelöscht.</string>
+    <string name="stats_reset_confirm">Zurücksetzen</string>
+    <string name="stats_reset_cancel">Abbrechen</string>
+</resources>

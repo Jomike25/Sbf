@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Steuerrad: Ring -->
+    <path
+        android:pathData="M26,54 A28,28 0 1,0 82,54 A28,28 0 1,0 26,54 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:fillColor="#00000000" />
+
+    <!-- Speichen -->
+    <group android:pivotX="54" android:pivotY="54" android:rotation="0">
+        <path android:fillColor="#FFFFFF" android:pathData="M60,51.5 L79,51.5 L79,56.5 L60,56.5 Z" />
+    </group>
+    <group android:pivotX="54" android:pivotY="54" android:rotation="45">
+        <path android:fillColor="#FFFFFF" android:pathData="M60,51.5 L79,51.5 L79,56.5 L60,56.5 Z" />
+    </group>
+    <group android:pivotX="54" android:pivotY="54" android:rotation="90">
+        <path android:fillColor="#FFFFFF" android:pathData="M60,51.5 L79,51.5 L79,56.5 L60,56.5 Z" />
+    </group>
+    <group android:pivotX="54" android:pivotY="54" android:rotation="135">
+        <path android:fillColor="#FFFFFF" android:pathData="M60,51.5 L79,51.5 L79,56.5 L60,56.5 Z" />
+    </group>
+    <group android:pivotX="54" android:pivotY="54" android:rotation="180">
+        <path android:fillColor="#FFFFFF" android:pathData="M60,51.5 L79,51.5 L79,56.5 L60,56.5 Z" />
+    </group>
+    <group android:pivotX="54" android:pivotY="54" android:rotation="225">
+        <path android:fillColor="#FFFFFF" android:pathData="M60,51.5 L79,51.5 L79,56.5 L60,56.5 Z" />
+    </group>
+    <group android:pivotX="54" android:pivotY="54" android:rotation="270">
+        <path android:fillColor="#FFFFFF" android:pathData="M60,51.5 L79,51.5 L79,56.5 L60,56.5 Z" />
+    </group>
+    <group android:pivotX="54" android:pivotY="54" android:rotation="315">
+        <path android:fillColor="#FFFFFF" android:pathData="M60,51.5 L79,51.5 L79,56.5 L60,56.5 Z" />
+    </group>
+
+    <!-- Nabe -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M48,54 A6,6 0 1,0 60,54 A6,6 0 1,0 48,54 Z" />
+</vector>
