@@ -5,6 +5,7 @@ import android.content.Context
 object QuizSelector {
 
     const val COUNT_ALL = Int.MAX_VALUE
+    const val STALE_THRESHOLD_MILLIS = 3L * 24 * 60 * 60 * 1000
 
     fun poolForMode(context: Context, category: String, mode: QuizMode): List<Question> {
         val all = QuestionRepository.getAll(context, category)
@@ -12,7 +13,13 @@ object QuizSelector {
             QuizMode.ALL -> all
             QuizMode.MARKED -> all.filter { ProgressStore.getStat(it.id).marked }
             QuizMode.WRONG -> all.filter { ProgressStore.getStat(it.id).timesWrong > 0 }
-            QuizMode.STALE -> all
+            QuizMode.STALE -> {
+                val cutoff = System.currentTimeMillis() - STALE_THRESHOLD_MILLIS
+                all.filter {
+                    val t = ProgressStore.getStat(it.id).lastPracticedAt
+                    t == 0L || t < cutoff
+                }
+            }
             QuizMode.EXAM -> all
         }
     }

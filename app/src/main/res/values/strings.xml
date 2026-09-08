@@ -26,7 +26,7 @@
     <string name="mode_wrong">Oft falsch beantwortet</string>
     <string name="mode_wrong_desc">Fokus auf deine Schwachstellen</string>
     <string name="mode_stale">Lange nicht geübt</string>
-    <string name="mode_stale_desc">Fragen, die du lange nicht mehr gesehen hast</string>
+    <string name="mode_stale_desc">Fragen, die seit mind. 3 Tagen nicht geübt wurden (oder noch nie)</string>
     <string name="mode_exam">Prüfungsbogen simulieren</string>
     <string name="mode_exam_desc">Einen der 15 echten Prüfungsbögen komplett und in Originalreihenfolge üben</string>
     <string name="mode_available_format">%1$d verfügbar</string>
