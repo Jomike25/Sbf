@@ -6,11 +6,19 @@ import org.json.JSONArray
 object QuestionRepository {
     const val CATEGORY_BINNEN = "binnen"
     const val CATEGORY_SEE = "see"
+    const val CATEGORY_ALL = "all"
 
     private val cache = mutableMapOf<String, List<Question>>()
 
     fun getAll(context: Context, category: String): List<Question> {
         cache[category]?.let { return it }
+
+        if (category == CATEGORY_ALL) {
+            val combined = getAll(context, CATEGORY_BINNEN) + getAll(context, CATEGORY_SEE)
+            cache[category] = combined
+            return combined
+        }
+
         val fileName = when (category) {
             CATEGORY_BINNEN -> "questions_binnen.json"
             CATEGORY_SEE -> "questions_see.json"
@@ -47,6 +55,7 @@ object QuestionRepository {
     fun categoryLabel(context: Context, category: String): String = when (category) {
         CATEGORY_BINNEN -> context.getString(R.string.category_binnen)
         CATEGORY_SEE -> context.getString(R.string.category_see)
+        CATEGORY_ALL -> context.getString(R.string.category_all)
         else -> category
     }
 }

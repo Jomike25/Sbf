@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.cardBinnen.setOnClickListener { openMode(QuestionRepository.CATEGORY_BINNEN) }
         binding.cardSee.setOnClickListener { openMode(QuestionRepository.CATEGORY_SEE) }
+        binding.cardCombined.setOnClickListener { openMode(QuestionRepository.CATEGORY_ALL) }
         binding.buttonStats.setOnClickListener {
             startActivity(Intent(this, StatsActivity::class.java))
         }
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         val seeCount = QuestionRepository.getAll(this, QuestionRepository.CATEGORY_SEE).size
         binding.textBinnenCount.text = getString(R.string.questions_count_format, binnenCount)
         binding.textSeeCount.text = getString(R.string.questions_count_format, seeCount)
+        binding.textCombinedCount.text = getString(R.string.questions_count_format, binnenCount + seeCount)
     }
 
     private fun openMode(category: String) {

@@ -33,11 +33,17 @@ class ModeActivity : AppCompatActivity() {
         countAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         binding.spinnerCount.adapter = countAdapter
 
-        bogenNumbers = BogenRepository.bogenNumbers(this, category)
-        val bogenLabels = bogenNumbers.map { getString(R.string.mode_bogen_option_format, it) }
-        val bogenAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, bogenLabels)
-        bogenAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        binding.spinnerBogen.adapter = bogenAdapter
+        val hasExamMode = category != QuestionRepository.CATEGORY_ALL
+        if (hasExamMode) {
+            bogenNumbers = BogenRepository.bogenNumbers(this, category)
+            val bogenLabels = bogenNumbers.map { getString(R.string.mode_bogen_option_format, it) }
+            val bogenAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, bogenLabels)
+            bogenAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            binding.spinnerBogen.adapter = bogenAdapter
+            binding.textCountExam.text = getString(R.string.mode_bogen_count_format, bogenNumbers.size)
+        } else {
+            binding.cardModeExam.visibility = View.GONE
+        }
 
         binding.cardModeAll.setOnClickListener { selectMode(QuizMode.ALL) }
         binding.cardModeMarked.setOnClickListener { selectMode(QuizMode.MARKED) }
@@ -46,8 +52,6 @@ class ModeActivity : AppCompatActivity() {
         binding.cardModeExam.setOnClickListener { selectMode(QuizMode.EXAM) }
 
         binding.buttonStart.setOnClickListener { startTraining() }
-
-        binding.textCountExam.text = getString(R.string.mode_bogen_count_format, bogenNumbers.size)
 
         selectMode(QuizMode.ALL)
     }

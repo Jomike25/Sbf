@@ -13,6 +13,8 @@
     <string name="home_subtitle">Übungsfragen für den Sportbootführerschein</string>
     <string name="category_binnen">SBF Binnen</string>
     <string name="category_see">SBF See</string>
+    <string name="category_all">SBF Binnen + See</string>
+    <string name="category_all_desc">Beide Fragenkataloge gemeinsam üben</string>
     <string name="questions_count_format">%1$d Fragen</string>
     <string name="stats_button">Fortschritt</string>
 
