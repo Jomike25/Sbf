@@ -46,7 +46,9 @@ class StatsActivity : AppCompatActivity() {
         binding.textLevelBadge.text = level.toString()
         binding.textLevel.text = getString(R.string.hero_level_format, level)
         binding.textXpTotal.text = getString(R.string.hero_xp_total_format, xp)
-        binding.textStreakChip.text = getString(R.string.quiz_combo_format, GamificationStore.streakDays)
+        val streak = GamificationStore.streakDays
+        binding.textStreakChip.text = getString(R.string.quiz_combo_format, streak)
+        binding.textStreakChip.visibility = if (streak > 0) View.VISIBLE else View.GONE
 
         val animator = ValueAnimator.ofInt(0, Levels.progressPercent(xp))
         animator.duration = 650

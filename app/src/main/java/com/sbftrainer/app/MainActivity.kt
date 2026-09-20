@@ -3,6 +3,7 @@ package com.sbftrainer.app
 import android.animation.ValueAnimator
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -83,6 +84,7 @@ class MainActivity : AppCompatActivity() {
             getString(R.string.hero_streak_zero)
         }
         binding.textStreakChip.text = getString(R.string.quiz_combo_format, streak)
+        binding.textStreakChip.visibility = if (streak > 0) View.VISIBLE else View.GONE
 
         val answeredToday = GamificationStore.answeredToday()
         val goal = GamificationStore.dailyGoal
