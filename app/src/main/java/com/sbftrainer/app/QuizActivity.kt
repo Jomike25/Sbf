@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -18,6 +19,7 @@ class QuizActivity : AppCompatActivity() {
 
     private var currentIndex = 0
     private var answered = false
+    private var hintUsed = false
     private var currentOrder: List<Int> = listOf(0, 1, 2, 3)
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,6 +45,13 @@ class QuizActivity : AppCompatActivity() {
         binding.optionC.setOnClickListener { selectOption(2) }
         binding.optionD.setOnClickListener { selectOption(3) }
 
+        for (option in optionViews) {
+            option.isSoundEffectsEnabled = false
+        }
+
+        binding.buttonHint.text = getString(R.string.quiz_hint_button_format, ProgressStore.HINT_COST)
+        binding.buttonHint.setOnClickListener { useHint() }
+
         binding.buttonMark.setOnClickListener { toggleMark() }
         binding.buttonNext.setOnClickListener { goNext() }
 
@@ -58,8 +67,16 @@ class QuizActivity : AppCompatActivity() {
         showQuestion()
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        if (isFinishing) {
+            SoundFeedback.release()
+        }
+    }
+
     private fun showQuestion() {
         answered = false
+        hintUsed = false
         currentOrder = (0..3).shuffled()
 
         val q = SessionState.questions[currentIndex]
@@ -68,6 +85,7 @@ class QuizActivity : AppCompatActivity() {
         )
         binding.textQuestion.text = q.question
         showQuestionImage(q)
+        updateCoinsDisplay()
 
         val letters = listOf("A", "B", "C", "D")
         for (slot in 0..3) {
@@ -75,7 +93,15 @@ class QuizActivity : AppCompatActivity() {
             optionViews[slot].text = "${letters[slot]}) ${q.options[originalIndex]}"
             optionViews[slot].setBackgroundResource(R.drawable.bg_option_default)
             optionViews[slot].isEnabled = true
+            optionViews[slot].alpha = 1f
         }
+
+        binding.containerExplanation.visibility = View.GONE
+        binding.textMnemonic.visibility = View.GONE
+        binding.containerExplanationOptions.removeAllViews()
+
+        binding.buttonHint.isEnabled = ProgressStore.getCoins() >= ProgressStore.HINT_COST
+        binding.buttonHint.visibility = View.VISIBLE
 
         updateMarkIcon(q)
 
@@ -106,6 +132,24 @@ class QuizActivity : AppCompatActivity() {
         binding.textImageHint.visibility = if (q.hasImage) View.VISIBLE else View.GONE
     }
 
+    private fun useHint() {
+        if (answered || hintUsed) return
+        if (!ProgressStore.spendCoins(ProgressStore.HINT_COST)) {
+            Toast.makeText(this, R.string.quiz_hint_no_coins, Toast.LENGTH_SHORT).show()
+            return
+        }
+        hintUsed = true
+        updateCoinsDisplay()
+        binding.buttonHint.isEnabled = false
+
+        val q = SessionState.questions[currentIndex]
+        val correctSlot = currentOrder.indexOf(q.correctIndex)
+        val eliminable = (0..3).filter { it != correctSlot && optionViews[it].isEnabled }
+        val slotToEliminate = eliminable.randomOrNull() ?: return
+        optionViews[slotToEliminate].isEnabled = false
+        optionViews[slotToEliminate].alpha = 0.35f
+    }
+
     private fun selectOption(slot: Int) {
         if (answered) return
         answered = true
@@ -125,15 +169,67 @@ class QuizActivity : AppCompatActivity() {
                 }
             )
         }
+        binding.buttonHint.isEnabled = false
 
-        ProgressStore.recordAnswer(q.id, correct)
+        val reward = ProgressStore.recordAnswer(q.id, correct)
         if (correct) {
             SessionState.correctCount += 1
+            SoundFeedback.playCorrect()
+            if (reward.streakBonus) {
+                Toast.makeText(
+                    this,
+                    getString(R.string.quiz_streak_bonus_format, reward.streak, reward.coinsEarned),
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
         } else {
             SessionState.missed.add(q)
+            SoundFeedback.playWrong()
         }
+        updateCoinsDisplay()
+
+        showExplanation(q, correctSlot)
 
         binding.buttonNext.isEnabled = true
+    }
+
+    private fun showExplanation(q: Question, correctSlot: Int) {
+        binding.containerExplanationOptions.removeAllViews()
+        val letters = listOf("A", "B", "C", "D")
+
+        for (slot in 0..3) {
+            val originalIndex = currentOrder[slot]
+            val isCorrect = slot == correctSlot
+            val explanationText = q.optionExplanations.getOrNull(originalIndex)?.takeIf { it.isNotBlank() }
+                ?: getString(
+                    if (isCorrect) R.string.quiz_explanation_fallback_correct
+                    else R.string.quiz_explanation_fallback_wrong
+                )
+
+            val row = TextView(this)
+            val icon = if (isCorrect) "✅" else "❌"
+            row.text = "$icon ${letters[slot]}) $explanationText"
+            row.textSize = 13f
+            row.setTextColor(
+                getColor(if (isCorrect) R.color.green_correct else R.color.text_secondary)
+            )
+            row.setPadding(0, dp(6), 0, 0)
+            binding.containerExplanationOptions.addView(row)
+        }
+
+        val mnemonic = q.mnemonic?.takeIf { it.isNotBlank() }
+        if (mnemonic != null) {
+            binding.textMnemonic.text = getString(R.string.quiz_mnemonic_format, mnemonic)
+            binding.textMnemonic.visibility = View.VISIBLE
+        } else {
+            binding.textMnemonic.visibility = View.GONE
+        }
+
+        binding.containerExplanation.visibility = View.VISIBLE
+    }
+
+    private fun updateCoinsDisplay() {
+        binding.textCoins.text = getString(R.string.quiz_coins_format, ProgressStore.getCoins())
     }
 
     private fun goNext() {
@@ -169,6 +265,8 @@ class QuizActivity : AppCompatActivity() {
             .setNegativeButton(R.string.quiz_exit_cancel, null)
             .show()
     }
+
+    private fun dp(value: Int): Int = (value * resources.displayMetrics.density).toInt()
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == android.R.id.home) {

@@ -15,6 +15,7 @@
     <string name="category_see">SBF See</string>
     <string name="category_all">SBF Binnen + See</string>
     <string name="category_all_desc">Beide Fragenkataloge gemeinsam üben</string>
+    <string name="home_coins_format">🪙 %1$d Münzen gesammelt</string>
     <string name="questions_count_format">%1$d Fragen</string>
     <string name="stats_button">Fortschritt</string>
 
@@ -47,6 +48,15 @@
     <string name="quiz_exit_message">Dein bisheriger Fortschritt in dieser Runde wird gespeichert, das Training aber beendet.</string>
     <string name="quiz_exit_confirm">Beenden</string>
     <string name="quiz_exit_cancel">Weiter üben</string>
+
+    <string name="quiz_coins_format">🪙 %1$d</string>
+    <string name="quiz_hint_button_format">💡 Tipp (%1$d)</string>
+    <string name="quiz_hint_no_coins">Nicht genug Münzen für einen Tipp – erst ein paar Fragen richtig beantworten.</string>
+    <string name="quiz_streak_bonus_format">🔥 %1$d richtige Antworten in Folge! +%2$d Bonus-Münzen</string>
+    <string name="quiz_explanation_header">🧭 Erklärung</string>
+    <string name="quiz_mnemonic_format">💡 Eselsbrücke: %1$s</string>
+    <string name="quiz_explanation_fallback_correct">Das ist die richtige Antwort.</string>
+    <string name="quiz_explanation_fallback_wrong">Diese Antwort ist nicht richtig.</string>
 
     <string name="result_title">Ergebnis</string>
     <string name="result_score_format">%1$d von %2$d richtig</string>

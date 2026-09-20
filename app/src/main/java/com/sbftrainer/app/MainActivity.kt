@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         binding.textBinnenCount.text = getString(R.string.questions_count_format, binnenCount)
         binding.textSeeCount.text = getString(R.string.questions_count_format, seeCount)
         binding.textCombinedCount.text = getString(R.string.questions_count_format, binnenCount + seeCount)
+        binding.textCoins.text = getString(R.string.home_coins_format, ProgressStore.getCoins())
     }
 
     private fun openMode(category: String) {

@@ -5,11 +5,20 @@ import org.json.JSONObject
 import java.io.File
 import java.util.concurrent.Executors
 
+data class AnswerReward(val coinsEarned: Int, val streak: Int, val streakBonus: Boolean)
+
 object ProgressStore {
     private const val FILE_NAME = "progress.json"
+    const val COINS_PER_CORRECT = 10
+    const val STREAK_BONUS_EVERY = 5
+    const val STREAK_BONUS_COINS = 20
+    const val HINT_COST = 15
+
     private val executor = Executors.newSingleThreadExecutor()
     private var loaded = false
     private val stats = HashMap<String, QuestionStat>()
+    private var coins = 0
+    private var streak = 0
     private lateinit var appContext: Context
 
     @Synchronized
@@ -19,11 +28,12 @@ object ProgressStore {
         val file = File(appContext.filesDir, FILE_NAME)
         if (file.exists()) {
             try {
-                val json = JSONObject(file.readText(Charsets.UTF_8))
-                val keys = json.keys()
+                val root = JSONObject(file.readText(Charsets.UTF_8))
+                val statsJson = if (root.has("stats")) root.getJSONObject("stats") else root
+                val keys = statsJson.keys()
                 while (keys.hasNext()) {
                     val id = keys.next()
-                    val o = json.getJSONObject(id)
+                    val o = statsJson.getJSONObject(id)
                     stats[id] = QuestionStat(
                         timesShown = o.optInt("timesShown", 0),
                         timesCorrect = o.optInt("timesCorrect", 0),
@@ -32,6 +42,8 @@ object ProgressStore {
                         marked = o.optBoolean("marked", false)
                     )
                 }
+                coins = root.optInt("coins", 0)
+                streak = root.optInt("streak", 0)
             } catch (e: Exception) {
                 // Beschädigte Datei ignorieren, mit leerem Fortschritt weitermachen
             }
@@ -43,12 +55,41 @@ object ProgressStore {
     fun getStat(id: String): QuestionStat = stats.getOrPut(id) { QuestionStat() }
 
     @Synchronized
-    fun recordAnswer(id: String, correct: Boolean) {
+    fun getCoins(): Int = coins
+
+    @Synchronized
+    fun getStreak(): Int = streak
+
+    @Synchronized
+    fun recordAnswer(id: String, correct: Boolean): AnswerReward {
         val stat = getStat(id)
         stat.timesShown += 1
         if (correct) stat.timesCorrect += 1 else stat.timesWrong += 1
         stat.lastPracticedAt = System.currentTimeMillis()
+
+        var coinsEarned = 0
+        var streakBonus = false
+        if (correct) {
+            streak += 1
+            coinsEarned = COINS_PER_CORRECT
+            if (streak % STREAK_BONUS_EVERY == 0) {
+                coinsEarned += STREAK_BONUS_COINS
+                streakBonus = true
+            }
+            coins += coinsEarned
+        } else {
+            streak = 0
+        }
         persist()
+        return AnswerReward(coinsEarned, streak, streakBonus)
+    }
+
+    @Synchronized
+    fun spendCoins(amount: Int): Boolean {
+        if (coins < amount) return false
+        coins -= amount
+        persist()
+        return true
     }
 
     @Synchronized
@@ -62,11 +103,13 @@ object ProgressStore {
     @Synchronized
     fun resetAll() {
         stats.clear()
+        coins = 0
+        streak = 0
         persist()
     }
 
     private fun persist() {
-        val snapshot = JSONObject()
+        val statsJson = JSONObject()
         for ((id, stat) in stats) {
             val o = JSONObject()
             o.put("timesShown", stat.timesShown)
@@ -74,9 +117,13 @@ object ProgressStore {
             o.put("timesWrong", stat.timesWrong)
             o.put("lastPracticedAt", stat.lastPracticedAt)
             o.put("marked", stat.marked)
-            snapshot.put(id, o)
+            statsJson.put(id, o)
         }
-        val text = snapshot.toString()
+        val root = JSONObject()
+        root.put("stats", statsJson)
+        root.put("coins", coins)
+        root.put("streak", streak)
+        val text = root.toString()
         val target = File(appContext.filesDir, FILE_NAME)
         executor.execute {
             try {

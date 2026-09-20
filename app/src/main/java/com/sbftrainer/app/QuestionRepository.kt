@@ -36,6 +36,13 @@ object QuestionRepository {
             for (j in 0 until optionsArray.length()) {
                 options.add(optionsArray.getString(j))
             }
+            val explanations = ArrayList<String>()
+            val explanationsArray = obj.optJSONArray("optionExplanations")
+            if (explanationsArray != null) {
+                for (j in 0 until explanationsArray.length()) {
+                    explanations.add(explanationsArray.getString(j))
+                }
+            }
             list.add(
                 Question(
                     id = obj.getString("id"),
@@ -44,7 +51,9 @@ object QuestionRepository {
                     options = options,
                     correctIndex = obj.getInt("correctIndex"),
                     hasImage = obj.optBoolean("hasImage", false),
-                    imagePath = if (obj.isNull("image")) null else obj.optString("image", null)
+                    imagePath = if (obj.isNull("image")) null else obj.optString("image", null),
+                    optionExplanations = explanations,
+                    mnemonic = if (obj.isNull("mnemonic")) null else obj.optString("mnemonic", null)
                 )
             )
         }

@@ -7,5 +7,7 @@ data class Question(
     val options: List<String>,
     val correctIndex: Int,
     val hasImage: Boolean,
-    val imagePath: String?
+    val imagePath: String?,
+    val optionExplanations: List<String> = emptyList(),
+    val mnemonic: String? = null
 )
