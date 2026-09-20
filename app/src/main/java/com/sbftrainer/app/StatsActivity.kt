@@ -1,14 +1,21 @@
 package com.sbftrainer.app
 
+import android.animation.ValueAnimator
 import android.graphics.Typeface
 import android.os.Bundle
+import android.view.Gravity
 import android.view.MenuItem
+import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
+import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.sbftrainer.app.databinding.ActivityStatsBinding
+import java.time.LocalDate
+import java.time.format.TextStyle
+import java.util.Locale
 
 class StatsActivity : AppCompatActivity() {
 
@@ -27,7 +34,92 @@ class StatsActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
+        GamificationStore.refreshStreak()
+        rebuildOverview()
+        rebuildWeek()
         rebuildStats()
+    }
+
+    private fun rebuildOverview() {
+        val xp = GamificationStore.xp
+        val level = Levels.levelFor(xp)
+        binding.textLevelBadge.text = level.toString()
+        binding.textLevel.text = getString(R.string.hero_level_format, level)
+        binding.textXpTotal.text = getString(R.string.hero_xp_total_format, xp)
+        binding.textStreakChip.text = getString(R.string.quiz_combo_format, GamificationStore.streakDays)
+
+        val animator = ValueAnimator.ofInt(0, Levels.progressPercent(xp))
+        animator.duration = 650
+        animator.addUpdateListener { binding.progressXp.progress = it.animatedValue as Int }
+        animator.start()
+
+        val answered = GamificationStore.totalAnswered
+        val accuracy = if (answered > 0) GamificationStore.totalCorrect * 100 / answered else 0
+        binding.textOverview.text = listOf(
+            getString(R.string.stats_total_answered_format, answered),
+            getString(R.string.stats_overall_accuracy_format, accuracy),
+            getString(R.string.stats_best_combo_format, GamificationStore.bestCombo),
+            getString(R.string.stats_longest_streak_format, GamificationStore.longestStreak),
+            getString(R.string.stats_perfect_rounds_format, GamificationStore.perfectRounds)
+        ).joinToString("\n")
+    }
+
+    /** Kleines Balkendiagramm der letzten 7 Tage, ganz ohne Chart-Bibliothek. */
+    private fun rebuildWeek() {
+        binding.containerWeek.removeAllViews()
+        val activity = GamificationStore.recentActivity(7)
+        val maxCount = maxOf(activity.maxOfOrNull { it.second } ?: 0, 1)
+        val goal = GamificationStore.dailyGoal
+        val barMaxHeight = dp(88)
+
+        binding.textWeekEmpty.visibility =
+            if (activity.all { it.second == 0 }) View.VISIBLE else View.GONE
+
+        for ((day, count) in activity) {
+            val column = LinearLayout(this)
+            column.orientation = LinearLayout.VERTICAL
+            column.gravity = Gravity.BOTTOM or Gravity.CENTER_HORIZONTAL
+            column.layoutParams = LinearLayout.LayoutParams(
+                0, ViewGroup.LayoutParams.MATCH_PARENT, 1f
+            )
+
+            val countView = TextView(this)
+            countView.text = if (count > 0) count.toString() else "–"
+            countView.textSize = 11f
+            countView.gravity = Gravity.CENTER
+            countView.setTextColor(
+                getColor(if (count > 0) R.color.text_primary else R.color.text_secondary)
+            )
+            column.addView(countView)
+
+            val bar = View(this)
+            val height = if (count == 0) dp(4) else {
+                maxOf(dp(6), barMaxHeight * count / maxCount)
+            }
+            val barParams = LinearLayout.LayoutParams(dp(18), height)
+            barParams.topMargin = dp(4)
+            bar.layoutParams = barParams
+            bar.setBackgroundResource(
+                when {
+                    count == 0 -> R.drawable.bg_bar_day_empty
+                    count >= goal -> R.drawable.bg_bar_day_goal
+                    else -> R.drawable.bg_bar_day
+                }
+            )
+            column.addView(bar)
+
+            val label = TextView(this)
+            label.text = LocalDate.ofEpochDay(day)
+                .dayOfWeek
+                .getDisplayName(TextStyle.SHORT, Locale.GERMANY)
+            label.textSize = 11f
+            label.gravity = Gravity.CENTER
+            label.setTextColor(getColor(R.color.text_secondary))
+            label.setPadding(0, dp(6), 0, 0)
+            column.addView(label)
+
+            binding.containerWeek.addView(column)
+        }
     }
 
     private fun rebuildStats() {
@@ -71,10 +163,21 @@ class StatsActivity : AppCompatActivity() {
         answeredView.setPadding(0, dp(8), 0, 0)
         card.addView(answeredView)
 
+        val coverage = ProgressBar(this, null, android.R.attr.progressBarStyleHorizontal)
+        coverage.max = 100
+        coverage.progressDrawable = getDrawable(R.drawable.progress_category)
+        coverage.progress = if (all.isNotEmpty()) answered * 100 / all.size else 0
+        val coverageParams = LinearLayout.LayoutParams(
+            ViewGroup.LayoutParams.MATCH_PARENT, dp(8)
+        )
+        coverageParams.topMargin = dp(8)
+        coverage.layoutParams = coverageParams
+        card.addView(coverage)
+
         val markedView = TextView(this)
         markedView.text = getString(R.string.stats_marked_format, marked)
         markedView.setTextColor(getColor(R.color.text_secondary))
-        markedView.setPadding(0, dp(4), 0, 0)
+        markedView.setPadding(0, dp(10), 0, 0)
         card.addView(markedView)
 
         val accuracyView = TextView(this)
@@ -117,6 +220,9 @@ class StatsActivity : AppCompatActivity() {
             .setMessage(R.string.stats_reset_message)
             .setPositiveButton(R.string.stats_reset_confirm) { _, _ ->
                 ProgressStore.resetAll()
+                GamificationStore.resetAll()
+                rebuildOverview()
+                rebuildWeek()
                 rebuildStats()
             }
             .setNegativeButton(R.string.stats_reset_cancel, null)

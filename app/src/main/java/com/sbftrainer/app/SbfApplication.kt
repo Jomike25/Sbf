@@ -6,5 +6,6 @@ class SbfApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         ProgressStore.init(this)
+        GamificationStore.init(this)
     }
 }

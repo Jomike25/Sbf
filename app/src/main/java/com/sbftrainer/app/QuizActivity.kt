@@ -1,5 +1,6 @@
 package com.sbftrainer.app
 
+import android.animation.ValueAnimator
 import android.content.Intent
 import android.graphics.BitmapFactory
 import android.os.Bundle
@@ -44,7 +45,10 @@ class QuizActivity : AppCompatActivity() {
         binding.optionD.setOnClickListener { selectOption(3) }
 
         binding.buttonMark.setOnClickListener { toggleMark() }
+        binding.buttonSound.setOnClickListener { toggleSound() }
         binding.buttonNext.setOnClickListener { goNext() }
+
+        updateSoundIcon()
 
         onBackPressedDispatcher.addCallback(
             this,
@@ -58,6 +62,11 @@ class QuizActivity : AppCompatActivity() {
         showQuestion()
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        if (isFinishing) Feedback.release()
+    }
+
     private fun showQuestion() {
         answered = false
         currentOrder = (0..3).shuffled()
@@ -66,6 +75,7 @@ class QuizActivity : AppCompatActivity() {
         binding.textProgress.text = getString(
             R.string.quiz_progress_format, currentIndex + 1, SessionState.questions.size
         )
+        animateQuizProgress(currentIndex)
         binding.textQuestion.text = q.question
         showQuestionImage(q)
 
@@ -75,9 +85,13 @@ class QuizActivity : AppCompatActivity() {
             optionViews[slot].text = "${letters[slot]}) ${q.options[originalIndex]}"
             optionViews[slot].setBackgroundResource(R.drawable.bg_option_default)
             optionViews[slot].isEnabled = true
+            optionViews[slot].translationX = 0f
         }
 
         updateMarkIcon(q)
+        updateScoreAndCombo(animate = false)
+        binding.textFeedback.visibility = View.GONE
+        binding.scrollQuiz.scrollTo(0, 0)
 
         binding.buttonNext.isEnabled = false
         binding.buttonNext.text = if (currentIndex == SessionState.questions.size - 1) {
@@ -85,6 +99,16 @@ class QuizActivity : AppCompatActivity() {
         } else {
             getString(R.string.quiz_next)
         }
+    }
+
+    /** Fortschrittsbalken weich auf die Zahl der erledigten Fragen hochzaehlen. */
+    private fun animateQuizProgress(done: Int) {
+        val total = SessionState.questions.size
+        val target = if (total > 0) done * 100 / total else 0
+        val animator = ValueAnimator.ofInt(binding.progressQuiz.progress, target)
+        animator.duration = 260
+        animator.addUpdateListener { binding.progressQuiz.progress = it.animatedValue as Int }
+        animator.start()
     }
 
     private fun showQuestionImage(q: Question) {
@@ -127,13 +151,70 @@ class QuizActivity : AppCompatActivity() {
         }
 
         ProgressStore.recordAnswer(q.id, correct)
+
         if (correct) {
             SessionState.correctCount += 1
+            SessionState.combo += 1
+            if (SessionState.combo > SessionState.bestCombo) {
+                SessionState.bestCombo = SessionState.combo
+            }
         } else {
             SessionState.missed.add(q)
+            SessionState.combo = 0
         }
 
+        val earnedXp = GamificationStore.recordAnswer(correct, SessionState.combo)
+        SessionState.xpFromAnswers += earnedXp
+
+        Feedback.answer(binding.root, correct)
+        if (correct) {
+            Feedback.pop(optionViews[correctSlot], 1.04f)
+        } else {
+            Feedback.shake(optionViews[slot])
+        }
+
+        showFeedback(correct, earnedXp, correctSlot, q)
+        updateScoreAndCombo(animate = true)
+        animateQuizProgress(currentIndex + 1)
+
         binding.buttonNext.isEnabled = true
+    }
+
+    private fun showFeedback(correct: Boolean, earnedXp: Int, correctSlot: Int, q: Question) {
+        val banner = binding.textFeedback
+        if (correct) {
+            val combo = SessionState.combo
+            banner.text = when {
+                combo >= 3 -> getString(R.string.quiz_feedback_combo_format, combo, earnedXp)
+                earnedXp > 0 -> getString(R.string.quiz_feedback_correct_xp_format, earnedXp)
+                else -> getString(R.string.quiz_feedback_correct)
+            }
+            banner.setBackgroundResource(R.drawable.bg_feedback_correct)
+            banner.setTextColor(getColor(R.color.green_correct))
+        } else {
+            val letter = listOf("A", "B", "C", "D")[correctSlot]
+            banner.text = getString(
+                R.string.quiz_feedback_wrong_format, "$letter) ${q.options[q.correctIndex]}"
+            )
+            banner.setBackgroundResource(R.drawable.bg_feedback_wrong)
+            banner.setTextColor(getColor(R.color.red_wrong))
+        }
+        Feedback.slideIn(banner)
+    }
+
+    private fun updateScoreAndCombo(animate: Boolean) {
+        binding.textScore.text = getString(R.string.quiz_score_format, SessionState.correctCount)
+        val combo = SessionState.combo
+        if (combo >= 2) {
+            val wasVisible = binding.textCombo.visibility == View.VISIBLE
+            binding.textCombo.text = getString(R.string.quiz_combo_format, combo)
+            binding.textCombo.visibility = View.VISIBLE
+            if (animate) {
+                if (wasVisible) Feedback.pop(binding.textCombo, 1.25f) else Feedback.slideIn(binding.textCombo)
+            }
+        } else {
+            binding.textCombo.visibility = View.INVISIBLE
+        }
     }
 
     private fun goNext() {
@@ -141,6 +222,7 @@ class QuizActivity : AppCompatActivity() {
             currentIndex += 1
             showQuestion()
         } else {
+            SessionState.durationMillis = System.currentTimeMillis() - SessionState.startedAt
             startActivity(Intent(this, ResultActivity::class.java))
             finish()
         }
@@ -152,6 +234,7 @@ class QuizActivity : AppCompatActivity() {
         binding.buttonMark.setImageResource(
             if (marked) R.drawable.ic_star_filled else R.drawable.ic_star_outline
         )
+        if (marked) Feedback.pop(binding.buttonMark, 1.3f)
     }
 
     private fun updateMarkIcon(q: Question) {
@@ -159,6 +242,21 @@ class QuizActivity : AppCompatActivity() {
         binding.buttonMark.setImageResource(
             if (marked) R.drawable.ic_star_filled else R.drawable.ic_star_outline
         )
+    }
+
+    private fun toggleSound() {
+        GamificationStore.setSoundEnabled(!GamificationStore.soundEnabled)
+        updateSoundIcon()
+        if (GamificationStore.soundEnabled) Feedback.answer(binding.root, true)
+    }
+
+    private fun updateSoundIcon() {
+        val on = GamificationStore.soundEnabled
+        binding.buttonSound.setImageResource(
+            if (on) R.drawable.ic_volume_on else R.drawable.ic_volume_off
+        )
+        binding.buttonSound.contentDescription =
+            getString(if (on) R.string.quiz_sound_on else R.string.quiz_sound_off)
     }
 
     private fun showExitConfirmation() {

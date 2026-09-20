@@ -16,11 +16,36 @@
     <string name="category_all">SBF Binnen + See</string>
     <string name="category_all_desc">Beide Fragenkataloge gemeinsam üben</string>
     <string name="questions_count_format">%1$d Fragen</string>
-    <string name="stats_button">Fortschritt</string>
+    <string name="stats_button">Fortschritt &amp; Statistik</string>
+    <string name="achievements_button">Abzeichen</string>
+    <string name="achievements_button_format">Abzeichen (%1$d/%2$d)</string>
+
+    <!-- Kopfkarte auf der Startseite -->
+    <string name="hero_level_format">Level %1$d</string>
+    <string name="hero_level_short_format">Lv %1$d</string>
+    <string name="hero_xp_format">%1$d / %2$d XP bis Level %3$d</string>
+    <string name="hero_xp_total_format">%1$d XP gesammelt</string>
+    <string name="hero_streak_format">🔥 %1$d Tage in Folge</string>
+    <string name="hero_streak_zero">🔥 Heute starten und Streak aufbauen</string>
+    <string name="hero_goal_format">Tagesziel: %1$d / %2$d Fragen</string>
+    <string name="hero_goal_done_format">🎉 Tagesziel geschafft: %1$d Fragen</string>
+    <string name="hero_goal_hint">Tippen, um das Tagesziel zu ändern</string>
+    <string name="hero_greeting_morning">Moin! Bereit für ein paar Fragen?</string>
+    <string name="hero_greeting_day">Weiter geht\'s – Kurs halten!</string>
+    <string name="hero_greeting_evening">Noch eine Runde vor dem Feierabend?</string>
+
+    <string name="goal_dialog_title">Tagesziel wählen</string>
+    <string name="goal_option_format">%1$d Fragen pro Tag</string>
+
+    <string name="quick_start">⚡ Schnellstart: 10 Fragen</string>
+    <string name="quick_start_desc">Schlaue Mischung aus deinen Schwachstellen und neuen Fragen</string>
+    <string name="category_progress_format">%1$d %% geübt</string>
 
     <string name="mode_title_format">%1$s – Modus wählen</string>
     <string name="mode_all">Alle Fragen</string>
     <string name="mode_all_desc">Komplettes Training über den gesamten Fragenkatalog</string>
+    <string name="mode_smart">Schlaue Mischung</string>
+    <string name="mode_smart_desc">Erst Schwachstellen, dann neue und lange nicht geübte Fragen</string>
     <string name="mode_marked">Markierte Fragen</string>
     <string name="mode_marked_desc">Nur die von dir markierten Fragen</string>
     <string name="mode_wrong">Oft falsch beantwortet</string>
@@ -32,10 +57,12 @@
     <string name="mode_available_format">%1$d verfügbar</string>
     <string name="mode_bogen_count_format">%1$d Prüfungsbögen</string>
     <string name="mode_bogen_option_format">Prüfungsbogen %1$d</string>
+    <string name="mode_bogen_option_done_format">Prüfungsbogen %1$d ✓</string>
     <string name="mode_none_available">Noch keine Fragen in dieser Kategorie – erst „Alle Fragen“ üben</string>
     <string name="mode_length_label">Anzahl Fragen</string>
     <string name="mode_bogen_label">Prüfungsbogen wählen</string>
     <string name="mode_start">Training starten</string>
+    <string name="mode_exam_done_format">%1$d von %2$d Bögen schon geübt</string>
 
     <string name="quiz_progress_format">Frage %1$d / %2$d</string>
     <string name="quiz_image_hint">🖼 Bildfrage – Original-Symbol nicht in dieser App enthalten, ggf. im Fragenkatalog nachschlagen</string>
@@ -43,6 +70,15 @@
     <string name="quiz_next">Weiter</string>
     <string name="quiz_finish">Ergebnis anzeigen</string>
     <string name="quiz_mark_content_description">Frage markieren</string>
+    <string name="quiz_sound_content_description">Ton ein- oder ausschalten</string>
+    <string name="quiz_sound_on">Ton an</string>
+    <string name="quiz_sound_off">Ton aus</string>
+    <string name="quiz_combo_format">🔥 %1$d</string>
+    <string name="quiz_score_format">%1$d ✓</string>
+    <string name="quiz_feedback_correct">Richtig!</string>
+    <string name="quiz_feedback_correct_xp_format">Richtig! +%1$d XP</string>
+    <string name="quiz_feedback_combo_format">%1$d in Serie! +%2$d XP</string>
+    <string name="quiz_feedback_wrong_format">Nicht ganz – richtig ist %1$s</string>
     <string name="quiz_exit_title">Training abbrechen?</string>
     <string name="quiz_exit_message">Dein bisheriger Fortschritt in dieser Runde wird gespeichert, das Training aber beendet.</string>
     <string name="quiz_exit_confirm">Beenden</string>
@@ -55,6 +91,23 @@
     <string name="result_no_missed">Alles richtig beantwortet – stark!</string>
     <string name="result_restart">Neues Training</string>
     <string name="result_home">Zur Startseite</string>
+    <string name="result_retry_missed_format">🔁 %1$d falsche Fragen wiederholen</string>
+    <string name="result_xp_format">+%1$d XP</string>
+    <string name="result_xp_detail_format">%1$d XP aus Antworten · %2$d XP Bonus</string>
+    <string name="result_combo_format">Beste Serie: %1$d</string>
+    <string name="result_duration_format">Dauer: %1$s</string>
+    <string name="result_level_progress_format">Level %1$d · %2$d / %3$d XP</string>
+    <string name="result_level_up_format">🎉 Level %1$d erreicht!</string>
+    <string name="result_new_achievements">Neue Abzeichen</string>
+    <string name="result_exam_passed_format">Lernziel erreicht (mind. %1$d %%)</string>
+    <string name="result_exam_failed_format">Lernziel verfehlt (mind. %1$d %% nötig)</string>
+    <string name="result_exam_goal_disclaimer">App-internes Lernziel, nicht die amtliche Prüfungsbewertung</string>
+    <string name="result_praise_perfect">Perfekt! Kein einziger Fehler 🏆</string>
+    <string name="result_praise_great">Sehr stark – das sitzt 💪</string>
+    <string name="result_praise_good">Guter Kurs, weiter so 🙂</string>
+    <string name="result_praise_ok">Solide Basis – dranbleiben ⛵</string>
+    <string name="result_praise_low">Noch wacklig – lieber gleich nochmal üben 🌊</string>
+    <string name="result_goal_reached">🎯 Tagesziel geschafft!</string>
 
     <string name="stats_title">Fortschritt</string>
     <string name="stats_category_header_format">%1$s</string>
@@ -65,7 +118,50 @@
     <string name="stats_no_data">Noch keine Übungsdaten vorhanden</string>
     <string name="stats_reset_button">Fortschritt zurücksetzen</string>
     <string name="stats_reset_title">Fortschritt wirklich zurücksetzen?</string>
-    <string name="stats_reset_message">Alle Statistiken und Markierungen werden unwiderruflich gelöscht.</string>
+    <string name="stats_reset_message">Alle Statistiken, Markierungen, XP, Level, Streak und Abzeichen werden unwiderruflich gelöscht.</string>
     <string name="stats_reset_confirm">Zurücksetzen</string>
     <string name="stats_reset_cancel">Abbrechen</string>
+    <string name="stats_overview_header">Deine Bilanz</string>
+    <string name="stats_total_answered_format">%1$d Antworten insgesamt</string>
+    <string name="stats_overall_accuracy_format">Gesamt-Trefferquote: %1$d %%</string>
+    <string name="stats_best_combo_format">Beste Serie: %1$d richtige</string>
+    <string name="stats_longest_streak_format">Längster Streak: %1$d Tage</string>
+    <string name="stats_perfect_rounds_format">Fehlerfreie Runden: %1$d</string>
+    <string name="stats_week_header">Letzte 7 Tage</string>
+    <string name="stats_week_empty">In den letzten 7 Tagen noch nichts geübt</string>
+    <string name="stats_weekday_format">%1$s</string>
+
+    <string name="achievements_title">Abzeichen</string>
+    <string name="achievements_header_format">%1$d von %2$d freigeschaltet</string>
+    <string name="achievements_progress_format">%1$d / %2$d</string>
+    <string name="achievements_unlocked_at_format">Freigeschaltet am %1$s</string>
+
+    <string name="ach_first_steps">Leinen los</string>
+    <string name="ach_first_steps_desc">10 Fragen beantwortet</string>
+    <string name="ach_hundred">Hundert an Bord</string>
+    <string name="ach_hundred_desc">100 Fragen beantwortet</string>
+    <string name="ach_five_hundred">Langfahrt</string>
+    <string name="ach_five_hundred_desc">500 Fragen beantwortet</string>
+    <string name="ach_combo_10">Auf Kurs</string>
+    <string name="ach_combo_10_desc">10 richtige Antworten in Serie</string>
+    <string name="ach_combo_25">Rückenwind</string>
+    <string name="ach_combo_25_desc">25 richtige Antworten in Serie</string>
+    <string name="ach_streak_3">Dreitagetörn</string>
+    <string name="ach_streak_3_desc">3 Tage hintereinander geübt</string>
+    <string name="ach_streak_7">Wochenwache</string>
+    <string name="ach_streak_7_desc">7 Tage hintereinander geübt</string>
+    <string name="ach_streak_30">Monatskapitän</string>
+    <string name="ach_streak_30_desc">30 Tage hintereinander geübt</string>
+    <string name="ach_perfect_round">Blitzsauber</string>
+    <string name="ach_perfect_round_desc">Eine Runde mit mind. 10 Fragen ohne Fehler</string>
+    <string name="ach_goal_day">Tagesziel</string>
+    <string name="ach_goal_day_desc">Tagesziel an einem Tag erreicht</string>
+    <string name="ach_goal_7">Sieben Ziele</string>
+    <string name="ach_goal_7_desc">Tagesziel an 7 Tagen erreicht</string>
+    <string name="ach_exam_5">Bogenroutine</string>
+    <string name="ach_exam_5_desc">5 Prüfungsbögen komplett geübt</string>
+    <string name="ach_exam_all">Alle Bögen</string>
+    <string name="ach_exam_all_desc">Alle Prüfungsbögen einer Kategorie geübt</string>
+    <string name="ach_accuracy_90">Treffsicher</string>
+    <string name="ach_accuracy_90_desc">90 %% Trefferquote bei mind. 100 Antworten</string>
 </resources>

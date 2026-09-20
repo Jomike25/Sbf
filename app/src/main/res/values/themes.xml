@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.SbfTrainer" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.SbfTrainer" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/navy_700</item>
         <item name="colorPrimaryVariant">@color/navy_900</item>
         <item name="colorOnPrimary">@color/surface_white</item>

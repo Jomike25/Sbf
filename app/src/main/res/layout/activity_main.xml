@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="20dp">
 
         <TextView
             android:id="@+id/textHomeTitle"
@@ -18,27 +18,170 @@
             android:layout_height="wrap_content"
             android:text="@string/home_title"
             android:textColor="@color/text_primary"
-            android:textSize="28sp"
+            android:textSize="26sp"
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/textGreeting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:text="@string/home_subtitle"
+            android:layout_marginTop="2dp"
             android:textColor="@color/text_secondary"
-            android:textSize="15sp" />
+            android:textSize="14sp"
+            tools:text="Moin! Bereit für ein paar Fragen?" />
+
+        <!-- Kopfkarte: Level, XP, Streak, Tagesziel -->
+        <LinearLayout
+            android:id="@+id/cardHero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_hero"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textLevelBadge"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:background="@drawable/bg_circle_level"
+                    android:gravity="center"
+                    android:textColor="@color/navy_900"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    tools:text="4" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textLevel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_on_dark"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        tools:text="Level 4" />
+
+                    <TextView
+                        android:id="@+id/textXp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_on_dark_muted"
+                        android:textSize="13sp"
+                        tools:text="120 / 250 XP bis Level 5" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textStreakChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_chip_on_dark"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="6dp"
+                    android:textColor="@color/text_on_dark"
+                    android:textSize="13sp"
+                    tools:text="🔥 5" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressXp"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="14dp"
+                android:max="100"
+                android:progressDrawable="@drawable/progress_xp"
+                tools:progress="48" />
+
+            <TextView
+                android:id="@+id/textStreak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/text_on_dark"
+                android:textSize="14sp"
+                tools:text="🔥 5 Tage in Folge" />
+
+            <LinearLayout
+                android:id="@+id/containerGoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical"
+                android:paddingVertical="4dp">
+
+                <TextView
+                    android:id="@+id/textGoal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_on_dark"
+                    android:textSize="14sp"
+                    tools:text="Tagesziel: 12 / 20 Fragen" />
+
+                <ProgressBar
+                    android:id="@+id/progressGoal"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_marginTop="8dp"
+                    android:max="100"
+                    android:progressDrawable="@drawable/progress_goal"
+                    tools:progress="60" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/hero_goal_hint"
+                    android:textColor="@color/text_on_dark_muted"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonQuickStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/amber_500"
+            android:text="@string/quick_start"
+            android:textColor="@color/navy_900"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="@string/quick_start_desc"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
 
         <LinearLayout
             android:id="@+id/cardBinnen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/bg_card"
             android:clickable="true"
             android:focusable="true"
             android:orientation="vertical"
-            android:padding="20dp">
+            android:padding="18dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -52,23 +195,41 @@
                 android:id="@+id/textBinnenCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
+                android:layout_marginTop="4dp"
                 android:textColor="@color/text_secondary"
                 android:textSize="14sp"
                 tools:text="213 Fragen" />
 
+            <ProgressBar
+                android:id="@+id/progressBinnen"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="10dp"
+                android:max="100"
+                android:progressDrawable="@drawable/progress_category"
+                tools:progress="35" />
+
+            <TextView
+                android:id="@+id/textBinnenProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                tools:text="35 % geübt" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/cardSee"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="14dp"
             android:background="@drawable/bg_card"
             android:clickable="true"
             android:focusable="true"
             android:orientation="vertical"
-            android:padding="20dp">
+            android:padding="18dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -82,23 +243,41 @@
                 android:id="@+id/textSeeCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
+                android:layout_marginTop="4dp"
                 android:textColor="@color/text_secondary"
                 android:textSize="14sp"
                 tools:text="233 Fragen" />
 
+            <ProgressBar
+                android:id="@+id/progressSee"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="10dp"
+                android:max="100"
+                android:progressDrawable="@drawable/progress_category"
+                tools:progress="12" />
+
+            <TextView
+                android:id="@+id/textSeeProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                tools:text="12 % geübt" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/cardCombined"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="14dp"
             android:background="@drawable/bg_card"
             android:clickable="true"
             android:focusable="true"
             android:orientation="vertical"
-            android:padding="20dp">
+            android:padding="18dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -112,10 +291,10 @@
                 android:id="@+id/textCombinedCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
+                android:layout_marginTop="4dp"
                 android:textColor="@color/text_secondary"
                 android:textSize="14sp"
-                tools:text="517 Fragen" />
+                tools:text="446 Fragen" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -125,15 +304,22 @@
                 android:textColor="@color/text_secondary"
                 android:textSize="12sp"
                 android:textStyle="italic" />
-
         </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonAchievements"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/achievements_button" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonStats"
             style="@style/Widget.Material3.Button.OutlinedButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="10dp"
             android:text="@string/stats_button" />
 
     </LinearLayout>

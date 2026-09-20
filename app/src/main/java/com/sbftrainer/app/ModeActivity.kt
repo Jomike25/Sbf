@@ -36,16 +36,13 @@ class ModeActivity : AppCompatActivity() {
         val hasExamMode = category != QuestionRepository.CATEGORY_ALL
         if (hasExamMode) {
             bogenNumbers = BogenRepository.bogenNumbers(this, category)
-            val bogenLabels = bogenNumbers.map { getString(R.string.mode_bogen_option_format, it) }
-            val bogenAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, bogenLabels)
-            bogenAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-            binding.spinnerBogen.adapter = bogenAdapter
             binding.textCountExam.text = getString(R.string.mode_bogen_count_format, bogenNumbers.size)
         } else {
             binding.cardModeExam.visibility = View.GONE
         }
 
         binding.cardModeAll.setOnClickListener { selectMode(QuizMode.ALL) }
+        binding.cardModeSmart.setOnClickListener { selectMode(QuizMode.SMART) }
         binding.cardModeMarked.setOnClickListener { selectMode(QuizMode.MARKED) }
         binding.cardModeWrong.setOnClickListener { selectMode(QuizMode.WRONG) }
         binding.cardModeStale.setOnClickListener { selectMode(QuizMode.STALE) }
@@ -53,17 +50,21 @@ class ModeActivity : AppCompatActivity() {
 
         binding.buttonStart.setOnClickListener { startTraining() }
 
-        selectMode(QuizMode.ALL)
+        selectMode(QuizMode.ALL, animate = false)
     }
 
     override fun onResume() {
         super.onResume()
         refreshCounts()
+        refreshBogenSpinner()
     }
 
     private fun refreshCounts() {
         binding.textCountAll.text = getString(
             R.string.mode_available_format, QuizSelector.availableCount(this, category, QuizMode.ALL)
+        )
+        binding.textCountSmart.text = getString(
+            R.string.mode_available_format, QuizSelector.availableCount(this, category, QuizMode.SMART)
         )
         binding.textCountMarked.text = getString(
             R.string.mode_available_format, QuizSelector.availableCount(this, category, QuizMode.MARKED)
@@ -76,23 +77,48 @@ class ModeActivity : AppCompatActivity() {
         )
     }
 
-    private fun selectMode(mode: QuizMode) {
+    /** Zeigt im Bogen-Menue, welche Boegen schon geuebt wurden. */
+    private fun refreshBogenSpinner() {
+        if (bogenNumbers.isEmpty()) return
+        val done = GamificationStore.examsCompletedCount(category)
+        val labels = bogenNumbers.map { number ->
+            if (GamificationStore.isExamCompleted(category, number)) {
+                getString(R.string.mode_bogen_option_done_format, number)
+            } else {
+                getString(R.string.mode_bogen_option_format, number)
+            }
+        }
+        val selected = binding.spinnerBogen.selectedItemPosition
+        val bogenAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, labels)
+        bogenAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        binding.spinnerBogen.adapter = bogenAdapter
+        if (selected in labels.indices) binding.spinnerBogen.setSelection(selected)
+
+        if (done > 0) {
+            binding.textExamDone.text =
+                getString(R.string.mode_exam_done_format, done, bogenNumbers.size)
+            binding.textExamDone.visibility = View.VISIBLE
+        } else {
+            binding.textExamDone.visibility = View.GONE
+        }
+    }
+
+    private fun selectMode(mode: QuizMode, animate: Boolean = true) {
         selectedMode = mode
-        binding.cardModeAll.setBackgroundResource(
-            if (mode == QuizMode.ALL) R.drawable.bg_option_selected else R.drawable.bg_option_default
+        val cards = mapOf(
+            QuizMode.ALL to binding.cardModeAll,
+            QuizMode.SMART to binding.cardModeSmart,
+            QuizMode.MARKED to binding.cardModeMarked,
+            QuizMode.WRONG to binding.cardModeWrong,
+            QuizMode.STALE to binding.cardModeStale,
+            QuizMode.EXAM to binding.cardModeExam
         )
-        binding.cardModeMarked.setBackgroundResource(
-            if (mode == QuizMode.MARKED) R.drawable.bg_option_selected else R.drawable.bg_option_default
-        )
-        binding.cardModeWrong.setBackgroundResource(
-            if (mode == QuizMode.WRONG) R.drawable.bg_option_selected else R.drawable.bg_option_default
-        )
-        binding.cardModeStale.setBackgroundResource(
-            if (mode == QuizMode.STALE) R.drawable.bg_option_selected else R.drawable.bg_option_default
-        )
-        binding.cardModeExam.setBackgroundResource(
-            if (mode == QuizMode.EXAM) R.drawable.bg_option_selected else R.drawable.bg_option_default
-        )
+        for ((cardMode, card) in cards) {
+            card.setBackgroundResource(
+                if (cardMode == mode) R.drawable.bg_option_selected else R.drawable.bg_option_default
+            )
+        }
+        if (animate) cards[mode]?.let { Feedback.pop(it, 1.02f) }
 
         val isExam = mode == QuizMode.EXAM
         binding.labelCount.visibility = if (isExam) View.GONE else View.VISIBLE

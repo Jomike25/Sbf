@@ -3,13 +3,27 @@
     <color name="navy_900">#0A2647</color>
     <color name="navy_700">#0D47A1</color>
     <color name="navy_500">#1565C0</color>
+    <color name="navy_100">#E3ECFA</color>
     <color name="amber_500">#FFA000</color>
     <color name="amber_700">#FF8F00</color>
+    <color name="amber_100">#FFF2D6</color>
     <color name="green_correct">#2E7D32</color>
+    <color name="green_100">#DFF5E1</color>
     <color name="red_wrong">#C62828</color>
+    <color name="red_100">#FBE1E1</color>
+    <color name="flame_500">#F4511E</color>
+    <color name="flame_100">#FFE3D6</color>
+    <color name="violet_500">#6A3DBF</color>
+    <color name="violet_100">#EDE4FB</color>
     <color name="background_light">#F4F6FA</color>
     <color name="surface_white">#FFFFFF</color>
     <color name="text_primary">#1B1F27</color>
     <color name="text_secondary">#5B6472</color>
+    <color name="text_on_dark">#FFFFFF</color>
+    <color name="text_on_dark_muted">#B9CCE6</color>
     <color name="outline">#D8DEE8</color>
+    <color name="locked_grey">#9AA3B0</color>
+    <color name="locked_surface">#EDEFF4</color>
+    <color name="track_light">#DCE3ED</color>
+    <color name="track_on_dark">#2A4E7E</color>
 </resources>
