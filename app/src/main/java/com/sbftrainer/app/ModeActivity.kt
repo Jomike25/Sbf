@@ -3,6 +3,7 @@ package com.sbftrainer.app
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -16,6 +17,7 @@ class ModeActivity : AppCompatActivity() {
     private var bogenNumbers: List<Int> = emptyList()
 
     private val countValues = listOf(10, 20, 50, QuizSelector.COUNT_ALL)
+    private val countIndexAll = countValues.indexOf(QuizSelector.COUNT_ALL)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,6 +34,12 @@ class ModeActivity : AppCompatActivity() {
         )
         countAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         binding.spinnerCount.adapter = countAdapter
+
+        setupStaleDaysSpinner()
+
+        if (category == QuestionRepository.CATEGORY_ALL) {
+            binding.textDescMarked.text = getString(R.string.mode_marked_desc_all)
+        }
 
         val hasExamMode = category != QuestionRepository.CATEGORY_ALL
         if (hasExamMode) {
@@ -61,6 +69,34 @@ class ModeActivity : AppCompatActivity() {
         refreshCounts()
     }
 
+    private fun setupStaleDaysSpinner() {
+        val staleAdapter = ArrayAdapter.createFromResource(
+            this, R.array.stale_day_options, android.R.layout.simple_spinner_item
+        )
+        staleAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        binding.spinnerStaleDays.adapter = staleAdapter
+        binding.spinnerStaleDays.setSelection(SettingsStore.staleDaysIndex(this), false)
+        binding.spinnerStaleDays.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                SettingsStore.setStaleDays(this@ModeActivity, SettingsStore.STALE_DAY_OPTIONS[position])
+                updateStaleDescription()
+                refreshCounts()
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>?) = Unit
+        }
+        updateStaleDescription()
+    }
+
+    private fun updateStaleDescription() {
+        val days = SettingsStore.getStaleDays(this)
+        binding.textDescStale.text = if (days == 1) {
+            getString(R.string.mode_stale_desc_one_day)
+        } else {
+            getString(R.string.mode_stale_desc_format, days)
+        }
+    }
+
     private fun refreshCounts() {
         binding.textCountAll.text = getString(
             R.string.mode_available_format, QuizSelector.availableCount(this, category, QuizMode.ALL)
@@ -77,6 +113,7 @@ class ModeActivity : AppCompatActivity() {
     }
 
     private fun selectMode(mode: QuizMode) {
+        val previousMode = selectedMode
         selectedMode = mode
         binding.cardModeAll.setBackgroundResource(
             if (mode == QuizMode.ALL) R.drawable.bg_option_selected else R.drawable.bg_option_default
@@ -94,11 +131,19 @@ class ModeActivity : AppCompatActivity() {
             if (mode == QuizMode.EXAM) R.drawable.bg_option_selected else R.drawable.bg_option_default
         )
 
+        // Markierte Fragen sollen standardmaessig komplett drankommen, nicht nur die ersten zehn.
+        if (mode == QuizMode.MARKED && previousMode != QuizMode.MARKED) {
+            binding.spinnerCount.setSelection(countIndexAll)
+        }
+
         val isExam = mode == QuizMode.EXAM
+        val isStale = mode == QuizMode.STALE
         binding.labelCount.visibility = if (isExam) View.GONE else View.VISIBLE
         binding.spinnerCount.visibility = if (isExam) View.GONE else View.VISIBLE
         binding.labelBogen.visibility = if (isExam) View.VISIBLE else View.GONE
         binding.spinnerBogen.visibility = if (isExam) View.VISIBLE else View.GONE
+        binding.labelStaleDays.visibility = if (isStale) View.VISIBLE else View.GONE
+        binding.spinnerStaleDays.visibility = if (isStale) View.VISIBLE else View.GONE
     }
 
     private fun startTraining() {

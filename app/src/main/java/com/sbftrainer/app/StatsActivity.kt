@@ -32,8 +32,56 @@ class StatsActivity : AppCompatActivity() {
 
     private fun rebuildStats() {
         binding.containerCategories.removeAllViews()
+        addCombinedCard()
         addCategoryCard(QuestionRepository.CATEGORY_BINNEN)
         addCategoryCard(QuestionRepository.CATEGORY_SEE)
+    }
+
+    /** Kurzuebersicht ueber beide Kataloge zusammen - inklusive aller Markierungen. */
+    private fun addCombinedCard() {
+        val all = QuestionRepository.getAll(this, QuestionRepository.CATEGORY_ALL)
+        val answered = all.count { ProgressStore.getStat(it.id).timesShown > 0 }
+        val marked = all.count { ProgressStore.getStat(it.id).marked }
+        val totalShown = all.sumOf { ProgressStore.getStat(it.id).timesShown }
+        val totalCorrect = all.sumOf { ProgressStore.getStat(it.id).timesCorrect }
+        val accuracy = if (totalShown > 0) totalCorrect * 100 / totalShown else 0
+
+        val card = newCard()
+
+        val titleView = TextView(this)
+        titleView.text = QuestionRepository.categoryLabel(this, QuestionRepository.CATEGORY_ALL)
+        titleView.textSize = 18f
+        titleView.setTypeface(titleView.typeface, Typeface.BOLD)
+        titleView.setTextColor(getColor(R.color.navy_700))
+        card.addView(titleView)
+
+        card.addView(infoLine(getString(R.string.stats_answered_format, answered, all.size), dp(8)))
+        card.addView(infoLine(getString(R.string.stats_total_marked_format, marked), dp(4)))
+        card.addView(infoLine(getString(R.string.stats_accuracy_format, accuracy), dp(4)))
+
+        binding.containerCategories.addView(card)
+    }
+
+    private fun newCard(): LinearLayout {
+        val card = LinearLayout(this)
+        card.orientation = LinearLayout.VERTICAL
+        card.setBackgroundResource(R.drawable.bg_card)
+        val pad = dp(18)
+        card.setPadding(pad, pad, pad, pad)
+        val cardParams = LinearLayout.LayoutParams(
+            ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT
+        )
+        cardParams.topMargin = dp(16)
+        card.layoutParams = cardParams
+        return card
+    }
+
+    private fun infoLine(text: String, topPadding: Int): TextView {
+        val view = TextView(this)
+        view.text = text
+        view.setTextColor(getColor(R.color.text_secondary))
+        view.setPadding(0, topPadding, 0, 0)
+        return view
     }
 
     private fun addCategoryCard(category: String) {
@@ -47,16 +95,7 @@ class StatsActivity : AppCompatActivity() {
             .sortedByDescending { ProgressStore.getStat(it.id).timesWrong - ProgressStore.getStat(it.id).timesCorrect }
             .take(10)
 
-        val card = LinearLayout(this)
-        card.orientation = LinearLayout.VERTICAL
-        card.setBackgroundResource(R.drawable.bg_card)
-        val pad = dp(18)
-        card.setPadding(pad, pad, pad, pad)
-        val cardParams = LinearLayout.LayoutParams(
-            ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT
-        )
-        cardParams.topMargin = dp(16)
-        card.layoutParams = cardParams
+        val card = newCard()
 
         val titleView = TextView(this)
         titleView.text = QuestionRepository.categoryLabel(this, category)

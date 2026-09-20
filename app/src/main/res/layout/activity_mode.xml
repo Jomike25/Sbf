@@ -73,6 +73,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/textDescMarked"
                 android:layout_marginTop="4dp"
                 android:text="@string/mode_marked_desc"
                 android:textColor="@color/text_secondary"
@@ -153,8 +154,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/textDescStale"
                 android:layout_marginTop="4dp"
-                android:text="@string/mode_stale_desc"
+                android:text="@string/mode_stale_desc_one_day"
                 android:textColor="@color/text_secondary"
                 android:textSize="13sp" />
 
@@ -210,6 +212,26 @@
                 android:textSize="12sp"
                 tools:text="15 Prüfungsbögen" />
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/labelStaleDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/mode_stale_days_label"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/spinnerStaleDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_option_default"
+            android:padding="12dp"
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/labelCount"

@@ -9,6 +9,16 @@
         <item>Alle verfügbaren</item>
     </string-array>
 
+    <string-array name="stale_day_options">
+        <item>1 Tag</item>
+        <item>2 Tage</item>
+        <item>3 Tage</item>
+        <item>5 Tage</item>
+        <item>7 Tage</item>
+        <item>14 Tage</item>
+        <item>30 Tage</item>
+    </string-array>
+
     <string name="home_title">SBF Trainer</string>
     <string name="home_subtitle">Übungsfragen für den Sportbootführerschein</string>
     <string name="category_binnen">SBF Binnen</string>
@@ -23,10 +33,13 @@
     <string name="mode_all_desc">Komplettes Training über den gesamten Fragenkatalog</string>
     <string name="mode_marked">Markierte Fragen</string>
     <string name="mode_marked_desc">Nur die von dir markierten Fragen</string>
+    <string name="mode_marked_desc_all">Alle markierten Fragen aus Binnen und See zusammen</string>
     <string name="mode_wrong">Oft falsch beantwortet</string>
     <string name="mode_wrong_desc">Fokus auf deine Schwachstellen</string>
     <string name="mode_stale">Lange nicht geübt</string>
-    <string name="mode_stale_desc">Fragen, die seit mind. 3 Tagen nicht geübt wurden (oder noch nie)</string>
+    <string name="mode_stale_desc_format">Fragen, die seit mind. %1$d Tagen nicht geübt wurden (oder noch nie)</string>
+    <string name="mode_stale_desc_one_day">Fragen, die seit mind. 1 Tag nicht geübt wurden (oder noch nie)</string>
+    <string name="mode_stale_days_label">Ab wann gilt eine Frage als „lange nicht geübt“?</string>
     <string name="mode_exam">Prüfungsbogen simulieren</string>
     <string name="mode_exam_desc">Einen der 15 echten Prüfungsbögen komplett und in Originalreihenfolge üben</string>
     <string name="mode_available_format">%1$d verfügbar</string>
@@ -63,6 +76,7 @@
     <string name="stats_accuracy_format">Trefferquote: %1$d %%</string>
     <string name="stats_weakest_header">Deine Schwachstellen</string>
     <string name="stats_no_data">Noch keine Übungsdaten vorhanden</string>
+    <string name="stats_total_marked_format">%1$d markiert (Binnen + See)</string>
     <string name="stats_reset_button">Fortschritt zurücksetzen</string>
     <string name="stats_reset_title">Fortschritt wirklich zurücksetzen?</string>
     <string name="stats_reset_message">Alle Statistiken und Markierungen werden unwiderruflich gelöscht.</string>
