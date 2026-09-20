@@ -8,9 +8,14 @@ object QuizSelector {
     const val STALE_THRESHOLD_MILLIS = 3L * 24 * 60 * 60 * 1000
     const val QUICK_COUNT = 10
 
-    fun poolForMode(context: Context, category: String, mode: QuizMode): List<Question> {
+    fun poolForMode(
+        context: Context,
+        category: String,
+        mode: QuizMode,
+        filter: QuestionFilter = QuestionFilter.ALL
+    ): List<Question> {
         val all = QuestionRepository.getAll(context, category)
-        return when (mode) {
+        val byMode = when (mode) {
             QuizMode.ALL, QuizMode.SMART, QuizMode.EXAM -> all
             QuizMode.MARKED -> all.filter { ProgressStore.getStat(it.id).marked }
             QuizMode.WRONG -> all.filter { ProgressStore.getStat(it.id).timesWrong > 0 }
@@ -22,6 +27,9 @@ object QuizSelector {
                 }
             }
         }
+        // Der Pruefungsbogen bleibt immer vollstaendig, sonst waere es kein Bogen mehr
+        if (mode == QuizMode.EXAM || filter == QuestionFilter.ALL) return byMode
+        return byMode.filter { filter.matches(it) }
     }
 
     fun examSession(context: Context, category: String, bogenNumber: Int): List<Question> {
@@ -30,11 +38,25 @@ object QuizSelector {
         return ids.mapNotNull { byId[it] }
     }
 
-    fun availableCount(context: Context, category: String, mode: QuizMode): Int =
-        poolForMode(context, category, mode).size
+    fun availableCount(
+        context: Context,
+        category: String,
+        mode: QuizMode,
+        filter: QuestionFilter = QuestionFilter.ALL
+    ): Int = poolForMode(context, category, mode, filter).size
 
-    fun buildSession(context: Context, category: String, mode: QuizMode, requestedCount: Int): List<Question> {
-        val pool = poolForMode(context, category, mode)
+    /** Anzahl der Fragen einer Kategorie, auf die dieser Unterkategorie-Filter passt. */
+    fun filterCount(context: Context, category: String, filter: QuestionFilter): Int =
+        QuestionRepository.getAll(context, category).count { filter.matches(it) }
+
+    fun buildSession(
+        context: Context,
+        category: String,
+        mode: QuizMode,
+        requestedCount: Int,
+        filter: QuestionFilter = QuestionFilter.ALL
+    ): List<Question> {
+        val pool = poolForMode(context, category, mode, filter)
         val ordered = when (mode) {
             QuizMode.SMART -> smartOrder(pool)
             QuizMode.WRONG -> pool.sortedByDescending {

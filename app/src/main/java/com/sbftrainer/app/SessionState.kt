@@ -10,6 +10,7 @@ object SessionState {
     var questions: List<Question> = emptyList()
     var correctCount: Int = 0
     var bogenNumber: Int? = null
+    var filter: QuestionFilter = QuestionFilter.ALL
     val missed = mutableListOf<Question>()
 
     /** Laufende Serie richtiger Antworten und die beste Serie dieser Runde. */
@@ -31,12 +32,19 @@ object SessionState {
 
     var newAchievements: List<Achievement> = emptyList()
 
-    fun start(category: String, mode: QuizMode, questions: List<Question>, bogenNumber: Int? = null) {
+    fun start(
+        category: String,
+        mode: QuizMode,
+        questions: List<Question>,
+        bogenNumber: Int? = null,
+        filter: QuestionFilter = QuestionFilter.ALL
+    ) {
         this.category = category
         this.mode = mode
         this.questions = questions
         this.correctCount = 0
         this.bogenNumber = bogenNumber
+        this.filter = filter
         this.missed.clear()
         this.combo = 0
         this.bestCombo = 0
@@ -57,7 +65,7 @@ object SessionState {
     fun startRetryOfMissed(): Boolean {
         val retry = missed.toList()
         if (retry.isEmpty()) return false
-        start(category, QuizMode.WRONG, retry)
+        start(category, QuizMode.WRONG, retry, null, filter)
         return true
     }
 

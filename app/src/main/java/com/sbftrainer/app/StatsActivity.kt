@@ -37,6 +37,7 @@ class StatsActivity : AppCompatActivity() {
         GamificationStore.refreshStreak()
         rebuildOverview()
         rebuildWeek()
+        rebuildTopics()
         rebuildStats()
     }
 
@@ -122,6 +123,68 @@ class StatsActivity : AppCompatActivity() {
 
             binding.containerWeek.addView(column)
         }
+    }
+
+    /** Bilanz je Unterkategorie ueber beide Fragenkataloge. */
+    private fun rebuildTopics() {
+        binding.containerTopics.removeAllViews()
+        val all = QuestionRepository.getAll(this, QuestionRepository.CATEGORY_ALL)
+        val rows = mutableListOf<Pair<String, List<Question>>>()
+
+        val images = all.filter { it.hasImage }
+        if (images.isNotEmpty()) {
+            val label = QuestionFilter.IMAGES.emoji + "  " + getString(QuestionFilter.IMAGES.labelRes)
+            rows.add(label to images)
+        }
+        for (topic in Topics.all) {
+            val questions = all.filter { Topics.of(it) == topic }
+            if (questions.isEmpty()) continue
+            rows.add(topic.emoji + "  " + getString(topic.labelRes) to questions)
+        }
+
+        for ((index, row) in rows.withIndex()) {
+            binding.containerTopics.addView(buildTopicRow(row.first, row.second, index == 0))
+        }
+    }
+
+    private fun buildTopicRow(label: String, questions: List<Question>, first: Boolean): View {
+        val practised = questions.count { ProgressStore.getStat(it.id).timesShown > 0 }
+        val shown = questions.sumOf { ProgressStore.getStat(it.id).timesShown }
+        val correct = questions.sumOf { ProgressStore.getStat(it.id).timesCorrect }
+        val accuracy = if (shown > 0) correct * 100 / shown else 0
+
+        val container = LinearLayout(this)
+        container.orientation = LinearLayout.VERTICAL
+        container.setPadding(0, if (first) 0 else dp(14), 0, 0)
+
+        val title = TextView(this)
+        title.text = label
+        title.textSize = 14f
+        title.setTypeface(title.typeface, Typeface.BOLD)
+        title.setTextColor(getColor(R.color.text_primary))
+        container.addView(title)
+
+        val detail = TextView(this)
+        detail.text = if (practised == 0) {
+            getString(R.string.stats_topic_detail_fresh_format, questions.size)
+        } else {
+            getString(R.string.stats_topic_detail_format, practised, questions.size, accuracy)
+        }
+        detail.textSize = 12f
+        detail.setTextColor(getColor(R.color.text_secondary))
+        detail.setPadding(0, dp(2), 0, 0)
+        container.addView(detail)
+
+        val bar = ProgressBar(this, null, android.R.attr.progressBarStyleHorizontal)
+        bar.max = 100
+        bar.progressDrawable = getDrawable(R.drawable.progress_category)
+        bar.progress = if (questions.isNotEmpty()) practised * 100 / questions.size else 0
+        val barParams = LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, dp(6))
+        barParams.topMargin = dp(6)
+        bar.layoutParams = barParams
+        container.addView(bar)
+
+        return container
     }
 
     private fun rebuildStats() {
@@ -225,6 +288,7 @@ class StatsActivity : AppCompatActivity() {
                 GamificationStore.resetAll()
                 rebuildOverview()
                 rebuildWeek()
+                rebuildTopics()
                 rebuildStats()
             }
             .setNegativeButton(R.string.stats_reset_cancel, null)

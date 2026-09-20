@@ -35,9 +35,15 @@ class QuizActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         val categoryLabel = QuestionRepository.categoryLabel(this, SessionState.category)
-        title = SessionState.bogenNumber?.let {
-            getString(R.string.mode_bogen_option_format, it) + " – " + categoryLabel
-        } ?: categoryLabel
+        val filter = SessionState.filter
+        title = when {
+            SessionState.bogenNumber != null ->
+                getString(R.string.mode_bogen_option_format, SessionState.bogenNumber) +
+                    " – " + categoryLabel
+            filter != QuestionFilter.ALL ->
+                categoryLabel + " · " + filter.emoji + " " + getString(filter.labelRes)
+            else -> categoryLabel
+        }
 
         binding.optionA.setOnClickListener { selectOption(0) }
         binding.optionB.setOnClickListener { selectOption(1) }

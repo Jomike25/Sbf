@@ -164,4 +164,27 @@
     <string name="ach_exam_all_desc">Alle Prüfungsbögen einer Kategorie geübt</string>
     <string name="ach_accuracy_90">Treffsicher</string>
     <string name="ach_accuracy_90_desc">90 %% Trefferquote bei mind. 100 Antworten</string>
+
+    <!-- Unterkategorien -->
+    <string name="mode_topic_label">Unterkategorie</string>
+    <string name="mode_topic_hint">Themen werden automatisch über Stichwörter im Fragetext zugeordnet – das ist eine Hilfe zum Üben, keine amtliche Einteilung.</string>
+    <string name="mode_topic_exam_hint">Im Prüfungsbogen-Modus wird immer der komplette Bogen geübt.</string>
+    <string name="filter_chip_format">%1$s %2$s (%3$d)</string>
+    <string name="filter_all">Alle Fragen</string>
+    <string name="filter_images">Bildfragen</string>
+    <string name="filter_images_with_file">Bildfragen mit Abbildung</string>
+    <string name="topic_notfall">Notfall &amp; Sicherheit</string>
+    <string name="topic_zeichen">Schifffahrtszeichen &amp; Feuer</string>
+    <string name="topic_lichter">Lichter &amp; Signale</string>
+    <string name="topic_verhalten">Verhalten &amp; Ausweichregeln</string>
+    <string name="topic_wetter">Wetter &amp; Wind</string>
+    <string name="topic_navigation">Navigation &amp; Gezeiten</string>
+    <string name="topic_technik">Motor &amp; Technik</string>
+    <string name="topic_seemannschaft">Seemannschaft &amp; Manöver</string>
+    <string name="topic_recht">Recht, Papiere &amp; Umwelt</string>
+    <string name="topic_grundlagen">Grundbegriffe</string>
+    <string name="topic_sonstige">Sonstiges</string>
+    <string name="stats_topics_header">Themen</string>
+    <string name="stats_topic_detail_format">%1$d / %2$d geübt · %3$d %% richtig</string>
+    <string name="stats_topic_detail_fresh_format">%1$d Fragen · noch nicht geübt</string>
 </resources>

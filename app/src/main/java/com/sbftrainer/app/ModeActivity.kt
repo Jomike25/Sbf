@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.chip.Chip
 import com.sbftrainer.app.databinding.ActivityModeBinding
 
 class ModeActivity : AppCompatActivity() {
@@ -13,6 +14,7 @@ class ModeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityModeBinding
     private lateinit var category: String
     private var selectedMode: QuizMode = QuizMode.ALL
+    private var selectedFilter: QuestionFilter = QuestionFilter.ALL
     private var bogenNumbers: List<Int> = emptyList()
 
     private val countValues = listOf(10, 20, 50, QuizSelector.COUNT_ALL)
@@ -50,6 +52,7 @@ class ModeActivity : AppCompatActivity() {
 
         binding.buttonStart.setOnClickListener { startTraining() }
 
+        buildTopicChips()
         selectMode(QuizMode.ALL, animate = false)
     }
 
@@ -59,21 +62,50 @@ class ModeActivity : AppCompatActivity() {
         refreshBogenSpinner()
     }
 
+    /** Chips fuer die Unterkategorien; leere Kategorien werden weggelassen. */
+    private fun buildTopicChips() {
+        binding.chipGroupTopics.removeAllViews()
+        for (filter in QuestionFilter.all()) {
+            val count = QuizSelector.filterCount(this, category, filter)
+            if (count == 0) continue
+            val chip = layoutInflater.inflate(
+                R.layout.item_topic_chip, binding.chipGroupTopics, false
+            ) as Chip
+            chip.id = View.generateViewId()
+            chip.text = getString(
+                R.string.filter_chip_format, filter.emoji, getString(filter.labelRes), count
+            )
+            chip.tag = filter
+            chip.isChecked = filter == selectedFilter
+            binding.chipGroupTopics.addView(chip)
+        }
+        binding.chipGroupTopics.setOnCheckedStateChangeListener { group, checkedIds ->
+            val chip = checkedIds.firstOrNull()?.let { group.findViewById<Chip>(it) }
+            selectedFilter = chip?.tag as? QuestionFilter ?: QuestionFilter.ALL
+            refreshCounts()
+        }
+    }
+
     private fun refreshCounts() {
         binding.textCountAll.text = getString(
-            R.string.mode_available_format, QuizSelector.availableCount(this, category, QuizMode.ALL)
+            R.string.mode_available_format,
+            QuizSelector.availableCount(this, category, QuizMode.ALL, selectedFilter)
         )
         binding.textCountSmart.text = getString(
-            R.string.mode_available_format, QuizSelector.availableCount(this, category, QuizMode.SMART)
+            R.string.mode_available_format,
+            QuizSelector.availableCount(this, category, QuizMode.SMART, selectedFilter)
         )
         binding.textCountMarked.text = getString(
-            R.string.mode_available_format, QuizSelector.availableCount(this, category, QuizMode.MARKED)
+            R.string.mode_available_format,
+            QuizSelector.availableCount(this, category, QuizMode.MARKED, selectedFilter)
         )
         binding.textCountWrong.text = getString(
-            R.string.mode_available_format, QuizSelector.availableCount(this, category, QuizMode.WRONG)
+            R.string.mode_available_format,
+            QuizSelector.availableCount(this, category, QuizMode.WRONG, selectedFilter)
         )
         binding.textCountStale.text = getString(
-            R.string.mode_available_format, QuizSelector.availableCount(this, category, QuizMode.STALE)
+            R.string.mode_available_format,
+            QuizSelector.availableCount(this, category, QuizMode.STALE, selectedFilter)
         )
     }
 
@@ -121,6 +153,11 @@ class ModeActivity : AppCompatActivity() {
         if (animate) cards[mode]?.let { Feedback.pop(it, 1.02f) }
 
         val isExam = mode == QuizMode.EXAM
+        binding.labelTopic.visibility = if (isExam) View.GONE else View.VISIBLE
+        binding.chipGroupTopics.visibility = if (isExam) View.GONE else View.VISIBLE
+        binding.textTopicHint.text = getString(
+            if (isExam) R.string.mode_topic_exam_hint else R.string.mode_topic_hint
+        )
         binding.labelCount.visibility = if (isExam) View.GONE else View.VISIBLE
         binding.spinnerCount.visibility = if (isExam) View.GONE else View.VISIBLE
         binding.labelBogen.visibility = if (isExam) View.VISIBLE else View.GONE
@@ -140,14 +177,15 @@ class ModeActivity : AppCompatActivity() {
             return
         }
 
-        val available = QuizSelector.availableCount(this, category, selectedMode)
+        val available = QuizSelector.availableCount(this, category, selectedMode, selectedFilter)
         if (available == 0) {
             Toast.makeText(this, R.string.mode_none_available, Toast.LENGTH_LONG).show()
             return
         }
         val requestedCount = countValues[binding.spinnerCount.selectedItemPosition]
-        val questions = QuizSelector.buildSession(this, category, selectedMode, requestedCount)
-        SessionState.start(category, selectedMode, questions)
+        val questions =
+            QuizSelector.buildSession(this, category, selectedMode, requestedCount, selectedFilter)
+        SessionState.start(category, selectedMode, questions, null, selectedFilter)
 
         startActivity(Intent(this, QuizActivity::class.java))
     }
