@@ -11,7 +11,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Luv ist die Seite, von der der Wind herkommt - du blickst dem Wind entgegen.",
+      "Falsch: Das beschreibt Steuerbord, das hat mit der Fahrtrichtung zu tun, nicht mit dem Wind.",
+      "Falsch: Das ist die windabgewandte Seite - die heißt Lee, nicht Luv.",
+      "Falsch: Das beschreibt Backbord, das hat mit der Fahrtrichtung zu tun, nicht mit dem Wind."
+    ],
+    "mnemonic": "Luv kommt von 'Luft' - da, wo der Wind herweht, bläst er dir ins Gesicht."
   },
   {
     "id": "binnen-2",
@@ -25,7 +32,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-2.png"
+    "image": "images/binnen/binnen-2.png",
+    "optionExplanations": [
+      "Falsch: Ein Ankerlieger über 100 m gibt ein eigenes Kennzeichnungssignal, das hat mit diesem Warnsignal nichts zu tun.",
+      "Richtig: Dieses Signal ist das Bleib-weg-Signal - es fordert andere Fahrzeuge auf, den Gefahrenbereich sofort zu verlassen.",
+      "Falsch: Für einen langen, manövrierbehinderten Schleppverband gibt es ein eigenes Kennzeichnungssignal, nicht dieses hier.",
+      "Falsch: Das allgemeine Gefahr- und Warnsignal hat eine andere, eigene Tonfolge und wird in anderen Situationen gegeben."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-3",
@@ -39,7 +53,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-3.png"
+    "image": "images/binnen/binnen-3.png",
+    "optionExplanations": [
+      "Falsch: Das wäre ein Begegnungsverbot mit einer Längenbeschränkung, dieses Tafelzeichen verbietet aber etwas anderes.",
+      "Falsch: Ein Überholverbot gilt grundsätzlich für alle Fahrzeuge und nicht nur für kleine unter 20 m Länge.",
+      "Falsch: Ein Begegnungsverbot untersagt das Treffen von Gegenverkehr, dieses Tafelzeichen bezieht sich aber auf etwas anderes.",
+      "Richtig: Dieses Tafelzeichen bedeutet Überholverbot - du darfst hier kein anderes Fahrzeug überholen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-4",
@@ -53,7 +74,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Umsichtiges Fahren nach Verkehrsvorschriften dient der Sicherheit, ist aber keine spezielle Maßnahme zum Schutz von Natur und Umwelt.",
+      "Falsch: Vorausschauendes Ausweichen betrifft die Verkehrssicherheit, sagt aber nichts über den Schutz von Pflanzen und Tieren in Gewässern aus.",
+      "Richtig: Die 'Zehn goldenen Regeln für das Verhalten von Wassersportlern in der Natur' sind das anerkannte Merkblatt für umweltbewusstes Verhalten.",
+      "Falsch: Der Name des Merkblatts ist leicht verändert - richtig heißt es 'Zehn goldene Regeln', nicht 'Zehn Grundregeln für den Wassersport'."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-5",
@@ -67,7 +95,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Beim reinen Kurshalten auf geradem Kurs spielt die Drehrichtung des Propellers kaum eine Rolle.",
+      "Richtig: Die Drehrichtung erzeugt einen Radeffekt, der das Heck seitlich versetzt - das musst du bei jedem Manöver einkalkulieren.",
+      "Falsch: Beim Begegnen zählt vor allem die Ausweichregel nach der Verkehrsvorschrift, nicht die Propellerdrehrichtung.",
+      "Falsch: Beim Überholen richtet sich das Verhalten nach den Vorfahrtsregeln, die Propellerdrehrichtung ist dabei zweitrangig."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-6",
@@ -81,7 +116,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Volle Tanks und ein geladenes Bordnetz sind nicht die entscheidende Sicherheitsmaßnahme beim Verlassen des Bootes.",
+      "Falsch: Den Hafenmeister zu informieren ist nett, ersetzt aber nicht die technischen Sicherungsmaßnahmen am Fahrzeug selbst.",
+      "Richtig: Seeventile geschlossen und Hauptschalter aus verhindern, dass unbemerkt Wasser eindringt oder ein elektrischer Defekt einen Brand auslöst.",
+      "Falsch: Nur den Tagestank zu schließen und den Filter zu entwässern reicht als Sicherung für längere Abwesenheit nicht aus."
+    ],
+    "mnemonic": "Zu Hause drehst du auch Wasser und Strom ab, bevor du in den Urlaub fährst - am Boot heißt das: Seeventile zu, Hauptschalter aus."
   },
   {
     "id": "binnen-7",
@@ -95,7 +137,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Propan und Butan bilden nicht mit Wasser, sondern mit der Luft ein explosives Gemisch.",
+      "Richtig: Beide Gase sind schwerer als Luft, sinken in die Bilge und können sich dort mit Luft zu einem explosiven Gemisch verbinden.",
+      "Falsch: Propan und Butan sind schwerer als Luft, nicht leichter - deshalb sammeln sie sich unten im Boot statt zu entweichen.",
+      "Falsch: Der Vergleich mit Wasser ist hier falsch, entscheidend ist, dass die Gase schwerer als Luft sind und sich mit ihr mischen."
+    ],
+    "mnemonic": "Schwer wie Blei sinken Propan und Butan nach unten in die Bilge - genau da wird es gefährlich."
   },
   {
     "id": "binnen-8",
@@ -109,7 +158,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Eine nur mittelbare, also entfernte oder denkbare Gefahr reicht nicht aus, um von den Regeln abzuweichen.",
+      "Falsch: Eine normale Begegnung ist ein alltägliches Verkehrsereignis und für sich genommen keine Gefahr, die ein Abweichen rechtfertigt.",
+      "Richtig: Nur bei einer unmittelbar, also akut drohenden Gefahr für sich oder andere darf von den Verkehrsregeln abgewichen werden.",
+      "Falsch: Ein gewöhnlicher Überholvorgang ist kein Ausnahmefall und rechtfertigt für sich allein kein Abweichen von den Regeln."
+    ],
+    "mnemonic": "Nur wenn es wirklich brennt, darfst du die Regel brechen - eine bloß denkbare Gefahr reicht nicht."
   },
   {
     "id": "binnen-9",
@@ -123,7 +179,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Binnenschiffsuntersuchungsordnung regelt die technische Zulassung von Fahrzeugen, nicht die allgemeinen Verkehrsregeln.",
+      "Richtig: Die allgemeinen Verkehrsregeln stehen in der Binnenschifffahrtsstraßen-Ordnung und, speziell für den Rhein, in der Rheinschifffahrtspolizeiverordnung.",
+      "Falsch: Diese beiden Verordnungen regeln speziell Wassermotorräder und Wasserski, nicht die allgemeinen Verkehrsregeln für Binnenwasserstraßen und Rhein.",
+      "Falsch: Diese Verordnungen gelten für Mosel und Donau, nicht allgemein für Binnenwasserstraßen und den Rhein."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-10",
@@ -137,7 +200,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Diese beiden Verordnungen betreffen die Mosel und die technische Schiffsuntersuchung, nicht speziell Wassermotorräder oder Wasserski.",
+      "Falsch: Das sind die allgemeinen Verkehrsregelwerke, spezielle Regeln für Wassermotorräder und Wasserski findest du woanders.",
+      "Richtig: Für Wassermotorräder und Wasserskilaufen gibt es eigene, speziell dafür geschaffene Verordnungen.",
+      "Falsch: Diese Verordnungen regeln den allgemeinen Verkehr auf Mosel und Donau, nicht speziell Wassermotorräder oder Wasserski."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-11",
@@ -151,7 +221,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das beschreibt einfach die Wasserstraße zwischen den Ufern, nicht speziell das Fahrwasser als genutzten Verkehrsbereich.",
+      "Richtig: Fahrwasser ist der Teil der Wasserstraße, der den örtlichen Umständen nach tatsächlich vom durchgehenden Schiffsverkehr benutzt wird.",
+      "Falsch: Eine feste Tiefenangabe wie 2,50 m gehört nicht zur Definition des Fahrwassers, dafür gibt es keine solche Zahl.",
+      "Falsch: Das beschreibt die Fahrrinne mit vorgehaltenen Breiten und Tiefen, nicht das allgemeinere Fahrwasser."
+    ],
+    "mnemonic": "Fahrwasser wird gefahren, Fahrrinne wird vermessen - merk dir den Unterschied an den Wortstämmen."
   },
   {
     "id": "binnen-12",
@@ -165,7 +242,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Hochwassermarke I führt nicht zu einem generellen Nachtfahrverbot, sondern zu anderen, konkreteren Einschränkungen.",
+      "Falsch: Ein reines Überholverbot ist bei dieser Marke nicht die typische Folge, entscheidend ist etwas anderes.",
+      "Richtig: Bei Hochwassermarke I gelten meist eine Geschwindigkeitsbeschränkung und ein Fahrverbot für Fahrzeuge ohne Sprechfunk.",
+      "Falsch: Eine komplette Einstellung der Schifffahrt ist eher bei höheren Hochwassermarken der Fall, nicht schon bei Marke I."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-13",
@@ -179,7 +263,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Grüne Spitztonnen kennzeichnen zwar richtig die Steuerbordseite des Bergfahrers, aber diese liegt an der linken, nicht der rechten Fahrrinnenseite.",
+      "Falsch: Rote Stumpftonnen kennzeichnen die Backbordseite des Bergfahrers, das ist die falsche Zuordnung von Farbe und Seite hier.",
+      "Falsch: Sowohl die Seite als auch die Tonnenfarbe sind hier vertauscht - an der Steuerbordseite des Bergfahrers stehen grüne, nicht rote Tonnen.",
+      "Richtig: Der Bergfahrer hat an seiner Steuerbordseite die linke Fahrrinnenseite, die durch grüne Spitztonnen oder Schwimmstangen gekennzeichnet ist."
+    ],
+    "mnemonic": "Der Bergfahrer fährt der Strömung entgegen und dreht sich sozusagen um 180 Grad - was talwärts links ist, hat er an seiner rechten Steuerbordseite."
   },
   {
     "id": "binnen-14",
@@ -193,7 +284,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das grüne Zeichen mit Kegel zeigt ein Hindernis an, nicht einfach nur den normalen Fahrrinnenrand, und das an der falschen Seite.",
+      "Richtig: Der grüne Kegel mit Spitze nach oben auf grün-weißem Grund kennzeichnet ein Hindernis an der linken Seite der Wasserstraße.",
+      "Falsch: Dieses Zeichen mit dem zusätzlichen Kegel-Toppzeichen markiert ein Hindernis, nicht nur den gewöhnlichen Rand der Fahrrinne.",
+      "Falsch: Grün steht für die linke, nicht die rechte Seite der Wasserstraße - die Seite ist hier vertauscht."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-15",
@@ -207,7 +305,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-15.png"
+    "image": "images/binnen/binnen-15.png",
+    "optionExplanations": [
+      "Falsch: Die Tafeln markieren die empfohlene Durchfahrtsöffnung selbst, sie verbieten nicht die Durchfahrt genau dort.",
+      "Falsch: Diese Tafeln zeigen gerade an, dass hier kein Gegenverkehr zu erwarten ist, nicht dass er erlaubt ist.",
+      "Falsch: Die Tafeln bedeuten eine Empfehlung ohne Gegenverkehr, nicht eine freigegebene Durchfahrt in beide Richtungen gleichzeitig.",
+      "Richtig: Diese Tafeln zeigen die empfohlene Brückendurchfahrt an, bei der kein Gegenverkehr zu erwarten ist."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-16",
@@ -221,7 +326,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Kleinfahrzeuge fahren nicht vor den großen Fahrzeugen und nicht einfach ohne Aufforderung der Schleusenaufsicht ein.",
+      "Richtig: Kleinfahrzeuge fahren erst nach den größeren Fahrzeugen und erst nach Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
+      "Falsch: Ohne Aufforderung und vor den größeren Fahrzeugen einzufahren widerspricht der üblichen Reihenfolge beim gemeinsamen Schleusen.",
+      "Falsch: Die Reihenfolge nach den größeren Fahrzeugen stimmt, aber die Einfahrt erfolgt nach und nicht ohne Aufforderung der Schleusenaufsicht."
+    ],
+    "mnemonic": "In der Schleuse gilt: erst die Großen, dann die Kleinen - und erst auf ein Zeichen der Aufsicht hin."
   },
   {
     "id": "binnen-17",
@@ -235,7 +347,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-17.png"
+    "image": "images/binnen/binnen-17.png",
+    "optionExplanations": [
+      "Falsch: Fahrzeuge der Überwachungsbehörden zeigen ein eigenes Blaulicht-Zeichen, das mit dieser Gefahrgutkennzeichnung nichts zu tun hat.",
+      "Richtig: Dieses Zeichen kennzeichnet ein Fahrzeug mit gesundheitsschädlichen Stoffen an Bord, mit einem Sicherheitsabstand von 50 m beim Stillliegen.",
+      "Falsch: Für explosive Stoffe gilt ein größerer Abstand von 100 m und ein anderes Zeichen mit mehr blauen Kegeln bzw. Lichtern.",
+      "Falsch: Für brennbare Stoffe reicht meist ein kleinerer Abstand von nur 10 m und ein Zeichen mit weniger blauen Kegeln bzw. Lichtern."
+    ],
+    "mnemonic": "Je mehr blaue Kegel oder Lichter, desto größer die Gefahr und der Abstand: einer steht für brennbar (10 m), zwei für gesundheitsschädlich (50 m), drei für explosiv (100 m)."
   },
   {
     "id": "binnen-18",
@@ -249,7 +368,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: 10 m ist deutlich zu kurz, die Grenze für ein Kleinfahrzeug liegt erst bei 20 m.",
+      "Falsch: 18 m ist nicht der richtige Grenzwert, die maßgebliche Länge liegt bei 20 m.",
+      "Richtig: Ab 20 m Länge gilt ein Sportboot nicht mehr als Kleinfahrzeug im Sinne der Binnenschifffahrtsstraßen-Ordnung.",
+      "Falsch: 15 m ist zu niedrig angesetzt, die entscheidende Grenze für Kleinfahrzeuge liegt bei 20 m."
+    ],
+    "mnemonic": "Unter 20 Metern bist du klein und fein - ab 20 zählst du zu den Großen."
   },
   {
     "id": "binnen-19",
@@ -263,7 +389,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Ein Kleinfahrzeug ohne Maschinenantrieb muss mindestens ein weißes Rundumlicht führen, das von allen Seiten sichtbar ist.",
+      "Falsch: Reine Seitenlichter ohne weiteres Licht reichen als alleinige Mindestausstattung für ein antriebsloses Kleinfahrzeug nicht aus.",
+      "Falsch: Topp- und Hecklicht sind eher für größere, meist maschinengetriebene Fahrzeuge vorgesehen, nicht die Mindestausrüstung eines kleinen Fahrzeugs ohne Antrieb.",
+      "Falsch: Eine Dreifarbenlaterne ist eine aufwendigere Lösung für andere Fahrzeugtypen, nicht die einfache Mindestanforderung hier."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-20",
@@ -277,7 +410,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-20.png"
+    "image": "images/binnen/binnen-20.png",
+    "optionExplanations": [
+      "Falsch: Hier sind die erlaubte und die gesperrte Seite vertauscht - vorbeifahren darfst du an der rot-weißen, nicht an der roten Seite.",
+      "Falsch: Gleich zwei Dinge stimmen nicht - Seite vertauscht, und mit unverminderter Geschwindigkeit vorbeizufahren widerspricht der Pflicht, Sog und Wellenschlag zu vermeiden.",
+      "Falsch: Die Seiten stimmen hier, aber mit unverminderter Geschwindigkeit vorbeizufahren ist falsch, du musst Sog und Wellenschlag vermeiden.",
+      "Richtig: An der rot-weißen Seite darfst du vorbei, die rote Seite ist gesperrt, und du musst dabei Sog und Wellenschlag vermeiden."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-21",
@@ -291,7 +431,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-21.png"
+    "image": "images/binnen/binnen-21.png",
+    "optionExplanations": [
+      "Falsch: Für eine einfache Kursänderung nach Backbord gibt es ein eigenes, anderes Signal als das hier gezeigte.",
+      "Falsch: Wenden über Backbord würde mit einem anderen Signal angekündigt, nicht mit diesem hier.",
+      "Falsch: Eine Kursänderung nach Steuerbord ohne Wenden wird mit einem anderen Signal angezeigt.",
+      "Richtig: Dieses Signal kündigt an, dass das Fahrzeug über Steuerbord wenden, also vollständig die Richtung ändern will."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-22",
@@ -305,7 +452,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Eine Folge sehr kurzer Töne besteht aus mindestens 6 Tönen von je etwa einer viertel Sekunde mit ebenso kurzen Pausen dazwischen.",
+      "Falsch: 4 Töne sind zu wenig, für eine Folge sehr kurzer Töne sind mindestens 6 Töne vorgeschrieben.",
+      "Falsch: 8 Töne sind mehr als nötig, die Mindestanzahl für eine Folge sehr kurzer Töne liegt bei 6.",
+      "Falsch: 2 Töne sind viel zu wenig, um als Folge sehr kurzer Töne zu gelten, nötig sind mindestens 6."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-23",
@@ -319,7 +473,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": "images/binnen/binnen-23.png"
+    "image": "images/binnen/binnen-23.png",
+    "optionExplanations": [
+      "Richtig: A führt einen schwarzen Kegel und gilt damit als Maschinenfahrzeug - als solches muss es dem reinen Segelfahrzeug B ausweichen.",
+      "Falsch: Die Windseiten-Regel gilt nur zwischen zwei reinen Segelfahrzeugen, A zählt hier aber wegen des Kegels als Maschinenfahrzeug.",
+      "Falsch: Auf welcher Seite man das andere Fahrzeug sieht, ist hier nicht entscheidend, sondern dass A als Maschinenfahrzeug gilt.",
+      "Falsch: B ist das reine Segelfahrzeug und hat daher grundsätzlich Vorfahrt gegenüber dem als Maschinenfahrzeug geltenden Fahrzeug A."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-24",
@@ -333,7 +494,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die speziellen Wettsegelbestimmungen gelten nur zwischen den Teilnehmern der Regatta, nicht für ein unbeteiligtes Boot, das hineingerät.",
+      "Falsch: Als unbeteiligtes Fahrzeug bist du an die Wettfahrtregeln gar nicht gebunden, für dich gilt einheitlich die Binnenschifffahrtsstraßen-Ordnung.",
+      "Falsch: Grundsätzlich müssen sich unbeteiligte Fahrzeuge nach den normalen Regeln richten, nicht umgekehrt die Regattateilnehmer nach ihnen ausweichen.",
+      "Richtig: Ein unbeteiligtes Fahrzeug im Regattafeld muss sich nach den ganz normalen Regeln der Binnenschifffahrtsstraßen-Ordnung richten."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-25",
@@ -347,7 +515,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Nicht AIS, sondern die Ausrüstung mit Radar und Sprechfunk ist hier die entscheidende Voraussetzung für die Weiterfahrt.",
+      "Falsch: Gleich zwei Dinge stimmen nicht - es betrifft nur bestimmte, nicht alle Wasserstraßen, und es geht um Sprechfunk, nicht ECDIS.",
+      "Richtig: Auf bestimmten, dafür vorgesehenen Wasserstraßen muss die Fahrt ohne Radar und Sprechfunk bei unsichtigem Wetter sofort eingestellt werden.",
+      "Falsch: Diese Pflicht gilt nicht pauschal auf allen Wasserstraßen, sondern nur auf bestimmten, dafür festgelegten Strecken."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-26",
@@ -361,7 +536,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein beliebiges Alter reicht nicht, es gibt eine feste Mindestaltersgrenze für das Übernehmen des Ruders.",
+      "Falsch: 14 Jahre sind zu jung, die vorgeschriebene Mindestaltersgrenze liegt bei 16 Jahren.",
+      "Richtig: Der Schiffsführer darf das Ruder einer Person überlassen, die mindestens 16 Jahre alt sowie körperlich und geistig geeignet ist.",
+      "Falsch: 18 Jahre ist höher als nötig, die tatsächliche Mindestaltersgrenze liegt bei 16 Jahren."
+    ],
+    "mnemonic": "Sweet Sixteen am Ruder: Ab 16 Jahren darf jemand das Ruder übernehmen, wenn er dazu geeignet ist."
   },
   {
     "id": "binnen-27",
@@ -375,7 +557,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: 300 m Sicht sind deutlich zu wenig, vorgeschrieben ist eine Sichtweite von mindestens 1 000 m.",
+      "Falsch: 500 m reichen nicht aus, die vorgeschriebene Mindestsichtweite für Wasserski liegt bei 1 000 m.",
+      "Falsch: 1 500 m ist mehr, als tatsächlich verlangt wird, die Grenze liegt bei 1 000 m.",
+      "Richtig: Wasserski darf zwischen Sonnenaufgang und -untergang gefahren werden, wenn die Sicht mindestens 1 000 m beträgt."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-28",
@@ -389,7 +578,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Bei Hochwasser ist gerade nicht das übliche Rechtsfahren empfohlen, sondern möglichst die Fahrwassermitte, wegen der Strömung am Ufer.",
+      "Richtig: Bei Hochwasser sollte möglichst in der Fahrwassermitte gefahren werden, und besondere Geschwindigkeits- und Fahrtbeschränkungen sind zu beachten.",
+      "Falsch: Besondere Geschwindigkeits- und Fahrtbeschränkungen bei Hochwasser gelten sehr wohl und müssen unbedingt beachtet werden.",
+      "Falsch: Konsequent links zu fahren ist nicht die Regel bei Hochwasser, empfohlen wird die Fahrwassermitte."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-29",
@@ -403,7 +599,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-29.png"
+    "image": "images/binnen/binnen-29.png",
+    "optionExplanations": [
+      "Falsch: Das Zeichen für eine schutzbedürftige Anlage sieht anders aus und hat eine andere Bedeutung als dieses Verbotszeichen.",
+      "Falsch: Dieses Zeichen macht keine Ausnahme für Kleinfahrzeuge mit Motor, es sperrt die Durchfahrt vollständig.",
+      "Falsch: Auch für Kleinfahrzeuge ohne Antrieb gibt es hier keine Ausnahme, die Durchfahrt ist komplett gesperrt.",
+      "Richtig: Dieses Tafelzeichen verbietet die Durchfahrt vollständig, die Schifffahrt ist an dieser Stelle gesperrt."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-30",
@@ -417,7 +620,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein Licht nur zu zeigen, ohne es zu schwenken, entspricht nicht dem Ersatzzeichen für vier kurze Töne.",
+      "Richtig: Anstelle von vier kurzen Tönen kann bei Nacht oder verminderter Sicht ein rotes Licht im unteren Halbkreis geschwenkt werden.",
+      "Falsch: Ein Schwenken im vollen Kreis ist nicht das vorgesehene Ersatzzeichen, entscheidend ist der untere Halbkreis.",
+      "Falsch: Geschwenkt wird im unteren, nicht im oberen Halbkreis - das ist hier vertauscht."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-31",
@@ -431,7 +641,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein Rhombus ist ein anderes Tagsignal mit anderer Bedeutung, nicht das Zeichen für ein Segelfahrzeug unter Maschinenkraft.",
+      "Richtig: Ein Segelfahrzeug, das gleichzeitig mit Maschinenkraft fährt, muss zusätzlich einen schwarzen Kegel mit der Spitze nach unten führen.",
+      "Falsch: Zwei Bälle übereinander sind ein Zeichen für eine ganz andere Situation, etwa für einen Ankerlieger, nicht für diesen Fall.",
+      "Falsch: Der Kegel wird mit der Spitze nach unten geführt, nicht nach oben - das ist hier vertauscht."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-32",
@@ -445,7 +662,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Luv- und Lee-Regeln gelten für Segelfahrzeuge, bei zwei Motorbooten auf kreuzendem Kurs zählt aber eine andere Regel.",
+      "Falsch: Auch diese Luv-Lee-Regel passt nicht zu zwei Motorbooten, hier entscheidet, auf welcher Seite man das andere Fahrzeug sieht.",
+      "Richtig: Wer das andere Fahrzeug an seiner Steuerbordseite hat, muss ausweichen, ähnlich der Rechts-vor-Links-Regel im Straßenverkehr.",
+      "Falsch: Die Seite ist hier vertauscht - ausweichen muss, wer den anderen an Steuerbord, nicht an Backbord sieht."
+    ],
+    "mnemonic": "Wie im Straßenverkehr: Wer von rechts kommt, hat Vorfahrt - wer das andere Boot an Steuerbord sieht, muss also weichen."
   },
   {
     "id": "binnen-33",
@@ -459,7 +683,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Vibrationen der Kette und der Kompasskurs sind keine zuverlässigen Anzeichen dafür, ob der Anker wirklich hält.",
+      "Richtig: Kein Rucken an der Kette und eine gleichbleibende Ankerpeilung zeigen, dass der Anker fest im Grund sitzt und nicht wandert.",
+      "Falsch: Eine sich ändernde Ankerpeilung bedeutet gerade, dass das Fahrzeug driftet, das ist ein Zeichen für einen nicht haltenden Anker.",
+      "Falsch: Dass das Fahrzeug nicht schwojt, ist eher ungewöhnlich - normalerweise schwojt ein vor Anker liegendes Fahrzeug mit Wind und Strom."
+    ],
+    "mnemonic": "Bleibt die Peilung zum Anker immer gleich, hält er fest - ändert sie sich, driftest du."
   },
   {
     "id": "binnen-34",
@@ -473,7 +704,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Bei rechtsdrehendem Propeller zieht der Radeffekt beim Rückwärtsabbremsen das Heck nach Backbord, das Boot legt sich also von selbst an die Backbordseite.",
+      "Falsch: Es gibt sehr wohl eine günstigere Seite, denn der Radeffekt wirkt beim Rückwärtsgang immer in eine bestimmte Richtung.",
+      "Falsch: Die Ruderlage allein ist nicht entscheidend, maßgeblich ist die feste Drehrichtung des Propellers beim Rückwärtsfahren.",
+      "Falsch: Bei rechtsdrehendem Propeller zieht der Radeffekt das Heck nach Backbord, nicht nach Steuerbord - die Seite ist hier vertauscht."
+    ],
+    "mnemonic": "Merke: Rechtsdreher zieht rückwärts nach Backbord - drum lieber mit der Backbordseite an die Pier."
   },
   {
     "id": "binnen-35",
@@ -487,7 +725,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Drei Jahre sind ein längerer Abstand als vorgeschrieben, die Herstellervorgabe verlangt mindestens alle 2 Jahre eine Wartung.",
+      "Richtig: Aufblasbare Rettungsmittel müssen entsprechend der Herstellerangabe, mindestens aber alle 2 Jahre, gewartet werden.",
+      "Falsch: Eine jährliche Wartung ist enger als vorgeschrieben, die Mindestvorgabe liegt bei 2 Jahren, nach Herstellerangabe.",
+      "Falsch: Eine feste jährliche Wartung vor Saisonbeginn ist nicht die vorgeschriebene Mindestregel, maßgeblich sind 2 Jahre nach Herstellerangabe."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-36",
@@ -501,7 +746,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Jahreszeit ist zu allgemein, entscheidender für Wind und Niederschlag ist die Temperatur zusätzlich zu Luftdruck und Luftfeuchtigkeit.",
+      "Falsch: Sonneneinstrahlung und Höhenlage sind nicht die Hauptfaktoren, ausschlaggebend sind vor allem Luftdruckänderung, Luftfeuchtigkeit und Temperatur.",
+      "Falsch: Die Tageszeit allein erklärt Wind und Niederschlag nicht ausreichend, wichtiger ist die Luftfeuchtigkeit zusammen mit Luftdruck und Temperatur.",
+      "Richtig: Luftdruckänderung, Luftfeuchtigkeit und Temperatur sind die hauptsächlichen Faktoren, die Wind und Niederschläge bestimmen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-37",
@@ -515,7 +767,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: 15 m ist zu kurz angesetzt, außerdem werden Ruder und Bugspriet bei der Längenmessung nicht mitgezählt.",
+      "Richtig: Der Schein berechtigt bis zu einer Länge von weniger als 20 m, wobei Ruder und Bugspriet bei der Messung nicht mitgerechnet werden.",
+      "Falsch: 25 m ist deutlich zu lang, die Grenze liegt bei 20 m, und Ruder und Bugspriet werden dabei nicht mitgezählt.",
+      "Falsch: 25 m ist zu lang, richtig ist eine Grenze von 20 m ohne Ruder und Bugspriet."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-38",
@@ -529,7 +788,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Wichtig ist vor allem die genaue Angabe der Hindernisstelle für andere Verkehrsteilnehmer, nicht in erster Linie die eigenen Schiffsdaten.",
+      "Falsch: Ein Baggerunternehmen selbst zu beauftragen ist nicht deine Aufgabe, das ist Sache der zuständigen Behörde nach ihrer Benachrichtigung.",
+      "Falsch: Ein Verbleiben vor Ort bis zum Eintreffen der Polizei ist nicht zwingend vorgeschrieben, entscheidend ist die sofortige Meldung mit Ortsangabe.",
+      "Richtig: Die Wasserstraßen- und Schifffahrtsverwaltung oder die Wasserschutzpolizei muss mit genauer Angabe der Hindernisstelle benachrichtigt werden, damit andere gewarnt werden können."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-39",
@@ -543,7 +809,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein bloßer Aushang an Hafenämtern ist nicht der Hauptweg, wie aktuell über Wasserstände informiert wird.",
+      "Falsch: Eine 'Hochwasserschutzzentrale' als zentrale Informationsquelle in diesem Sinn gibt es so nicht, die Information läuft über andere Kanäle.",
+      "Richtig: Über Nautischen Informationsfunk sowie Rundfunk, Fernsehen und Internet wird die Schifffahrt aktuell über Wasserstände und Hochwassermarken informiert.",
+      "Falsch: Ein Aushang bei der Wasserschutzpolizei ist nicht die übliche, zeitnahe Informationsquelle für aktuelle Wasserstände."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-40",
@@ -557,7 +830,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Grüne Spitztonnen oder Schwimmstangen begrenzen die Fahrrinne zum linken Ufer hin.",
+      "Falsch: Spierentonnen sind eine andere Tonnenform, für die Begrenzung zum linken Ufer werden grüne Spitztonnen verwendet.",
+      "Falsch: Rote Stumpftonnen kennzeichnen die Fahrrinnengrenze zum rechten, nicht zum linken Ufer - Farbe und Seite sind hier vertauscht.",
+      "Falsch: Weder die Farbe Rot noch die Form Spierentonne passen zur Kennzeichnung des linken Fahrrinnenrandes."
+    ],
+    "mnemonic": "Grün steht links: Grüne Tonnen begrenzen die Fahrrinne zum linken Ufer."
   },
   {
     "id": "binnen-41",
@@ -571,7 +851,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Hindernisse wie Buhnen an der rechten Seite der Wasserstraße werden mit einem roten Kegel, Spitze nach unten, oder entsprechender rot-weißer Stange bezeichnet.",
+      "Falsch: Die Farbe Rot passt zur rechten Seite, aber die Spitze zeigt bei diesem Zeichen nach unten, nicht nach oben.",
+      "Falsch: Grün steht für die linke Seite der Wasserstraße, für die rechte Seite werden rote Zeichen verwendet.",
+      "Falsch: Gleich zwei Dinge stimmen nicht - Grün gehört zur linken Seite, und die Kegelspitze zeigt bei Hindernissen rechts nach unten."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-42",
@@ -585,7 +872,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Rot ist hier nicht die richtige Farbe, die Kennzeichnung von Ankern erfolgt mit einem gelben Döpper.",
+      "Falsch: Weiß wird für diese Kennzeichnung nicht verwendet, vorgeschrieben ist die Farbe Gelb.",
+      "Richtig: Anker, die die Schifffahrt behindern können, werden am Tage mit einem gelben Döpper, einer bootsförmigen Boje, gekennzeichnet.",
+      "Falsch: Grün ist nicht die passende Farbe für diese Kennzeichnung, richtig ist Gelb."
+    ],
+    "mnemonic": "Gelb wie eine Ampel: Vorsicht, hier liegt ein Anker im Wasser."
   },
   {
     "id": "binnen-43",
@@ -599,7 +893,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": "images/binnen/binnen-43.png"
+    "image": "images/binnen/binnen-43.png",
+    "optionExplanations": [
+      "Falsch: Diese Tafeln bedeuten eine Empfehlung mit verbotener Gegenrichtung, nicht eine für beide Richtungen freigegebene Öffnung.",
+      "Falsch: Es handelt sich um eine empfohlene, nicht um eine zwingend vorgeschriebene alleinige Durchfahrt durch diese Öffnung.",
+      "Richtig: Diese Tafeln zeigen eine empfohlene Durchfahrt, bei der die Durchfahrt in Gegenrichtung durch diese Öffnung verboten ist.",
+      "Falsch: Hier geht es um eine Empfehlung, nicht um eine zwingend vorgeschriebene alleinige Durchfahrtsöffnung für beide Richtungen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-44",
@@ -613,7 +914,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Lichter kündigen nicht das Schließen, sondern das Öffnen der Schleuse an - das Verb ist hier vertauscht.",
+      "Falsch: Es geht um die Einfahrt, nicht die Ausfahrt aus der Schleuse, die hier verboten wird.",
+      "Falsch: Gleich zwei Dinge stimmen nicht - gemeint ist die Einfahrt, und vorbereitet wird das Öffnen, nicht das Schließen.",
+      "Richtig: Rot bzw. Rot und Grün vor einer Schleuse bedeuten, dass die Einfahrt verboten ist, weil das Öffnen der Schleuse vorbereitet wird."
+    ],
+    "mnemonic": "Rot heißt wie an der Ampel: Halt, keine Einfahrt in die Schleuse."
   },
   {
     "id": "binnen-45",
@@ -627,7 +935,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Für gesundheitsschädliche Stoffe steht ein Zeichen mit nur zwei blauen Lichtern und 50 m Abstand, nicht drei Lichter.",
+      "Falsch: Für brennbare Stoffe genügt ein einzelnes blaues Licht mit 10 m Abstand, nicht drei Lichter übereinander.",
+      "Richtig: Drei blaue Lichter übereinander bedeuten explosive Stoffe an Bord, mit einem Sicherheitsabstand von 100 m beim Stillliegen.",
+      "Falsch: Fahrzeuge der Überwachungsbehörden zeigen ein anderes eigenes Blaulicht-Zeichen, nicht diese Gefahrgutkennzeichnung."
+    ],
+    "mnemonic": "Je mehr blaue Lichter, desto größer die Gefahr: eins bedeutet brennbar (10 m), zwei gesundheitsschädlich (50 m), drei explosiv (100 m)."
   },
   {
     "id": "binnen-46",
@@ -641,7 +956,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-46.png"
+    "image": "images/binnen/binnen-46.png",
+    "optionExplanations": [
+      "Falsch: Diese Zeichen stehen für ein arbeitendes schwimmendes Gerät, nicht für ein festgefahrenes oder gesunkenes Fahrzeug.",
+      "Richtig: Diese Sichtzeichen kennzeichnen ein schwimmendes Gerät bei der Arbeit, an dem an jeder Seite vorbeigefahren werden darf, wenn Sog und Wellenschlag vermieden werden.",
+      "Falsch: Hier geht es um ein arbeitendes schwimmendes Gerät, nicht um ein festgefahrenes Fahrzeug mit Vorbeifahrt nur an einer Seite.",
+      "Falsch: Die Vorbeifahrt ist grundsätzlich erlaubt, sofern Sog und Wellenschlag vermieden werden, ein generelles Verbot besteht hier nicht."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-47",
@@ -655,7 +977,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Eine feste Richtung wie 'nach Backbord' ist nicht Teil der allgemeinen Regel, jedes Ausweichmanöver muss vor allem entschlossen ausgeführt werden.",
+      "Falsch: 'Vorsichtig' beschreibt nicht die geforderte Entschlossenheit, mit der ein Ausweichmanöver klar erkennbar durchgeführt werden muss.",
+      "Falsch: Eine feste Richtung wie 'nach Steuerbord' ist keine allgemeine Vorgabe, entscheidend ist stattdessen, entschlossen zu handeln.",
+      "Richtig: Ausweichmanöver müssen rechtzeitig, klar erkennbar und entschlossen durchgeführt werden, damit andere sie eindeutig verstehen können."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-48",
@@ -669,7 +998,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-48.png"
+    "image": "images/binnen/binnen-48.png",
+    "optionExplanations": [
+      "Falsch: Ein geschlepptes Kleinfahrzeug würde eine andere Lichterkombination zeigen als die hier beschriebenen Lichter.",
+      "Richtig: Diese Lichterkombination zeigt ein Kleinfahrzeug mit Maschinenantrieb an, das nachts entsprechend beleuchtet unterwegs ist.",
+      "Falsch: Ein Schubverband von vorne würde deutlich mehr bzw. andere Lichter zeigen als ein einzelnes Kleinfahrzeug.",
+      "Falsch: Eine frei fahrende Fähre führt eine eigene, andere Lichterkombination als ein normales Kleinfahrzeug mit Maschinenantrieb."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-49",
@@ -683,7 +1019,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Radaranlage muss voll funktionsfähig sein, ein fehlender Wendeanzeiger entspricht nicht der geforderten vollständigen Ausrüstung.",
+      "Falsch: Die Sprechfunkanlage muss vollständig ausgestattet sein, ein Fehlen von ATIS entspricht nicht der geforderten Ausrüstung.",
+      "Falsch: Für die Binnenschifffahrt ist eine Anlage für den Binnenschifffahrtsfunk nötig, nicht für den Seefunkdienst.",
+      "Richtig: Für Fahrten bei unsichtigem Wetter braucht es eine zugelassene, funktionsfähige Radaranlage sowie eine Sprechfunkanlage für den Binnenschifffahrtsfunk."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-50",
@@ -697,7 +1040,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein einzelner langer Ton mit nur vereinzelten Glockenschlägen reicht nicht aus, um Hilfe im Notfall zu signalisieren.",
+      "Falsch: Kurze Töne stehen für andere Signale, für einen Notfall sind wiederholte lange Töne oder Glockenschlaggruppen vorgesehen.",
+      "Richtig: In einer Notsituation werden wiederholte lange Töne gegeben oder es werden Gruppen von Glockenschlägen geschlagen, um Hilfe herbeizurufen.",
+      "Falsch: Drei kurze Töne haben eine andere, festgelegte Bedeutung und sind nicht das vorgesehene Notsignal."
+    ],
+    "mnemonic": "Not kennt keine kurzen Töne - im Notfall wird lang und wiederholt gehupt oder geläutet."
   },
   {
     "id": "binnen-51",
@@ -711,7 +1061,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Wasserski darf nicht einfach überall gefahren werden, es braucht dafür ausdrücklich freigegebene Bereiche.",
+      "Richtig: Wasserskifahren ist nur in den Bereichen erlaubt, die durch entsprechende Tafelzeichen ausdrücklich dafür freigegeben sind.",
+      "Falsch: Nicht einfach das Meiden des Fahrwassers reicht aus, entscheidend ist die ausdrückliche Freigabe durch Tafelzeichen.",
+      "Falsch: Das bloße Meiden der Fahrrinne genügt nicht, erlaubt ist Wasserski nur in eigens dafür gekennzeichneten Bereichen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-52",
@@ -725,7 +1082,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Auf diesen Gewässern gilt in der Regel nicht die Binnenschifffahrtsstraßen-Ordnung, sondern die jeweils eigene örtliche Befahrensordnung.",
+      "Falsch: Eine Genehmigung braucht es nicht immer, sondern nur gegebenenfalls, und zuständig ist meist der Eigentümer, nicht das Wasserstraßen- und Schifffahrtsamt.",
+      "Falsch: Eine Genehmigung des Eigentümers ist nicht in jedem Fall nötig, sondern nur gegebenenfalls, je nach den örtlichen Regelungen.",
+      "Richtig: Gegebenenfalls muss die Genehmigung des Eigentümers eingeholt werden, und es gilt die jeweils vor Ort geltende Befahrensordnung."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-53",
@@ -739,7 +1103,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Ein Wassersportfahrzeug muss ab einer Wasserverdrängung von 10 cbm in das Binnenschiffsregister eingetragen werden.",
+      "Falsch: Nicht die Schiffslänge, sondern die Wasserverdrängung ist hier das maßgebliche Kriterium für die Eintragungspflicht.",
+      "Falsch: Auch hier ist nicht die Länge entscheidend, sondern die Wasserverdrängung des Fahrzeugs in Kubikmetern.",
+      "Falsch: 15 cbm ist ein höherer Wert als der tatsächliche Schwellenwert, maßgeblich sind bereits 10 cbm Wasserverdrängung."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-54",
@@ -753,7 +1124,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die grüne Tonne liegt bei Bergfahrt an der linken, nicht der rechten Fahrrinnenseite - die Seite ist hier vertauscht.",
+      "Falsch: Zu passieren ist die grüne Tonne bei Bergfahrt an der Steuerbordseite des Schiffes, nicht an der Backbordseite.",
+      "Falsch: Sowohl die Fahrrinnenseite als auch die Schiffsseite sind hier falsch angegeben für eine grüne Tonne bei Bergfahrt.",
+      "Richtig: Bei Bergfahrt liegt die grüne Tonne an der linken Fahrrinnenseite und wird an der Steuerbordseite des Schiffes passiert."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-55",
@@ -767,7 +1145,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Mit mehr als 20 m gilt ein Sportboot gerade nicht mehr als Kleinfahrzeug, sondern als größeres Fahrzeug.",
+      "Richtig: Ein Sportboot gilt als Kleinfahrzeug, solange es weniger als 20 m lang ist.",
+      "Falsch: 25 m ist deutlich über der Grenze von 20 m, ein Fahrzeug dieser Länge wäre kein Kleinfahrzeug mehr.",
+      "Falsch: Genau 20 m ist bereits die Grenze - Kleinfahrzeug ist ein Fahrzeug erst bei einer Länge darunter, also unter 20 m."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-56",
@@ -781,7 +1166,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Diese Definition ist zu allgemein, entscheidend ist speziell die Fahrt bei unsichtigem Wetter mit Hilfe von Radar.",
+      "Falsch: Nacht allein macht keine Radarfahrt aus, ausschlaggebend ist unsichtiges Wetter, also stark eingeschränkte Sicht.",
+      "Richtig: Radarfahrt bedeutet eine Fahrt bei unsichtigem Wetter, bei der mit Hilfe von Radar navigiert wird.",
+      "Falsch: Radarfahrt ist gerade nicht an den Tag gebunden, entscheidend ist unsichtiges Wetter, egal zu welcher Tageszeit."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-57",
@@ -795,7 +1187,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Ein Fahrzeug unter Segel gilt als Maschinenfahrzeug, sobald es gleichzeitig mit Maschinenkraft fährt, egal ob die Segel noch gesetzt sind.",
+      "Falsch: Allein das Vorhandensein einer Antriebsmaschine an Bord macht ein Segelfahrzeug noch nicht zum Maschinenfahrzeug, es muss auch tatsächlich damit fahren.",
+      "Falsch: Keine Fahrt über Grund zu machen sagt nichts über den Einsatz der Maschine aus, das kann auch bei reiner Segelfahrt vorkommen.",
+      "Falsch: Keine Fahrt durchs Wasser zu machen ist kein Kriterium dafür, ob die Maschine mitläuft, entscheidend ist der tatsächliche Maschineneinsatz."
+    ],
+    "mnemonic": "Läuft der Motor mit, zählst du als Maschinenfahrzeug - auch wenn die Segel noch oben sind."
   },
   {
     "id": "binnen-58",
@@ -809,7 +1208,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Der Name ist leicht verändert - richtig heißt es 'goldene Regeln', nicht 'Grundregeln'.",
+      "Falsch: Es sind 10, nicht 15 Regeln, auch wenn der Zusatz 'goldene Regeln' hier stimmt.",
+      "Richtig: Die '10 goldenen Regeln für Wassersportler' geben Hinweise zum Schutz seltener Tiere und Pflanzen sowie zur Reinhaltung der Gewässer.",
+      "Falsch: Weder die Anzahl 15 noch die Bezeichnung 'Verhaltensregeln' stimmen, richtig sind 10 goldene Regeln."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-59",
@@ -823,7 +1229,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Nicht das größere, sondern das kleinere, überholte Fahrzeug ist durch Sog und Wellenschlag besonders gefährdet.",
+      "Richtig: Das kleinere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen, kollidieren, querschlagen oder in flachem Wasser auf Grund laufen.",
+      "Falsch: 'Kentern' und 'extrem versetzt werden' beschreiben die Gefahr zu drastisch bzw. ungenau, richtig ist eher Kollisions- und Grundberührungsgefahr durch Kursabweichung.",
+      "Falsch: Das größere, überholende Fahrzeug ist normalerweise nicht das gefährdete, sondern das kleinere, überholte Fahrzeug."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-60",
@@ -837,7 +1250,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Ein möglichst spitzer Anlaufwinkel ist beim Anlegen am günstigsten, weil das Manöver dadurch sanfter und kontrollierter verläuft.",
+      "Falsch: Ein stumpfer Winkel bedeutet ein steileres, unkontrollierteres Anlegen, das ist gerade nicht der günstigste Anlaufwinkel.",
+      "Falsch: Ein Winkel von 90 bis 100 Grad ist deutlich zu steil, günstiger ist ein möglichst spitzer Winkel.",
+      "Falsch: 60 bis 70 Grad ist zwar schon spitzer, aber noch nicht der günstigste Wert - je spitzer, desto besser."
+    ],
+    "mnemonic": "Lieber flach als frontal anlegen - ein spitzer Winkel schont Boot und Steg."
   },
   {
     "id": "binnen-61",
@@ -851,7 +1271,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Eine zu hohe Batteriespannung hat mit der Kühlung der Maschine nichts zu tun, entscheidend ist eher ein zu niedriger Kühlwasserstand.",
+      "Richtig: Ein defektes Thermostat, eine defekte Impellerpumpe, ein geschlossenes Seeventil oder zu wenig Kühlwasser können die Motortemperatur ansteigen lassen.",
+      "Falsch: Eine defekte Kupplung beeinflusst die Kühlung der Maschine nicht, ursächlich sind eher Thermostat, Impellerpumpe, Seeventil oder Kühlwasserstand.",
+      "Falsch: Zu viel Motoröl ist keine typische Ursache für Überhitzung, das eigentliche Problem liegt meist bei Kühlwasserversorgung und Kühlsystem."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-62",
@@ -865,7 +1292,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein Abweichen vom Rechtsfahrgebot ist hier nicht der Kern der Regel, entscheidend ist die Verringerung der Geschwindigkeit.",
+      "Falsch: Die Geschwindigkeit beizubehalten und in Gleitfahrt zu bleiben widerspricht der Pflicht, schädlichen Sog und Wellenschlag zu vermeiden.",
+      "Richtig: In der Nähe festgemachter Fahrzeuge muss die Geschwindigkeit verringert werden, um schädlichen Sog und Wellenschlag zu vermeiden.",
+      "Falsch: Ein vollständiges Aufstoppen auf Höhe der Fahrzeuge ist nicht die vorgeschriebene Maßnahme, es reicht eine angemessene Verringerung der Geschwindigkeit."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-63",
@@ -879,7 +1313,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Der Schein ist vorgeschrieben für Sportboote mit mehr als 11,03 kW (15 PS) Verbrennungsmotor bzw. 7,5 kW Elektromotor und weniger als 20 m Länge.",
+      "Falsch: Die Leistungsangabe ist hier vertauscht - vorgeschrieben ist der Schein bei mehr, nicht weniger als 11,03 kW Leistung.",
+      "Falsch: Die Leistung muss über, nicht unter 11,03 kW liegen, damit der Schein für dieses Boot vorgeschrieben ist.",
+      "Falsch: Die Längenangabe ist falsch - der Schein gilt für Boote unter 20 m Länge, nicht über 20 m."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-64",
@@ -893,7 +1334,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das beschreibt die Definition des Fahrwassers, nicht der Fahrrinne, hier wird aber nach der Fahrrinne gefragt.",
+      "Falsch: Für die Fahrrinne sind keine festen Zahlenwerte wie 88 m Breite vorgeschrieben, entscheidend ist das Vorhalten bestimmter Maße.",
+      "Richtig: Fahrrinne ist der Teil der Wasserstraße, in dem für den durchgehenden Schiffsverkehr bestimmte Breiten und Tiefen vorgehalten bzw. angestrebt werden.",
+      "Falsch: Feste Zahlenwerte wie 150 m Breite gehören nicht zur allgemeinen Definition der Fahrrinne."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-65",
@@ -907,7 +1355,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Zwei weiße Lichter übereinander auf einem stillliegenden Fahrzeug zeigen einen Ankerlieger an, dessen Anker die Schifffahrt gefährden kann.",
+      "Falsch: Für besonders lange Fahrzeuge gibt es eine andere, umfangreichere Lichterführung, nicht einfach zwei weiße Lichter übereinander.",
+      "Falsch: Ein stillliegender Schubverband würde durch eine andere Lichterkombination gekennzeichnet, nicht durch diese beiden weißen Lichter.",
+      "Falsch: Die Anzahl der ausgelegten Anker wird durch dieses Lichterzeichen nicht angezeigt, es geht um die mögliche Gefährdung durch den Anker."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-66",
@@ -921,7 +1376,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-66.png"
+    "image": "images/binnen/binnen-66.png",
+    "optionExplanations": [
+      "Falsch: Dieses Zeichen macht am Wehr keine Ausnahme für Kleinfahrzeuge mit Motor, es sperrt die Fläche vollständig.",
+      "Falsch: Das Zeichen für eine schutzbedürftige Anlage sieht anders aus und hat eine andere Bedeutung als dieses Verbotszeichen am Wehr.",
+      "Falsch: Auch für Kleinfahrzeuge ohne Antrieb gilt hier keine Ausnahme, die Wasserfläche im Wehrbereich ist vollständig gesperrt.",
+      "Richtig: Im Bereich eines Wehres bedeutet dieses Tafelzeichen ein Verbot der Durchfahrt, die Schifffahrt ist dort gesperrt."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-67",
@@ -935,7 +1397,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: 'Überholen nicht möglich' wird mit einem anderen Signal angezeigt, nicht mit vier kurzen Tönen.",
+      "Richtig: Vier kurze Töne bedeuten, dass ein Fahrzeug manövrierunfähig ist und daher nicht wie gewohnt reagieren kann.",
+      "Falsch: Für 'Achtung' gibt es ein eigenes Warnsignal mit anderer Tonfolge, nicht vier kurze Töne.",
+      "Falsch: 'Maschine geht rückwärts' wird durch ein anderes, eigenes Signal angekündigt, nicht durch vier kurze Töne."
+    ],
+    "mnemonic": "Vier kurze Töne heißen 'manövrierunfähig' - bei Nacht oder Sicht wird dafür ersatzweise ein rotes Licht im unteren Halbkreis geschwenkt."
   },
   {
     "id": "binnen-68",
@@ -949,7 +1418,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Wenn beide Fahrzeuge nach Steuerbord ausweichen, verringert sich in der Regel gerade die Kollisionsgefahr, das beschreibt kein Gefahrenkriterium.",
+      "Richtig: Nähern sich zwei Fahrzeuge einander bei gleichbleibender Peilung, während der Abstand abnimmt, besteht Kollisionsgefahr.",
+      "Falsch: Wenn sich der Kurs eines Fahrzeugs ändert, ändert sich meist auch die Peilung zwischen beiden, das deutet eher nicht auf akute Kollisionsgefahr hin.",
+      "Falsch: Dass sich die eigenen Kurse nicht ändern, ist nicht dasselbe wie eine gleichbleibende Peilung zwischen den Fahrzeugen - das genaue Kriterium fehlt hier."
+    ],
+    "mnemonic": "Merksatz der Seefahrt: Gleichbleibende Peilung, abnehmende Distanz - Kollisionsgefahr."
   },
   {
     "id": "binnen-69",
@@ -963,7 +1439,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Bei kreuzenden Kursen zwischen einem Kleinfahrzeug und einem Fahrzeug über 20 m muss grundsätzlich das Kleinfahrzeug ausweichen.",
+      "Falsch: Nicht das größere Fahrzeug über 20 m, sondern das Kleinfahrzeug ist in dieser Konstellation grundsätzlich ausweichpflichtig.",
+      "Falsch: Die allgemeine Steuerbord-Regel zwischen gleichrangigen Fahrzeugen gilt hier nicht, entscheidend ist der Größenunterschied zwischen Kleinfahrzeug und großem Fahrzeug.",
+      "Falsch: Auch diese Regel passt hier nicht, ausschlaggebend ist, dass es sich um ein Kleinfahrzeug gegenüber einem großen Fahrzeug handelt."
+    ],
+    "mnemonic": "Klein weicht Groß: Ein Kleinfahrzeug muss einem Fahrzeug über 20 m grundsätzlich ausweichen."
   },
   {
     "id": "binnen-70",
@@ -977,7 +1460,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-70.png"
+    "image": "images/binnen/binnen-70.png",
+    "optionExplanations": [
+      "Falsch: Die Regel ist hier falsch herum formuliert - tatsächlich muss das Fahrzeug mit Wind von Backbord dem mit Wind von Steuerbord ausweichen.",
+      "Falsch: Sowohl die Regel als auch die Zuordnung, wer ausweicht, stimmen hier nicht mit der richtigen Segelregel überein.",
+      "Falsch: Die Regel ist richtig formuliert, aber hier ist B als ausweichpflichtig benannt - tatsächlich muss A ausweichen.",
+      "Richtig: Segelfahrzeuge mit Wind von Backbord müssen Segelfahrzeugen mit Wind von Steuerbord ausweichen, hier ist das Fahrzeug A."
+    ],
+    "mnemonic": "Wie im Straßenverkehr rechts vor links: Wind von Steuerbord hat Vorfahrt, Wind von Backbord muss weichen."
   },
   {
     "id": "binnen-71",
@@ -991,7 +1481,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Zuerst zählst du die Crew durch, hilfst falls nötig, und bleibt am Boot bzw. legt euch darauf, bis Hilfe kommt.",
+      "Falsch: Mit allen Mitteln zu versuchen, das Fahrzeug selbst aus dem Fahrwasser zu bringen, ist riskant, wichtiger ist zunächst die Sicherheit der Crew.",
+      "Falsch: Ohne Not ans Ufer zu schwimmen ist gefährlich, sicherer ist es, am oder auf dem Boot zu bleiben und auf Hilfe zu warten.",
+      "Falsch: Das Bergen der Segel ist nicht die vorrangige Maßnahme, wichtiger ist zuerst, dass alle an Bord versorgt am Boot bleiben."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-72",
@@ -1005,7 +1502,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Dämmerung zählt nicht als unsichtiges Wetter im rechtlichen Sinn, entscheidend sind Sichtbeeinträchtigungen wie Nebel, Schneefall und starker Regen.",
+      "Richtig: Unsichtiges Wetter entsteht durch Nebel, Schneefall oder starken Regen - also durch Sichtbeeinträchtigungen, nicht durch die Tageszeit.",
+      "Falsch: Dunkelheit gehört nicht dazu, unsichtiges Wetter betrifft Sichtbeeinträchtigungen wie Nebel, Schneefall oder starken Regen, unabhängig von der Nacht.",
+      "Falsch: Die Nacht selbst zählt nicht als unsichtiges Wetter, das ist ein eigener Begriff für Sichtbeeinträchtigungen wie Nebel und starken Niederschlag."
+    ],
+    "mnemonic": "Unsichtig heißt schlechte Sicht, nicht schlechtes Licht - Dunkelheit und Nacht zählen dabei nicht mit."
   },
   {
     "id": "binnen-73",
@@ -1019,7 +1523,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Diese Aussage ist zu unbestimmt, ein stetig steigender Luftdruck deutet konkret auf eine Wetterbesserung mit Sonne hin.",
+      "Falsch: Ein steigender Luftdruck sagt vor allem eine Wetterbesserung voraus, eine steigende Temperatur ist damit nicht zwangsläufig verbunden.",
+      "Falsch: Schlechtes Wetter mit Starkwind oder Sturm wird eher durch schnell fallenden, nicht durch stetig steigenden Luftdruck angekündigt.",
+      "Richtig: Ein langsam, aber stetig steigender Luftdruck kündigt in der Regel eine Wetterbesserung mit freundlicherem, sonnigem Wetter an."
+    ],
+    "mnemonic": "Alte Seefahrer-Faustregel: Steigt der Luftdruck stetig, wird das Wetter besser - fällt er schnell, drohen Wind und Regen."
   },
   {
     "id": "binnen-74",
@@ -1033,7 +1544,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Bei Bergfahrt liegt eine rote Tonne an der rechten Fahrrinnenseite und wird an der Backbordseite des Schiffes passiert.",
+      "Falsch: Die Fahrrinnenseite ist hier falsch - eine rote Tonne liegt bei Bergfahrt an der rechten, nicht der linken Fahrrinnenseite.",
+      "Falsch: Zu passieren ist die rote Tonne bei Bergfahrt an der Backbordseite des Schiffes, nicht an der Steuerbordseite.",
+      "Falsch: Sowohl die Fahrrinnenseite als auch die Schiffsseite sind hier falsch angegeben für eine rote Tonne bei Bergfahrt."
+    ],
+    "mnemonic": "Bei Bergfahrt gilt: Grün an Steuerbord vorbei, Rot an Backbord vorbei."
   },
   {
     "id": "binnen-75",
@@ -1047,7 +1565,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Diese Tonnen mit Radarreflektor sagen nichts über die Höhe der Brückenpfeiler aus, dafür gibt es andere Zeichen.",
+      "Falsch: Es geht hier nicht um eine Untiefe, sondern speziell darum, die Brückenpfeiler auch im Radarbild sichtbar zu machen.",
+      "Richtig: Gelbe Tonnen mit Radarreflektor machen die Brückenpfeiler auch auf dem Radarschirm gut erkennbar, was besonders bei schlechter Sicht wichtig ist.",
+      "Falsch: Diese Tonnen zeigen keine gesperrte Durchfahrt an, sie dienen der besseren Erkennbarkeit der Pfeiler im Radar."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-76",
@@ -1061,7 +1586,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-76.png"
+    "image": "images/binnen/binnen-76.png",
+    "optionExplanations": [
+      "Falsch: Diese Tafeln sprechen eine Empfehlung aus, sie schreiben die Durchfahrt nicht zwingend vor.",
+      "Richtig: Diese Tafeln zeigen eine empfohlene Durchfahrt mit möglichem Gegenverkehr und markieren zugleich die seitliche Begrenzung der erlaubten Durchfahrt.",
+      "Falsch: Eine seitliche Begrenzung der Durchfahrt ist hier sehr wohl vorhanden, das gehört zur Bedeutung dieser Tafeln dazu.",
+      "Falsch: An dieser Brücke ist durchaus mit Gegenverkehr zu rechnen, das Zeichen schließt Gegenverkehr nicht aus."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-77",
@@ -1075,7 +1607,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Geschwindigkeit beizubehalten widerspricht der Pflicht, bei einem schutzbedürftigen Fahrzeug die Geschwindigkeit zu vermindern.",
+      "Falsch: Das Vermeiden von Sog und Wellenschlag allein reicht nicht, zusätzlich muss die Geschwindigkeit vermindert werden.",
+      "Richtig: Bei einem mit rot-weißer Flagge bezeichneten schutzbedürftigen Fahrzeug musst du die Geschwindigkeit vermindern und Sog sowie Wellenschlag vermeiden.",
+      "Falsch: Nur die Geschwindigkeit zu vermindern reicht nicht aus, zusätzlich müssen Sog und Wellenschlag vermieden werden."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-78",
@@ -1089,7 +1628,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Geschwenkt wird im unteren, nicht im oberen Halbkreis - das ist hier vertauscht.",
+      "Falsch: Die Flagge nur zu zeigen, ohne sie zu schwenken, entspricht nicht dem vorgeschriebenen Ersatzzeichen.",
+      "Falsch: Geschwenkt wird im unteren Halbkreis, nicht im vollen Kreis - das ist hier nicht korrekt beschrieben.",
+      "Richtig: Am Tag kann anstelle von vier kurzen Tönen eine rote Flagge im unteren Halbkreis geschwenkt werden."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-79",
@@ -1103,7 +1649,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Ein langer Ton dauert etwa 4 bis 6 Sekunden.",
+      "Falsch: Der Bereich beginnt zu früh, ein langer Ton dauert erst ab etwa 4, nicht schon ab 2 Sekunden.",
+      "Falsch: 6 bis 8 Sekunden ist etwas zu lang angesetzt, korrekt sind etwa 4 bis 6 Sekunden.",
+      "Falsch: 1 bis 2 Sekunden entspricht eher der Dauer eines kurzen Tons, nicht eines langen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-80",
@@ -1117,7 +1670,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Diese Verordnung regelt die Vermietung von Sportbooten, nicht Informationen zu umweltfreundlichen Farben und Beschichtungen.",
+      "Falsch: Das Bundesministerium ist nicht die typische Anlaufstelle für konkrete Umweltinformationen zu Bootsfarben und Antifouling.",
+      "Falsch: Die Sportbootführerscheinverordnung regelt die Führerscheinpflicht, nicht Umweltfragen zu Farben und Beschichtungen.",
+      "Richtig: Das Umweltbundesamt bietet Informationen zu umweltfreundlichen Farben, Lacken und Antifouling-Beschichtungen für Boote."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-81",
@@ -1131,7 +1691,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Eine zu hohe Motordrehzahl allein erklärt nicht, warum die Ladekontrolllampe nach dem Starten weiter leuchtet.",
+      "Falsch: Der Anlasser wird nach dem Starten ohnehin nicht mehr gebraucht, sein Ausfall betrifft die Ladekontrolllampe nicht.",
+      "Falsch: Ein gerissener Keilriemen kann zwar die Ladung beeinträchtigen, ist aber nicht die naheliegendste Ursache, entscheidend ist meist die Lichtmaschine selbst.",
+      "Richtig: Bleibt die Ladekontrolllampe an, deutet das meist auf eine defekte Lichtmaschine oder einen defekten Regler hin, der Motor wird nicht richtig geladen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-82",
@@ -1145,7 +1712,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ohne Fahrerlaubnis gilt das nur bis zu einer bestimmten Leistungsgrenze, nicht generell unabhängig von der Antriebsleistung.",
+      "Richtig: Bis 7,5 Kilowatt Dauerleistung (S1) darfst du ein Sportboot mit Elektromotor ohne Fahrerlaubnis führen.",
+      "Falsch: Das Gegenteil stimmt - bis zur genannten Leistungsgrenze brauchst du keine Fahrerlaubnis.",
+      "Falsch: 11,03 Kilowatt ist die Grenze für Verbrennungsmotoren, nicht für Elektromotoren - hier werden die Antriebsarten vertauscht."
+    ],
+    "mnemonic": "E wie Elektro, e wie etwas weniger: Elektroboote dürfen mit weniger Leistung (7,5 kW) führerscheinfrei fahren als Verbrenner (11,03 kW)."
   },
   {
     "id": "binnen-83",
@@ -1159,7 +1733,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das Prüfintervall ist zu kurz angegeben, außerdem fehlt der ebenfalls sinnvolle Schaumlöscher-Anteil.",
+      "Richtig: Ein Kombi-Löscher aus ABC-Pulver und Schaum ist für Sportboote geeignet, geprüft werden muss er mindestens alle 2 Jahre.",
+      "Falsch: CO2-Löscher sind in engen Bootsräumen wegen Erstickungsgefahr weniger geeignet, auch wenn das Prüfintervall hier stimmt.",
+      "Falsch: Ein reiner Schaumlöscher allein reicht nicht aus, zudem ist das genannte Prüfintervall zu kurz."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-84",
@@ -1173,7 +1754,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Diese Aufzählung vergisst die Schäden an Fahrzeugen, Anlagen und Ufern, die ebenfalls zur Sorgfaltspflicht gehören.",
+      "Falsch: Hier fehlt die Gefährdung von Menschenleben, die aber der wichtigste Teil der Sorgfaltspflicht ist.",
+      "Falsch: Das zählt nur die Gefahren selbst auf, ohne die Pflicht zu nennen, sie zu vermeiden.",
+      "Richtig: Die Sorgfaltspflicht verlangt, all diese Gefahren aktiv zu vermeiden - für Menschen, Sachwerte, Schifffahrt und Umwelt."
+    ],
+    "mnemonic": "Die vier großen M der Sorgfaltspflicht: Menschenleben, Material (Sachschäden), Miteinander (Behinderung der Schifffahrt) und Milieu (Umwelt)."
   },
   {
     "id": "binnen-85",
@@ -1187,7 +1775,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Hier fehlt die Fähigkeit, Schallzeichen wahrzunehmen, die für sicheres Steuern ebenso wichtig ist.",
+      "Falsch: Diese Antwort nennt nur die Kommunikation, ohne Schallzeichen und freie Sicht, die ebenfalls nötig sind.",
+      "Richtig: Der Rudergänger muss kommunizieren, Schallzeichen hören und nach allen Seiten freie Sicht haben.",
+      "Falsch: Hier fehlt das Empfangen und Geben von Informationen und Weisungen, ein zentraler Teil der sicheren Steuerung."
+    ],
+    "mnemonic": "Der Rudergänger braucht Augen, Ohren und einen klaren Kopf: sehen, hören und kommunizieren können."
   },
   {
     "id": "binnen-86",
@@ -1201,7 +1796,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Grüne Spitztonnen markieren das linke Ufer, nicht das rechte.",
+      "Richtig: Rote Stumpftonnen oder Schwimmstangen begrenzen die Fahrrinne zum rechten Ufer hin.",
+      "Falsch: Spierentonnen sind nicht die vorgesehene Form für diese Uferbegrenzung, richtig sind Stumpftonnen.",
+      "Falsch: Hier stimmen weder Farbe noch Form - Grün gehört zum linken Ufer, nicht zum rechten."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-87",
@@ -1215,7 +1817,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Wenden ist in Kanälen nicht grundsätzlich verboten, sondern nur mit Vorsicht auszuführen.",
+      "Richtig: Ankern ist in Kanälen grundsätzlich verboten, weil es die schmale Fahrrinne blockieren würde.",
+      "Falsch: Überholen ist in Kanälen nicht generell verboten, sondern nur unter besonderer Vorsicht erlaubt.",
+      "Falsch: Begegnen ist in Kanälen grundsätzlich erlaubt, solange ausreichend Vorsicht angewendet wird."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-88",
@@ -1229,7 +1838,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-88.png"
+    "image": "images/binnen/binnen-88.png",
+    "optionExplanations": [
+      "Falsch: Diese Deutung passt nicht zu diesem Brückenzeichen, das eine Durchfahrtsempfehlung anzeigt.",
+      "Richtig: Das Zeichen empfiehlt diese Durchfahrt, wobei du dort mit Gegenverkehr rechnen musst.",
+      "Falsch: Das beschreibt ein anderes Zeichen, nämlich eine empfohlene Durchfahrt ohne Gegenverkehr.",
+      "Falsch: Das beschreibt eine einseitige, wechselnde Durchfahrt und passt nicht zu diesem Zeichen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-89",
@@ -1243,7 +1859,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das heranfahrende Fahrzeug direkt anzuleuchten würde dessen Rudergänger blenden, statt dein eigenes Boot sichtbar zu machen.",
+      "Falsch: Die Lampe nach oben zu halten zeigt dein Boot nicht ausreichend deutlich an.",
+      "Falsch: Das Wasser anzuleuchten hilft anderen nicht, dein Boot und seine Segelstellung zu erkennen.",
+      "Richtig: Du leuchtest die eigenen Segel an, damit andere dein Boot erkennen, ohne geblendet zu werden."
+    ],
+    "mnemonic": "Lampe auf die eigenen Segel richten, nicht ins Gesicht der anderen - so siehst du, ohne zu blenden."
   },
   {
     "id": "binnen-90",
@@ -1257,7 +1880,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Zwei weiße Lichter übereinander haben eine andere Bedeutung, nicht die eines geschleppten Kleinfahrzeugs.",
+      "Falsch: Ein geschlepptes Kleinfahrzeug hat keinen eigenen Antrieb in Fahrt und führt daher nicht die vollen Lichter eines Maschinenfahrzeugs.",
+      "Falsch: Ein Funkellicht bedeutet etwas anderes, zum Beispiel ein Vorrangzeichen, nicht das Schleppen eines Kleinfahrzeugs.",
+      "Richtig: Ein geschlepptes Kleinfahrzeug führt ein weißes Rundumlicht, um nachts erkennbar zu sein."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-91",
@@ -1271,7 +1901,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Bei gleicher Windseite muss das luvseitige Boot dem leeseitigen ausweichen, nicht umgekehrt.",
+      "Falsch: Das widerspricht der Grundregel, nach der immer nur eines der beiden Fahrzeuge ausweichen muss.",
+      "Richtig: Bei unterschiedlicher Windseite weicht das Boot mit Wind von Backbord dem mit Wind von Steuerbord aus.",
+      "Falsch: Das vertauscht die Regel - Steuerbord hat Vorfahrt, nicht Backbord."
+    ],
+    "mnemonic": "Steuerbord hat Vorfahrt - ganz wie im Straßenverkehr 'rechts vor links', nur mit Wind statt Straße."
   },
   {
     "id": "binnen-92",
@@ -1285,7 +1922,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das ist nicht die Bedeutung eines einzelnen langen Tons, dafür gibt es andere Signale.",
+      "Falsch: Für Manövrierunfähigkeit gibt es ein eigenes, anderes Schallzeichen.",
+      "Falsch: Rückwärtsfahrt wird durch drei kurze Töne angezeigt, nicht durch einen langen Ton.",
+      "Richtig: Ein langer Ton bedeutet 'Achtung!', etwa vor unübersichtlichen Streckenabschnitten."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-93",
@@ -1299,7 +1943,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Beim Überholen fährst du zügig, behinderst niemanden, beachtest Verkehrslage und Schallzeichen und hältst genug Abstand.",
+      "Falsch: Dicht am Ufer entlangzufahren kann gefährlich werden und widerspricht der gebotenen Vorsicht.",
+      "Falsch: Starkes Beschleunigen kann gefährlichen Sog und Wellenschlag erzeugen, statt sicher zu überholen.",
+      "Falsch: Überholen ist nicht ausschließlich an Steuerbord erlaubt, das hängt von der Situation und eventuellen Signalen ab."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-94",
@@ -1313,7 +1964,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": "images/binnen/binnen-94.png"
+    "image": "images/binnen/binnen-94.png",
+    "optionExplanations": [
+      "Falsch: Laut der Situation ist nicht Boot B das leeseitige Boot.",
+      "Falsch: Laut der Situation ist nicht Boot C das leeseitige Boot.",
+      "Falsch: Die Begründung stimmt nicht - luvseitige Boote müssen ausweichen, nicht ihren Kurs beibehalten.",
+      "Richtig: Boot A liegt leeseitig und darf deshalb seinen Kurs beibehalten, die anderen müssen ausweichen."
+    ],
+    "mnemonic": "Lee hat Recht - das leeseitige, windabgewandte Boot darf seinen Kurs beibehalten."
   },
   {
     "id": "binnen-95",
@@ -1327,7 +1985,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-95.png"
+    "image": "images/binnen/binnen-95.png",
+    "optionExplanations": [
+      "Falsch: Das ist die Bedeutung eines anderen Tafelzeichens, nicht dieses.",
+      "Richtig: Dieses Tafelzeichen kennzeichnet ein Wehr.",
+      "Falsch: Das ist die Bedeutung eines anderen Tafelzeichens, nämlich einer Schleuse.",
+      "Falsch: Das ist die Bedeutung eines anderen Tafelzeichens, nämlich einer Hubbrücke."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-96",
@@ -1341,7 +2006,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Steigende Temperaturen und besseres Wetter passen eher zu steigendem, nicht zu fallendem Luftdruck.",
+      "Richtig: Schnell und stetig fallender Luftdruck kündigt meist schlechtes Wetter mit Starkwind oder Sturm an.",
+      "Falsch: Sonniges, besseres Wetter passt eher zu steigendem Luftdruck, nicht zu schnell fallendem.",
+      "Falsch: Das widerspricht der Grundregel, dass schnell fallender Druck ein Warnzeichen für Schlechtwetter ist."
+    ],
+    "mnemonic": "Merke: Fällt der Druck schnell, folgt meist auch schnell der Sturm."
   },
   {
     "id": "binnen-97",
@@ -1355,7 +2027,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Diese Abstandsregel zum Tonnenstrich ist hier nicht die maßgebliche Vorschrift.",
+      "Falsch: Diese Abstandsregel zum Ufer ist hier nicht die maßgebliche Vorschrift.",
+      "Richtig: Außerhalb ausgewiesener Strecken muss ein klarer Geradeauskurs gefahren werden, um andere nicht zu gefährden.",
+      "Falsch: Am Rand der Fahrrinne zu fahren ist nicht die vorgeschriebene Verhaltensregel hier."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-98",
@@ -1369,7 +2048,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das nennt nur einen kleinen Teilaspekt, nicht den eigentlichen Grund für die Informationspflicht.",
+      "Falsch: Das ist eine zu pauschale Behauptung, Vorschriften weichen nicht grundsätzlich auf allen Bundesgewässern ab.",
+      "Falsch: Das ist eine zu pauschale Behauptung, Vorschriften weichen nicht grundsätzlich auf allen Landesgewässern ab.",
+      "Richtig: Der Grund ist ganz einfach, dass du die jeweils geltenden Vorschriften auch einhalten können musst."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-99",
@@ -1383,7 +2069,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Dieser Führerschein gilt für Seeschifffahrtsstraßen, nicht für größere Sportboote auf dem Rhein.",
+      "Falsch: Das Sportschifferzeugnis ist ein anderes Dokument, nicht der passende Nachweis in diesem Fall.",
+      "Richtig: Das Sportpatent berechtigt zum Führen größerer Sportboote bis 25 m Länge auf dem Rhein.",
+      "Falsch: Der SBF Binnen allein reicht für Sportboote dieser Größe auf dem Rhein nicht aus."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-100",
@@ -1397,7 +2090,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das Binnenschiffsregister betrifft gewerbliche Schiffe, nicht das amtlich anerkannte Kennzeichen für Sportboote.",
+      "Richtig: Es besteht aus der Nummer des Internationalen Bootsscheins plus dem Kennbuchstaben der ausstellenden Organisation.",
+      "Falsch: Das Seeschiffsregister ist hier das falsche Register.",
+      "Falsch: Die europäische Schiffsnummer ist eine andere, für die Berufsschifffahrt gedachte Kennnummer."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-101",
@@ -1411,7 +2111,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Bei Hochwassermarke II musst du die Fahrt sofort einstellen.",
+      "Falsch: Ein Nachtfahrverbot ist hier nicht die maßgebliche Regel.",
+      "Falsch: Nur die Geschwindigkeit anzupassen reicht bei dieser hohen Hochwassermarke nicht mehr aus.",
+      "Falsch: Ein Fahrverbot speziell für Fahrzeuge ohne Sprechfunk ist hier nicht die richtige Regel."
+    ],
+    "mnemonic": "Merke: Hochwassermarke zwei heißt 'zu' - die Fahrt ist zu Ende."
   },
   {
     "id": "binnen-102",
@@ -1425,7 +2132,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die drei Topplichter stehen im Dreieck, nicht senkrecht übereinander.",
+      "Falsch: Die drei Topplichter stehen im Dreieck, nicht waagerecht nebeneinander.",
+      "Falsch: Es sind drei weiße Hecklichter, nicht nur zwei.",
+      "Richtig: Drei Topplichter im Dreieck, dazu die Seitenlichter und drei weiße Hecklichter nebeneinander."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-103",
@@ -1439,7 +2153,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Diese Zeitangabe ist zu ungenau und passt eher als grobe Obergrenze, nicht als Definition.",
+      "Falsch: Zwei Sekunden sind zu lang für einen kurzen Ton.",
+      "Richtig: Ein kurzer Ton dauert etwa 1 Sekunde.",
+      "Falsch: Weniger als 1 Sekunde ist zu kurz, die Regel spricht von etwa 1 Sekunde."
+    ],
+    "mnemonic": "Ein kurzer Ton dauert etwa so lange wie ein einzelner Herzschlag - rund 1 Sekunde."
   },
   {
     "id": "binnen-104",
@@ -1453,7 +2174,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-104.png"
+    "image": "images/binnen/binnen-104.png",
+    "optionExplanations": [
+      "Falsch: Die Einschränkung auf Sportboote ist erfunden, das Verbot gilt allgemein.",
+      "Richtig: Dieses Zeichen bedeutet ein allgemeines Festmache- und Liegeverbot, ohne Einschränkung auf bestimmte Fahrzeuge.",
+      "Falsch: Eine Einschränkung auf Sportboote über 12 m Länge gibt es bei diesem Zeichen nicht.",
+      "Falsch: Die Einschränkung auf gewerbliche Schiffe ist erfunden, das Verbot gilt für alle."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-105",
@@ -1467,7 +2195,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das beschreibt die Drehung gegen den Uhrzeigersinn, das wäre linksdrehend.",
+      "Richtig: Von achtern gesehen dreht der Propeller in Vorausfahrt im Uhrzeigersinn.",
+      "Falsch: Hier stimmen weder Blickrichtung noch Fahrzustand mit der üblichen Definition überein.",
+      "Falsch: Die Definition erfolgt vom Blick von achtern aus, nicht von vorne."
+    ],
+    "mnemonic": "Blick von hinten (achtern) nach vorn: Dreht der Propeller wie eine Uhr, ist er rechtsdrehend."
   },
   {
     "id": "binnen-106",
@@ -1481,7 +2216,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Signalbuch und Seefahrt-Verordnung sind Rechtstexte, keine Ratgeber mit Tipps für Wassersportler.",
+      "Falsch: Das Internationale Signalbuch passt nicht in diese Kategorie von Ratgeber-Publikationen.",
+      "Falsch: Eine Verordnung ist kein Ratgeber mit praktischen Tipps.",
+      "Richtig: Publikationen wie 'Sicherheit auf dem Wasser' und 'Sicher auf See' bieten genau solche praktischen Hinweise."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-107",
@@ -1495,7 +2237,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Eine geprüfte Person ist nur für bestimmte Fälle nötig, das Wesentliche vor jeder Nutzung ist die Dichtheitsprüfung.",
+      "Richtig: Anlage muss abgenommen sein, Leitungen dicht, und Haupthahn sowie Absperrventile müssen geöffnet werden.",
+      "Falsch: Eine jährliche Überprüfung ersetzt nicht die grundlegende Dichtheitskontrolle vor jeder Inbetriebnahme.",
+      "Falsch: Die Frist von drei Jahren ist hier erfunden und nicht die entscheidende Anforderung."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-108",
@@ -1509,7 +2258,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Notsignale sind für den Fall gedacht, dass Menschen in Gefahr sind und Hilfe gebraucht wird.",
+      "Falsch: Erhebliche Sachwerte oder die Umwelt allein rechtfertigen kein Notsignal, das ist zu weit gefasst.",
+      "Falsch: Ein Fahrzeug, das nicht mehr sicher manövriert werden kann, ist allein noch kein Grund für ein Notsignal.",
+      "Falsch: Auch hier werden Sachwerte fälschlich als eigener Grund für ein Notsignal genannt."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-109",
@@ -1523,7 +2279,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein Mindestalter von 14 Jahren ist hier nicht die gefragte Zusatzanforderung.",
+      "Richtig: Ab dieser Leistungsgrenze brauchst du den SBF Binnen mit Antriebsmaschine oder ein gleichgestelltes Zeugnis.",
+      "Falsch: Zuverlässigkeit gehört zur allgemeinen Eignung, ist aber nicht die hier gefragte spezielle Anforderung.",
+      "Falsch: Das nennt ein Mindestalter, gefragt ist aber der erforderliche Befähigungsnachweis."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-110",
@@ -1537,7 +2300,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: An Pegeln und ausgewiesenen Hochwassermarken kannst du Wasserstände direkt vor Ort ablesen.",
+      "Falsch: Aushänge bei der Wasserschutzpolizei sind nicht die direkte Vor-Ort-Anzeige des Wasserstands.",
+      "Falsch: Aushänge bei Hafenämtern oder Schleusen zeigen den Wasserstand nicht so direkt wie Pegel.",
+      "Falsch: Einsenkungsmarken zeigen den Tiefgang des eigenen Fahrzeugs, nicht den Wasserstand des Gewässers."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-111",
@@ -1551,7 +2321,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Beim Schleusen vom Oberwasser ins Unterwasser wird die Kammer geleert, nicht gefüllt.",
+      "Falsch: Sowohl das falsche Fahrzeug als auch der falsche Vorgang werden hier genannt.",
+      "Falsch: Nicht das erste, sondern das letzte Fahrzeug muss besonders weit vorfahren.",
+      "Richtig: Das letzte Boot muss weit genug vorfahren, damit es beim Leeren nicht auf dem Drempel aufsetzt."
+    ],
+    "mnemonic": "Merke: Beim Leeren sinkt der Wasserspiegel - das letzte Boot muss am weitesten vorne stehen, sonst hängt es am Drempel fest."
   },
   {
     "id": "binnen-112",
@@ -1565,7 +2342,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das ist die Bedeutung von drei blauen Lichtern, der höchsten Gefahrenstufe, nicht von zweien.",
+      "Falsch: Das ist die Bedeutung von einem einzelnen blauen Licht, der niedrigsten Stufe.",
+      "Richtig: Zwei blaue Lichter übereinander bedeuten gesundheitsschädliche Ladung mit 50 m Abstand beim Stillliegen.",
+      "Falsch: Fahrzeuge von Überwachungsbehörden werden anders gekennzeichnet, nicht durch gestaffelte blaue Lichter."
+    ],
+    "mnemonic": "Je mehr blaue Lichter, desto größer die Gefahr: 1 = brennbar/10 m, 2 = gesundheitsschädlich/50 m, 3 = explosiv/100 m."
   },
   {
     "id": "binnen-113",
@@ -1579,7 +2363,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": "images/binnen/binnen-113.png"
+    "image": "images/binnen/binnen-113.png",
+    "optionExplanations": [
+      "Richtig: Dieses Zeichen zeigt ein Fahrzeug, dem die Behörde Vorrang an Stellen mit fester Reihenfolge eingeräumt hat.",
+      "Falsch: Das beschreibt eine Fahrgastschiff-Kennzeichnung, nicht das Vorrangzeichen.",
+      "Falsch: Das beschreibt ein festgefahrenes Fahrzeug, eine andere Bedeutung als das Vorrangzeichen.",
+      "Falsch: Das beschreibt die Kennzeichnung eines geschleppten Fahrzeugs, nicht das Vorrangzeichen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-114",
@@ -1593,7 +2384,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das widerspricht der Grundregel, dass Maschinenfahrzeuge Segel- und windgetriebenen Fahrzeugen ausweichen müssen.",
+      "Falsch: Nur die Geschwindigkeit zu reduzieren reicht nicht, ein echtes Ausweichen ist gefordert.",
+      "Falsch: Das widerspricht der Grundregel für Maschinenfahrzeuge gegenüber Segelsurfern.",
+      "Richtig: Ein Kleinfahrzeug mit Maschinenantrieb muss einem Segelsurfer auf Kollisionskurs ausweichen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-115",
@@ -1607,7 +2405,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": "images/binnen/binnen-115.png"
+    "image": "images/binnen/binnen-115.png",
+    "optionExplanations": [
+      "Falsch: Bei einer solchen Gefahrenstelle darf man nicht einfach mit unverminderter Geschwindigkeit vorbeifahren.",
+      "Falsch: Das beschreibt einen Schwimmkörper, nicht ein schutzbedürftiges Fahrzeug.",
+      "Richtig: Bei einem schutzbedürftigen Fahrzeug musst du weiten Abstand halten, langsamer fahren und Sog sowie Wellenschlag vermeiden.",
+      "Falsch: Eine Vorbeifahrt ist hier mit Vorsicht erlaubt, nicht generell verboten."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-116",
@@ -1621,7 +2426,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Grün hat hier eine andere Bedeutung, nämlich die Fahrrinnenbegrenzung, nicht die Badezone.",
+      "Richtig: Gelbe Tonnen kennzeichnen eine geschützte Badezone.",
+      "Falsch: Rot-grün gestreifte Tonnen sind für diese Kennzeichnung nicht vorgesehen.",
+      "Falsch: Rot hat hier eine andere Bedeutung, nämlich die Fahrrinnenbegrenzung, nicht die Badezone."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-117",
@@ -1635,7 +2447,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Für 'Überholen nicht möglich' gibt es ein anderes Signal.",
+      "Falsch: 'Achtung!' wird durch einen einzelnen langen Ton signalisiert, nicht durch eine Folge sehr kurzer Töne.",
+      "Falsch: Für Manövrierunfähigkeit gibt es ein eigenes, anderes Schallzeichen.",
+      "Richtig: Eine Folge sehr kurzer Töne warnt vor der Gefahr eines Zusammenstoßes."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-118",
@@ -1649,7 +2468,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Sportbootführerscheinverordnung regelt den Erwerb des Scheins, nicht die Geschwindigkeitsvorschriften.",
+      "Richtig: Höchstgeschwindigkeiten stehen in der Binnenschifffahrtsstraßen-Ordnung, außerdem informieren Schifffahrtsverwaltung und Wasserschutzpolizei.",
+      "Falsch: Die Binnenschiffsuntersuchungsordnung regelt die technische Zulassung von Schiffen, nicht Geschwindigkeiten.",
+      "Falsch: Die Binnenschifferpatentverordnung betrifft Patente für die Berufsschifffahrt, nicht allgemeine Tempolimits."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-119",
@@ -1663,7 +2489,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-119.png"
+    "image": "images/binnen/binnen-119.png",
+    "optionExplanations": [
+      "Falsch: Das ist nicht die Bedeutung dieser Lichterkombination.",
+      "Falsch: Das ist nicht die Bedeutung dieser Lichterkombination.",
+      "Falsch: Eine komplette Sperrung der Schifffahrt geht über die Bedeutung dieses Lichtzeichens hinaus.",
+      "Richtig: Diese Lichter fordern dazu auf, Sog und Wellenschlag zu vermeiden."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-120",
@@ -1677,7 +2510,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Auch geringe Ströme können bei Stromschlag gefährlich sein, diese Aussage widerspricht dem Sicherheitsgedanken.",
+      "Falsch: Ein Überspannungsschutz schützt Geräte vor Spannungsspitzen, nicht Personen vor Stromschlag.",
+      "Richtig: Ein Fehlerstromschutzschalter schaltet den Stromkreis im Gefahrenfall blitzschnell ab und schützt so vor Stromschlag.",
+      "Falsch: Landstrom ist keine Schutzkleinspannung, dieser Begriff passt hier nicht."
+    ],
+    "mnemonic": "FI-Schalter = Lebensretter: Er schaltet bei Fehlerstrom in Millisekunden ab, bevor ein Stromschlag gefährlich wird."
   },
   {
     "id": "binnen-121",
@@ -1691,7 +2531,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Glockenschläge sind für einen Windsurfer ohne entsprechende Ausrüstung nicht das passende Signal.",
+      "Falsch: Eine grüne Flagge ist als Notsignal hier nicht vorgesehen.",
+      "Falsch: Das ist das Gegenteil der richtigen Regel - genau das Schwenken der Arme ist das Notsignal.",
+      "Richtig: Ein Segelsurfer signalisiert Not durch kreisförmiges Schwenken der Arme oder eines Gegenstandes."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-122",
@@ -1705,7 +2552,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Eine generelle Abgabemöglichkeit an jeder Schleuse ist hier nicht die Regel.",
+      "Falsch: Abfälle über Bord zu werfen widerspricht dem Umweltschutz, auch in geschlossenen Behältern.",
+      "Richtig: Abfälle sammelst du an Bord und entsorgst sie an Land umweltgerecht in den Sammelbehältern.",
+      "Falsch: Abfälle einfach an einer Liegestelle abzustellen ist keine ordnungsgemäße Entsorgung."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-123",
@@ -1719,7 +2573,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Im Teil II der Binnenschifffahrtsstraßen-Ordnung findest du die genauen Angaben zu den Wasserstraßen und deren Grenzen.",
+      "Falsch: Teil I enthält die allgemeinen Fahrregeln, nicht die genauen Streckenangaben.",
+      "Falsch: Die Kleinfahrzeugkennzeichenverordnung regelt Kennzeichen, nicht Gewässergrenzen.",
+      "Falsch: Die Binnenschiffsuntersuchungsordnung regelt die technische Schiffszulassung, nicht Gewässergrenzen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-124",
@@ -1733,7 +2594,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Für amtliche Kennzeichen ist jedes Wasserstraßen- und Schifffahrtsamt zuständig.",
+      "Falsch: Der Deutsche Segler-Verband kann amtlich anerkannte, aber keine amtlichen Kennzeichen vergeben.",
+      "Falsch: Der Deutsche Motoryachtverband ist ein Verband, keine staatliche Behörde für amtliche Kennzeichen.",
+      "Falsch: Der Allgemeine Deutsche Automobilclub hat mit Schiffskennzeichen nichts zu tun."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-125",
@@ -1747,7 +2615,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: In Fahrt ist ein Fahrzeug, wenn es weder ankert, festgemacht ist noch auf Grund sitzt.",
+      "Falsch: Manövrierbehinderung oder -unfähigkeit gehören nicht zur Definition von 'in Fahrt'.",
+      "Falsch: 'Fahrt durchs Wasser' ist hier das falsche dritte Kriterium statt 'auf Grund sitzen'.",
+      "Falsch: 'Fahrt über Grund' verwechselt hier ein Geschwindigkeitsmaß mit dem eigentlichen Kriterium 'auf Grund sitzen'."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-126",
@@ -1761,7 +2636,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Beim Rückwärtsfahren mit rechtsdrehendem Propeller schwenkt das Heck typischerweise nach Backbord.",
+      "Falsch: Beim Rückwärtsfahren schwenkt vor allem das Heck, nicht primär der Bug.",
+      "Falsch: Das ist die falsche Richtung - das Heck schwenkt nach Backbord, nicht nach Steuerbord.",
+      "Falsch: Das widerspricht dem bekannten Propeller-Seitenschub-Effekt beim Rückwärtsfahren."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-127",
@@ -1775,7 +2657,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Motor abstellen, keine elektrischen Schalter betätigen, Kraftstoff-Überlauf vorbeugen und kein offenes Feuer.",
+      "Falsch: Der Motor muss beim Tanken komplett abgestellt sein, Leerlauf allein reicht wegen der Zündgefahr nicht.",
+      "Falsch: Hier fehlt der wichtige Punkt, keine elektrischen Schalter wegen Funkenbildung zu betätigen.",
+      "Falsch: Fenster schließen ersetzt nicht das Abstellen des Motors als zentrale Sicherheitsmaßnahme."
+    ],
+    "mnemonic": "Beim Tanken gilt: Motor aus, Funken aus, offenes Feuer aus - safety first."
   },
   {
     "id": "binnen-128",
@@ -1789,7 +2678,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Speziell das Vorschiff ist nicht vorgeschrieben, richtig ist allgemein 'an Deck'.",
+      "Falsch: Da Gas schwerer als Luft ist, muss die Öffnung in Bodenhöhe liegen, nicht oben.",
+      "Richtig: Am besten an Deck, sonst in einem Raum mit Öffnung in Bodenhöhe nach außenbords.",
+      "Falsch: Unten im Schiff dürfen Gasbehälter keinesfalls gelagert werden, das entweichende Gas könnte sich dort sammeln."
+    ],
+    "mnemonic": "Gas ist schwerer als Luft und sinkt nach unten - deshalb nie unten im Schiff lagern, sondern immer mit Öffnung nach unten entlüften."
   },
   {
     "id": "binnen-129",
@@ -1803,7 +2699,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Nach einem Zusammenstoß hilfst du, bleibst am Unfallort und tauschst alle nötigen Daten aus.",
+      "Falsch: Die Wasserschutzpolizei zu benachrichtigen ist nicht in jedem Fall die zwingend vorgeschriebene Pflicht.",
+      "Falsch: 'Verschlusszustand herstellen' passt nicht als allgemeine Pflicht nach jedem Zusammenstoß.",
+      "Falsch: Ein Notsignal ist nicht in jeder Zusammenstoß-Situation zwingend erforderlich."
+    ],
+    "mnemonic": "Nach dem Crash gilt: erst helfen, dann bleiben und Daten austauschen - ähnlich wie im Straßenverkehr."
   },
   {
     "id": "binnen-130",
@@ -1817,7 +2720,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Winkel von Topplicht und Hecklicht sind hier vertauscht.",
+      "Richtig: Topplicht 225°, Hecklicht 135° weiß, Seitenlichter je 112,5° in Rot (Backbord) und Grün (Steuerbord).",
+      "Falsch: Die Winkel von Hecklicht und Seitenlichtern sind hier vertauscht.",
+      "Falsch: Die Winkel von Topplicht und Hecklicht sind hier vertauscht."
+    ],
+    "mnemonic": "225° plus 135° ergeben 360°, und die beiden Seitenlichter mit je 112,5° zusammen genau die 225° des Topplichts."
   },
   {
     "id": "binnen-131",
@@ -1831,7 +2741,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Der schwarze Kegel zeigt Motorbetrieb an, dadurch gilt sie rechtlich als Maschinenfahrzeug und muss dem reinen Segler ausweichen.",
+      "Falsch: Diese Yacht ist die reine Seglerin ohne Kegel, ihr steht hier eigentlich Vorfahrt vor einem Maschinenfahrzeug zu.",
+      "Falsch: Das widerspricht der Grundregel, nach der immer nur eine Seite ausweichpflichtig ist.",
+      "Falsch: Gerade weil sie den Kegel zeigt, gilt sie nicht mehr als reines Segelfahrzeug, sondern als Maschinenfahrzeug."
+    ],
+    "mnemonic": "Schwarzer Kegel = Motor an Bord: Dann zählt das Boot wie ein Maschinenfahrzeug, auch wenn die Segel noch stehen."
   },
   {
     "id": "binnen-132",
@@ -1845,7 +2762,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-132.png"
+    "image": "images/binnen/binnen-132.png",
+    "optionExplanations": [
+      "Falsch: Das beschreibt ein festgefahrenes oder gesunkenes Fahrzeug, hier geht es aber um schwimmendes Arbeitsgerät.",
+      "Richtig: Schwimmendes Gerät bei der Arbeit - Vorbeifahrt an der grün-weiß-grünen Seite erlaubt, rot-weiß-rote Seite gesperrt.",
+      "Falsch: Der Zusatz zu Sog und Wellenschlag gehört laut Lösung nicht zur Bedeutung dieser Zeichenkombination.",
+      "Falsch: Sowohl die Fahrzeugart als auch die erlaubte Seite sind hier vertauscht."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-133",
@@ -1859,7 +2783,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Beide passieren sich an Steuerbord, für das Kleinfahrzeug gilt hier nur erhöhte Aufmerksamkeit, keine Wartepflicht.",
+      "Falsch: Weder die Seite noch die Vorrangregel für Kleinfahrzeuge stimmen hier.",
+      "Falsch: Das Kleinfahrzeug ist nicht wartepflichtig, dieses Zeichen bindet vor allem die größere Schifffahrt.",
+      "Falsch: Die Seite stimmt nicht - richtig ist Steuerbord, nicht Backbord."
+    ],
+    "mnemonic": "Blaue Tafel mit weißem Funkellicht = Begegnen auf der 'anderen' Seite als sonst üblich."
   },
   {
     "id": "binnen-134",
@@ -1873,7 +2804,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": "images/binnen/binnen-134.png"
+    "image": "images/binnen/binnen-134.png",
+    "optionExplanations": [
+      "Falsch: Das widerspricht der Grundregel, nach der hier nur eine Seite ausweichpflichtig ist.",
+      "Falsch: Das kehrt die Grundregel um, wonach Kleinfahrzeuge der übrigen Schifffahrt ausweichen müssen.",
+      "Falsch: Das ist das Gegenteil der geltenden Grundregel.",
+      "Richtig: Ein Kleinfahrzeug muss grundsätzlich Fahrzeugen ausweichen, die keine Kleinfahrzeuge sind - auch unter Segel."
+    ],
+    "mnemonic": "Klein weicht Groß: Kleinfahrzeuge müssen grundsätzlich der übrigen, größeren Schifffahrt ausweichen."
   },
   {
     "id": "binnen-135",
@@ -1887,7 +2825,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: A hat Wind von Backbord und muss ausweichen, wenn unklar ist, ob B den Wind von Steuerbord hat.",
+      "Falsch: Das dreht die Regel um - A hat laut Situation Wind von Backbord, nicht von Steuerbord.",
+      "Falsch: Das widerspricht der Regel, wonach bei Unklarheit gerade das Backbord-Boot, also A, ausweichen muss.",
+      "Falsch: Eine generelle Pflicht 'Kleinfahrzeuge weichen Kleinfahrzeugen unter Segel aus' gibt es so nicht."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-136",
@@ -1901,7 +2846,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Diese Lichterkombination zeigt allein ein Maschinenfahrzeug an, nicht zusätzlich das Segeln.",
+      "Richtig: Zweifarbenlaterne und Topplicht zusammen sind die typischen Lichter eines Kleinfahrzeugs mit Maschinenantrieb.",
+      "Falsch: Ein Topplicht ist typisch für Maschinenfahrzeuge, ein reines Nicht-Maschinenfahrzeug führt es meist nicht.",
+      "Falsch: Ein reines Segelfahrzeug führt normalerweise kein zusätzliches Topplicht."
+    ],
+    "mnemonic": "Topplicht = Antrieb: Nur Maschinenfahrzeuge führen zusätzlich zu den Seitenlichtern ein weißes Topplicht."
   },
   {
     "id": "binnen-137",
@@ -1915,7 +2867,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Hier geht es um schwimmende Geräte bei der Arbeit, nicht um schwimmende Schifffahrtszeichen.",
+      "Richtig: Vor Hafeneinmündungen, an Lade-/Lösch-/Liegeplätzen, bei nicht frei fahrenden Fähren, auf markierten Strecken und bei schwimmenden Geräten.",
+      "Falsch: Die Regel bezieht sich speziell auf Hafeneinmündungen, nicht auf Einmündungen allgemein.",
+      "Falsch: Besondere Vorsicht gilt bei nicht frei fahrenden Fähren, nicht bei frei fahrenden."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-138",
@@ -1929,7 +2888,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Rettungsweste anlegen, Segel bergen und einen schützenden Hafen oder eine Bucht ansteuern.",
+      "Falsch: Bei Sturm sollten Segel geborgen, nicht zusätzlich gesetzt werden.",
+      "Falsch: Bei drohendem Sturm sollte die Weste sofort angelegt, nicht nur bereitgehalten werden.",
+      "Falsch: Segel setzen und die offene Gewässermitte anzusteuern widerspricht beiden Sicherheitsgrundsätzen bei Sturm."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-139",
@@ -1943,7 +2909,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Der Wasserskiläufer muss im Kielwasser des Zugbootes bleiben, um andere nicht zu gefährden.",
+      "Falsch: 10 m außerhalb des Kielwassers zu fahren ist keine erlaubte Ausnahme.",
+      "Falsch: 5 m außerhalb des Kielwassers zu fahren ist ebenfalls keine erlaubte Ausnahme.",
+      "Falsch: Uferseitig statt im Kielwasser zu fahren ist die falsche Position."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-140",
@@ -1957,7 +2930,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das CE-Zeichen ist eine Bauart-Konformitätskennzeichnung, kein Kennzeichen zur Identifikation des Boots.",
+      "Falsch: Das ist unvollständig, es gibt neben amtlich anerkannten auch amtliche Kennzeichen.",
+      "Falsch: Das ist unvollständig, es gibt neben amtlichen auch amtlich anerkannte Kennzeichen.",
+      "Richtig: Es gibt sowohl amtliche als auch amtlich anerkannte Kennzeichen für Sportboote."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-141",
@@ -1971,7 +2951,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Ein roter Wimpel am Bug zeigt ein Fahrzeug mit Vorrang beim Schleusen an.",
+      "Falsch: Explosive Ladung wird anders gekennzeichnet, etwa durch blaue Kegel oder Lichter.",
+      "Falsch: Das bezieht sich auf einen anderen Kontext, nicht auf den roten Wimpel.",
+      "Falsch: Brennbare Ladung wird ebenfalls anders gekennzeichnet, nicht durch einen roten Wimpel."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-142",
@@ -1985,7 +2972,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: 0,8 Promille ist hier ein zu hoher, nicht zutreffender Wert.",
+      "Richtig: Ab 0,5 Promille oder bei erkennbarer Beeinträchtigung darfst du weder führen noch Kurs oder Geschwindigkeit bestimmen.",
+      "Falsch: 1,0 Promille ist deutlich zu hoch angesetzt für diese Grenze.",
+      "Falsch: 0,3 Promille liegt unter der tatsächlich geltenden Grenze."
+    ],
+    "mnemonic": "0,5 Promille - dieselbe Grenze, die du auch aus dem Straßenverkehr kennst."
   },
   {
     "id": "binnen-143",
@@ -1999,7 +2993,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das beschreibt die Funktion nur ungenau, der Quickstopp unterbricht gezielt Zündung oder Kraftstoffzufuhr.",
+      "Falsch: Eine automatische Schubumkehr ist nicht die Funktion des Quickstopps.",
+      "Richtig: Der Quickstopp unterbricht Zündkontakt bzw. Kraftstoffzufuhr und stellt so den Motor ab.",
+      "Falsch: Der Quickstopp stellt den Motor ab, er startet ihn nicht."
+    ],
+    "mnemonic": "Quickstopp = Reißleine: Fällt der Fahrer über Bord, reißt die Leine und der Motor stoppt sofort."
   },
   {
     "id": "binnen-144",
@@ -2013,7 +3014,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Hier stimmen weder Blickrichtung noch Fahrzustand mit der üblichen Definition überein.",
+      "Falsch: Die Definition erfolgt vom Blick von achtern aus, nicht von vorne.",
+      "Falsch: Das beschreibt einen rechtsdrehenden, nicht einen linksdrehenden Propeller.",
+      "Richtig: Von achtern gesehen dreht der Propeller in Vorausfahrt gegen den Uhrzeigersinn."
+    ],
+    "mnemonic": "Gegen den Uhrzeigersinn von achtern gesehen - genau umgekehrt zum Rechtsdreher."
   },
   {
     "id": "binnen-145",
@@ -2027,7 +3035,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Flammen bekämpfst du wirkungsvoll von unten am Brandherd, nicht von oben.",
+      "Falsch: Der Feuerlöscher sollte erst am Brandherd eingesetzt werden, nicht schon aus der Ferne sofort.",
+      "Falsch: Ein Rauchabzug fördert eher die Luftzufuhr und damit das Feuer, statt es zu ersticken.",
+      "Richtig: Luftzufuhr verhindern, den Löscher erst am Brandherd einsetzen und von unten löschen."
+    ],
+    "mnemonic": "Flammen wachsen nach oben - lösche deshalb immer von unten am Brandherd, nicht in die Flammenspitzen."
   },
   {
     "id": "binnen-146",
@@ -2041,7 +3056,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Fehlende Tauglichkeit oder fehlende Zuverlässigkeit sind die beiden Gründe für den Entzug.",
+      "Falsch: Nicht jede Ordnungswidrigkeit führt automatisch zum Entzug wegen Unzuverlässigkeit.",
+      "Falsch: Das Alter allein ist hier kein direkter Zuverlässigkeitsgrund.",
+      "Falsch: Alkoholmissbrauch ist nur ein möglicher Einzelfall, nicht die allgemein gültige Antwort."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-147",
@@ -2055,7 +3077,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das ist die Bedeutung von zwei blauen Lichtern, nicht von einem.",
+      "Falsch: Das ist die Bedeutung von drei blauen Lichtern, der höchsten Gefahrenstufe.",
+      "Falsch: Fahrzeuge der Überwachungsbehörden werden anders gekennzeichnet.",
+      "Richtig: Ein blaues Licht bedeutet brennbare Ladung mit 10 m Abstand beim Stillliegen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-148",
@@ -2069,7 +3098,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein weißes Funkellicht ist hier nicht das vorgeschriebene Zusatzlicht.",
+      "Falsch: Beim Motorbetrieb werden zusätzliche Lichter vorgeschrieben, nicht keine.",
+      "Richtig: Sobald der Motor läuft, müssen zusätzlich Seitenlichter unmittelbar nebeneinander oder in einer Laterne gesetzt werden.",
+      "Falsch: Ein zweites Topplicht ist hier nicht vorgeschrieben, gefordert sind Seitenlichter."
+    ],
+    "mnemonic": "Sobald der Motor läuft, zählt das Boot als Maschinenfahrzeug und braucht dessen Lichter - Seitenlichter kommen dazu."
   },
   {
     "id": "binnen-149",
@@ -2083,7 +3119,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Das größere Fahrzeug darf Kurs und Geschwindigkeit beibehalten, das Kleinfahrzeug muss ausweichen.",
+      "Falsch: Weder Ausweichen noch Geschwindigkeit reduzieren ist hier nötig, wenn keine Ausweichpflicht besteht.",
+      "Falsch: Ein unnötiges Ausweichmanöver, obwohl das größere Fahrzeug hier gar nicht ausweichpflichtig ist.",
+      "Falsch: Das widerspricht der Grundregel, nach der Kleinfahrzeuge der übrigen Schifffahrt ausweichen müssen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-150",
@@ -2097,7 +3140,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das Zeichen richtet sich vor allem an die größere Schifffahrt, nicht speziell an Kleinfahrzeuge.",
+      "Falsch: Kleinfahrzeuge müssen trotzdem erhöht aufmerksam sein, auch wenn sie formal nicht direkt gebunden sind.",
+      "Richtig: Fahrzeuge begegnen sich an Steuerbord, für Kleinfahrzeuge gilt das Zeichen nicht direkt, wohl aber erhöhte Aufmerksamkeit.",
+      "Falsch: Das Zeichen bindet Kleinfahrzeuge nicht direkt, verlangt aber besondere Aufmerksamkeit."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-151",
@@ -2111,7 +3161,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Der schwarze Kegel macht sie zum Maschinenfahrzeug, und von Backbord kommend muss sie dem anderen ausweichen.",
+      "Falsch: Das ist das Gegenteil der geltenden Ausweichregel in dieser Situation.",
+      "Falsch: Das widerspricht der Grundregel, nach der immer nur eine Seite ausweichpflichtig ist.",
+      "Falsch: Das vertauscht die Ausweichpflicht, gerade das Fahrzeug mit dem Kegel muss ausweichen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-152",
@@ -2125,7 +3182,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-152.png"
+    "image": "images/binnen/binnen-152.png",
+    "optionExplanations": [
+      "Falsch: Die Begründung ist verkehrt, die Regel lautet luv weicht lee, nicht umgekehrt.",
+      "Falsch: Die Regel stimmt zwar, aber laut Situation ist nicht A das luvseitige, ausweichpflichtige Boot.",
+      "Falsch: Sowohl das Boot als auch die Regelrichtung sind hier vertauscht.",
+      "Richtig: Das luvseitige Boot B muss dem leeseitigen Boot ausweichen."
+    ],
+    "mnemonic": "Luv weicht Lee: Wer mehr Wind abbekommt (luvseitig), muss dem leeseitigen Boot ausweichen."
   },
   {
     "id": "binnen-153",
@@ -2139,7 +3203,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein Segel-Kleinfahrzeug führt meist andere, weitergehende Lichter als nur ein einzelnes weißes Licht.",
+      "Richtig: Ein einzelnes weißes Licht kennzeichnet vereinfacht ein kleines Fahrzeug ohne eigenen Maschinenantrieb.",
+      "Falsch: Ein Maschinenfahrzeug muss Topplicht und Seitenlichter führen, nicht nur ein einzelnes weißes Licht.",
+      "Falsch: Ein Fahrzeug unter Segel mit Maschine bräuchte deutlich mehr Lichter als nur eines."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-154",
@@ -2153,7 +3224,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Den Arbeitsbereich großzügig abdecken und den anfallenden Abfall als Sondermüll fachgerecht entsorgen.",
+      "Falsch: Die Richtlinien der Schiffsuntersuchungskommission betreffen die technische Schiffszulassung, nicht den Umweltschutz beim Anstrich.",
+      "Falsch: Eine reine EU-Kennzeichnungspflicht als alleinige Antwort ist hier zu eng gefasst.",
+      "Falsch: Diese Arbeiten dürfen grundsätzlich auch selbst ausgeführt werden, solange die Umweltschutzvorgaben beachtet werden."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-155",
@@ -2167,7 +3245,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Bei Touren- und Wanderfahrten mit klarem Geradeauskurs ist das Fahren außerhalb ausgewiesener Strecken erlaubt.",
+      "Falsch: Eine Ausnahme für große Sonderveranstaltungen außerhalb der Fahrrinne ist so nicht vorgesehen.",
+      "Falsch: Der genannte Zusammenhang mit Hochwassermarke I ist hier nicht die richtige Regel.",
+      "Falsch: 'Kein anderer wird behindert' allein reicht als Bedingung nicht aus."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-156",
@@ -2181,7 +3266,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein SBF-Inhaber übernimmt nicht automatisch die Verantwortung, es muss aktiv jemand bestimmt werden.",
+      "Richtig: Es muss aktiv festgelegt werden, wer der verantwortliche Schiffsführer ist.",
+      "Falsch: Ein SBF-Inhaber übernimmt die Führung nicht automatisch, das muss ausdrücklich festgelegt werden.",
+      "Falsch: 'Gewählt' ist nicht der passende Begriff, es muss bestimmt werden."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-157",
@@ -2195,7 +3287,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das ist eine unpassende Begründung für das Anlegen gegen Strom und Wind.",
+      "Falsch: Die Steuerwirkung der Schraube ist nicht der Hauptgrund für diese Regel.",
+      "Falsch: Sog und Wellenschlag betreffen eher die Vorbeifahrt, nicht das Anlegen selbst.",
+      "Richtig: Gegen Strom und Wind anzulegen lässt sich das Boot sicherer und kontrollierter manövrieren."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-158",
@@ -2209,7 +3308,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Zu viel Motoröl löst normalerweise keine Öldruckwarnung aus.",
+      "Falsch: Der FI-Schalter betrifft den elektrischen Personenschutz, nicht die Öldrucküberwachung.",
+      "Falsch: Eine zu hohe Drehzahl ist keine typische Ursache für dauerhaftes Leuchten der Ölkontrollleuchte.",
+      "Richtig: Ein defekter Druckschalter oder eine defekte Öldruckpumpe kann die Ölkontrollleuchte dauerhaft leuchten lassen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-159",
@@ -2223,7 +3329,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: In einer explosiven Gasatmosphäre darf kein Mobiltelefon benutzt werden, das könnte einen Funken auslösen.",
+      "Falsch: Gasleitung entleeren statt Gaszuführung absperren ist ungenauer, zudem fehlt das ausdrückliche Funk-Verbot.",
+      "Richtig: Gaszuführung absperren, lüften, keine elektrischen Schalter und keinen Funk oder Mobiltelefone benutzen.",
+      "Falsch: Die Gasfreiheit mit einem Feuerzeug zu prüfen ist hochgefährlich und könnte die Explosion selbst auslösen."
+    ],
+    "mnemonic": "Bei Gasgeruch: keine Funken, kein Feuer, kein Handy - erst lüften, dann handeln."
   },
   {
     "id": "binnen-160",
@@ -2237,7 +3350,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Auskünfte gibt es bei der Wasserstraßen- und Schifffahrtsverwaltung, unter www.elwis.de und bei der Wasserschutzpolizei.",
+      "Falsch: Teil II der Binnenschifffahrtsstraßen-Ordnung beschreibt Strecken, liefert aber keine tagesaktuellen Verkehrsbeschränkungen.",
+      "Falsch: Ein Wasserwirtschaftsamt ist eher für die Gewässerbewirtschaftung zuständig, nicht für aktuelle Verkehrsinfos.",
+      "Falsch: Die Binnenschiffsuntersuchungsordnung regelt die technische Schiffszulassung, keine aktuellen Verkehrsinfos."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-161",
@@ -2251,7 +3371,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Auf Kanälen legt Teil II der Binnenschifffahrtsstraßen-Ordnung amtlich fest, was als Bergfahrt gilt.",
+      "Falsch: Die genaue Festlegung für einzelne Kanäle steht in Teil II, nicht in Teil I.",
+      "Falsch: Auf Kanälen gibt es oft kaum Strömung, daher wird die Richtung amtlich festgelegt, nicht durch Strömung definiert.",
+      "Falsch: Das ist eine zu vereinfachte Vorstellung, auf Kanälen gibt es keine 'Quelle' im eigentlichen Sinn."
+    ],
+    "mnemonic": "Auf Kanälen gibt's oft keine Strömung - deshalb wird 'Bergfahrt' amtlich festgelegt, nicht einfach erraten."
   },
   {
     "id": "binnen-162",
@@ -2265,7 +3392,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": "images/binnen/binnen-162.png"
+    "image": "images/binnen/binnen-162.png",
+    "optionExplanations": [
+      "Richtig: Diese Liegestelle ist für Fahrzeuge ohne gefährliche Güter bestimmt und schließt auch Kleinfahrzeuge ein.",
+      "Falsch: Kleinfahrzeuge sind hier eingeschlossen, nicht ausgeschlossen.",
+      "Falsch: Hier geht es um Fahrzeuge ohne gefährliche Güter, außerdem sind Kleinfahrzeuge nicht ausgeschlossen.",
+      "Falsch: Hier geht es um Fahrzeuge ohne gefährliche Güter, nicht mit gefährlichen Gütern."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-163",
@@ -2279,7 +3413,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-163.png"
+    "image": "images/binnen/binnen-163.png",
+    "optionExplanations": [
+      "Falsch: Das Zeichen ist keine Vorschrift und schließt die Gegenrichtung nicht generell aus, sondern gilt nur als Empfehlung für beide Richtungen.",
+      "Richtig: Es handelt sich um eine empfohlene Durchfahrtsöffnung, die in beiden Richtungen befahren werden darf, aber nicht befahren werden muss.",
+      "Falsch: Das beschreibt eine vorgeschriebene, verbindliche Durchfahrt und dazu nur eine Richtung, das Zeichen ist aber eine unverbindliche Empfehlung für beide Richtungen.",
+      "Falsch: Auch hier wird eine verbindliche Vorschrift unterstellt, tatsächlich ist die Durchfahrt hier nur empfohlen, nicht zwingend vorgeschrieben."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-164",
@@ -2293,7 +3434,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein Kurswechsel nach Steuerbord ist hier nicht nötig, denn als Fahrzeug unter Segel muss es seinen Kurs gar nicht ändern.",
+      "Richtig: Kleinfahrzeuge mit Maschinenantrieb müssen Segelfahrzeugen ausweichen, daher hält das Segelfahrzeug hier Kurs und Geschwindigkeit als kurshaltepflichtiges Fahrzeug bei.",
+      "Falsch: Weder ein Kurswechsel noch eine Geschwindigkeitsänderung sind gefordert, da nicht das Segelfahrzeug, sondern das Kleinfahrzeug mit Maschine ausweichen muss.",
+      "Falsch: Eine Geschwindigkeitsreduzierung ist unnötig, das Segelfahrzeug bleibt als kurshaltepflichtiges Fahrzeug einfach bei Kurs und Geschwindigkeit."
+    ],
+    "mnemonic": "Merke: Maschine weicht Segel - wer unter Segel fährt, bleibt in der Regel der Kurshalter."
   },
   {
     "id": "binnen-165",
@@ -2307,7 +3455,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Fünf kurze Töne bedeuten in der Binnenschifffahrt etwas anderes, nämlich dass Überholen nicht möglich ist, nicht Manövrierunfähigkeit.",
+      "Falsch: Statt einer Folge aus kurzen und langen Tönen mit Blinklicht ist bei Manövrierunfähigkeit ein festgelegtes Schallsignal mit geschwenkter Flagge oder Licht vorgeschrieben.",
+      "Richtig: Vier kurze Töne sowie bei Tag eine geschwenkte rote Flagge bzw. bei Nacht ein im unteren Halbkreis geschwenktes rotes Licht zeigen Manövrierunfähigkeit an.",
+      "Falsch: Ein zusätzlicher langer Ton gehört nicht zum Signal, und das Licht muss geschwenkt und nicht nur gesetzt werden."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-166",
@@ -2321,7 +3476,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Das Gegenteil ist richtig, ein Fahrzeug, das sein steuerbordseitiges Ufer einhält, darf gerade nicht zum Ausweichen gezwungen werden.",
+      "Falsch: Hier werden Backbord und Steuerbord sowie anhalten und verlassen vertauscht, geschützt ist das Fahrzeug, das sein steuerbordseitiges Ufer einhält.",
+      "Falsch: Geschützt ist das Fahrzeug, das sein steuerbordseitiges Ufer einhält, nicht eines, das dieses Ufer gerade verlässt.",
+      "Richtig: Ein Fahrzeug, das dicht an seinem steuerbordseitigen Ufer entlangfährt, darf von einem kreuzenden Segler nicht zum Ausweichen gezwungen werden."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-167",
@@ -2335,7 +3497,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Kleinfahrzeuge müssen für den Kurs und das Manövrieren größerer Fahrzeuge sehr wohl ausreichend Raum lassen, das ist kein optionaler Zusatz.",
+      "Falsch: Kleinfahrzeuge sind gegenüber größeren Fahrzeugen nicht gleichgestellt, sondern grundsätzlich ausweichpflichtig.",
+      "Richtig: Kleinfahrzeuge müssen größeren Fahrzeugen ausweichen und ihnen zusätzlich genug Raum für deren Kurs und Manöver lassen.",
+      "Falsch: Kleinfahrzeuge sind gegenüber größeren Fahrzeugen sehr wohl ausweichpflichtig, das Gegenteil würde die Grundregel der Rücksichtnahme umkehren."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-168",
@@ -2349,7 +3518,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": "images/binnen/binnen-168.png"
+    "image": "images/binnen/binnen-168.png",
+    "optionExplanations": [
+      "Richtig: In der dargestellten Begegnungssituation muss A gegenüber B und C den Kurs halten, und zusätzlich B gegenüber C, entsprechend der abgebildeten Rangfolge.",
+      "Falsch: Hier ist die Kurshaltepflicht zwischen A und C vertauscht, laut Grafik ist A gegenüber beiden anderen kurshaltepflichtig, nicht C gegenüber B.",
+      "Falsch: Diese Reihenfolge vertauscht die Fahrzeuge, tatsächlich ist A und nicht B das Fahrzeug, dem gegenüber beide anderen Kurs halten müssen.",
+      "Falsch: Diese Zuordnung dreht die Rangfolge komplett um, laut Darstellung ist A das kurshaltepflichtige Fahrzeug gegenüber B und C, nicht umgekehrt."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-169",
@@ -2363,7 +3539,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-169.png"
+    "image": "images/binnen/binnen-169.png",
+    "optionExplanations": [
+      "Falsch: Nicht die Seite, auf der sich das andere Fahrzeug befindet, entscheidet, sondern die Antriebsart, ausweichpflichtig ist das Fahrzeug mit Maschinenantrieb.",
+      "Falsch: Das Segelfahrzeug ist hier gerade nicht ausweichpflichtig, sondern das Fahrzeug mit Maschinenantrieb muss ihm ausweichen.",
+      "Falsch: Es ist nicht ausgeglichen, nur eine Seite trägt die Ausweichpflicht, nämlich das Fahrzeug mit Maschinenantrieb gegenüber dem Segelfahrzeug.",
+      "Richtig: Kleinfahrzeuge mit Maschinenantrieb müssen Segelfahrzeugen ausweichen, unabhängig davon, auf welcher Seite sie auftauchen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-170",
@@ -2377,7 +3560,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Es gibt keine Ausnahme, ab der Abfälle ab einer bestimmten Uferentfernung ins Wasser eingeleitet werden dürfen, das Einleiten ist grundsätzlich verboten.",
+      "Richtig: Kein Abfall darf ins Wasser gelangen, Fäkalien und Öle müssen an Land fachgerecht entsorgt werden.",
+      "Falsch: Es gibt keine solche Unterscheidung zwischen Seen und Binnenschifffahrtsstraßen, das Einleitungsverbot gilt grundsätzlich und einheitlich.",
+      "Falsch: Eine generelle Pflicht zu Fäkalientanks für alle Schiffe beschreibt nicht die eigentliche Grundregel, dass gar keine Abfälle ins Wasser gelangen dürfen."
+    ],
+    "mnemonic": "Alles bleibt an Bord, bis es an Land richtig entsorgt wird - das Wasser ist kein Mülleimer."
   },
   {
     "id": "binnen-171",
@@ -2391,7 +3581,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Eine allgemeine Fahrerlaubnispflicht fürs Segeln auf allen deutschen Wasserstraßen gibt es nicht, sie beschränkt sich auf bestimmte Gewässer.",
+      "Richtig: Nur auf bestimmten Wasserstraßen in Berlin und Brandenburg ist für das Segeln von Sportbooten eine Fahrerlaubnis vorgeschrieben.",
+      "Falsch: Die Pflicht gilt nicht flächendeckend für Binnenschifffahrtsstraßen und alle Landesgewässer, sondern nur für einzelne Gewässer in Berlin und Brandenburg.",
+      "Falsch: Nicht alle Landesgewässer sind betroffen, die Regelung beschränkt sich auf bestimmte Wasserstraßen in der Region Berlin und Brandenburg."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-172",
@@ -2405,7 +3602,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Nicht eine zu hohe Reibung ist das Problem, sondern dass Autoreifen im Wasser absinken und dadurch die Schleuse stören können.",
+      "Richtig: Autoreifen sind nicht sicher schwimmfähig und können in der Schleuse absinken und dort erhebliche Störungen verursachen.",
+      "Falsch: Farbspuren an Boot oder Schleusenmauer sind höchstens ein kosmetisches Ärgernis, nicht der eigentliche Grund für das Verbot.",
+      "Falsch: Autoreifen sind gerade nicht zuverlässig schwimmfähig, dieses vertauschte Detail ist genau der Grund, warum sie in der Schleuse gefährlich werden können."
+    ],
+    "mnemonic": "Reifen sinken statt zu schwimmen - deshalb sind sie als Fender in der Schleuse tabu."
   },
   {
     "id": "binnen-173",
@@ -2419,7 +3623,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Nur zu lüften und abzuwarten beseitigt weder die Umweltgefahr noch die Brandgefahr durch den ausgelaufenen Treibstoff oder das Öl.",
+      "Falsch: Ein Neutralisationsmittel einzusetzen ist nicht das vorgesehene Vorgehen, das ausgelaufene Öl muss stattdessen aufgenommen und fachgerecht entsorgt werden.",
+      "Falsch: Ein gleichmäßiges Verteilen würde die Verschmutzung nur vergrößern, statt sie zu beseitigen.",
+      "Richtig: Treibstoff oder Öl in der Bilge muss mit Lappen aufgenommen und danach umweltgerecht an Land entsorgt werden."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-174",
@@ -2433,7 +3644,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Nicht der Schraubenwiderstand, sondern der Schraubenstrom erzeugt die Wirkung, Widerstand bremst eher als dass er lenkt.",
+      "Falsch: Nicht der Anstellwinkel, sondern die Richtung des mitgedrehten Propellers samt Motoreinheit sorgt hier für die Steuerwirkung.",
+      "Richtig: Ohne eigene Ruderanlage lenkt der Außenborder über den Schraubenstrom und die Richtung, in die der gesamte Motor mit dem Propeller gedreht wird.",
+      "Falsch: Weder Schraubenwiderstand noch Anstellwinkel sind hier die richtigen Begriffe, entscheidend sind Schraubenstrom und die Drehrichtung des Motors."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-175",
@@ -2447,7 +3665,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein Mindestalter von 18 Jahren ist zu hoch angesetzt, die tatsächliche Altersgrenze für diese Person liegt niedriger.",
+      "Falsch: Ein Mindestalter von 14 Jahren ist zu niedrig, gefordert sind mindestens 16 Jahre.",
+      "Richtig: Die Person muss mindestens 16 Jahre alt sowie körperlich, geistig und fachlich geeignet sein, um das Ruder übernehmen zu dürfen.",
+      "Falsch: Ein eigener Sportbootführerschein ist für diese Person nicht erforderlich, solange der verantwortliche Schiffsführer die Aufsicht behält."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-176",
@@ -2461,7 +3686,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Binnenschiffsuntersuchungsordnung regelt die technische Zulassung von Schiffen und nicht die allgemeinen Verkehrsregeln auf der Donau.",
+      "Richtig: Die allgemeinen Verkehrsregeln für die Mosel stehen in der Moselschifffahrtspolizeiverordnung, die für die Donau in der Donauschifffahrtspolizeiverordnung.",
+      "Falsch: Wassermotorräder- und Wasserskiverordnung regeln nur diese speziellen Fahrzeugarten, nicht die allgemeinen Verkehrsregeln für Mosel und Donau.",
+      "Falsch: Die Binnenschifffahrtsstraßen-Ordnung gilt allgemein auf vielen Bundeswasserstraßen, für die Mosel gibt es aber eine eigene, speziellere Verordnung."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-177",
@@ -2475,7 +3707,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Fahrt mit der Strömung wird als Talfahrt bezeichnet, das genaue Gegenteil von Bergfahrt.",
+      "Falsch: Die Richtung zur Mündung entspricht der Talfahrt, nicht der Bergfahrt, die zur Quelle hin führt.",
+      "Falsch: Fahrt über Grund beschreibt die Bewegung relativ zum Flussbett und hat nichts mit der Richtung zu Berg oder zu Tal zu tun.",
+      "Richtig: Bergfahrt bezeichnet die Fahrt gegen die Strömung, also in Richtung der Quelle des Flusses."
+    ],
+    "mnemonic": "Zu Berg heißt Richtung Quelle - dorthin, wo Flüsse oft in den Bergen entspringen."
   },
   {
     "id": "binnen-178",
@@ -2489,7 +3728,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Vor Brücken und Hochspannungsleitungen besteht kein allgemeines Liegeverbot ohne besondere Kennzeichnung, anders als auf Kanälen.",
+      "Falsch: Die Formulierung nur vor Schleusenkanälen statt auf ihnen verändert die Aussage, das Liegeverbot gilt auf den Kanälen selbst.",
+      "Richtig: Auf Schifffahrtskanälen und Schleusenkanälen besteht auch ohne besondere Kennzeichnung ein allgemeines Liegeverbot.",
+      "Falsch: Das Verbot gilt nicht nach Hochspannungsleitungen und generell nicht in dieser Form vor Brücken, sondern auf den genannten Kanälen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-179",
@@ -2503,7 +3749,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ob ein Fahrzeug zu Tal fährt, spielt hier keine Rolle, entscheidend ist allein die Antriebsart der beiden Fahrzeuge.",
+      "Falsch: Es ist nicht ausgeglichen, nur das Fahrzeug mit Maschinenantrieb ist ausweichpflichtig, das Segelfahrzeug bleibt kurshaltepflichtig.",
+      "Falsch: Das Segelfahrzeug ist hier nicht ausweichpflichtig, sondern das entgegenkommende Kleinfahrzeug mit Maschinenantrieb.",
+      "Richtig: Kleinfahrzeuge mit Maschinenantrieb müssen kreuzenden Segelfahrzeugen ausweichen, egal ob sie zu Berg oder zu Tal fahren."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-180",
@@ -2517,7 +3770,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Bei Nacht helfen dem Auge Positionslichter weiter, ein Radarreflektor verbessert nicht die visuelle Sichtbarkeit.",
+      "Falsch: Bei unsichtigem Wetter hilft der Reflektor nur denen, die per Radar schauen, nicht der allgemeinen Sichtbarkeit für das bloße Auge.",
+      "Falsch: Bei Tageslicht bringt ein Radarreflektor keinen Vorteil, da er nur das Radarecho verstärkt, nicht die optische Erkennbarkeit.",
+      "Richtig: Ein Radarreflektor macht das Sportboot auf den Radarbildschirmen anderer Fahrzeuge deutlicher erkennbar."
+    ],
+    "mnemonic": "Der Name sagt's: Radarreflektor hilft auf dem Radarschirm, nicht fürs bloße Auge."
   },
   {
     "id": "binnen-181",
@@ -2531,7 +3791,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Der Sportbootführerschein für Seeschifffahrtsstraßen gilt auf Seewasserstraßen und deckt diese Größe auf Binnenschifffahrtsstraßen außerhalb des Rheins nicht ab.",
+      "Richtig: Für Sportboote dieser Größe reicht der einfache Sportbootführerschein nicht mehr, benötigt wird das Sportschifferzeugnis oder das Sportpatent.",
+      "Falsch: Der einfache Sportbootführerschein Binnenschifffahrtsstraßen reicht für Boote dieser Länge nicht aus, auch nicht als Alternative zum Sportpatent.",
+      "Falsch: Der Sportbootführerschein Binnenschifffahrtsstraßen allein genügt für Boote dieser Größe nicht, hierfür ist eine höhere Qualifikation nötig."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-182",
@@ -2545,7 +3812,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Begriffe luvwärtig und leewärtig gelten für Fahrzeuge unter Segel, für zwei Motorboote im Gegenkurs ist stattdessen ein Kurswechsel nach Steuerbord vorgeschrieben.",
+      "Falsch: Auch hier wird eine windbezogene Regel für Segler fälschlich auf zwei Motorboote übertragen, zudem in vertauschter Richtung.",
+      "Falsch: Ein Kurswechsel nach Backbord wäre die falsche Seite, vorgeschrieben ist ein Ausweichen nach Steuerbord.",
+      "Richtig: Zwei Motorboote im Gegenkurs müssen beide nach Steuerbord ausweichen und so Steuerbord an Steuerbord aneinander vorbeifahren."
+    ],
+    "mnemonic": "Wie im Straßenverkehr: rechts ausweichen, dann kommt ihr sicher aneinander vorbei."
   },
   {
     "id": "binnen-183",
@@ -2559,7 +3833,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": "images/binnen/binnen-183.png"
+    "image": "images/binnen/binnen-183.png",
+    "optionExplanations": [
+      "Richtig: Das Zeichen zeigt an, dass eine Brücke, ein Sperrwerk oder eine Schleuse aktuell geschlossen ist.",
+      "Falsch: Eine außergewöhnliche Schifffahrtsbehinderung wird durch ein anderes, allgemeineres Warnzeichen angezeigt, nicht durch dieses Zeichen für geschlossene Anlagen.",
+      "Falsch: Das Zeichen zeigt einen vorübergehenden, aktuellen Zustand an, keine dauerhafte Sperrung der Anlage.",
+      "Falsch: Das Zeichen bezieht sich auf den Zustand einer bestimmten Anlage, nicht auf ein allgemeines Stoppsignal für den gesamten Verkehr."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-184",
@@ -2573,7 +3854,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Nicht der bloße Abstand zwischen Propeller und Ruderblatt ist entscheidend, sondern das Fehlen der direkten Anströmung des Ruders in der Rückwärtsfahrt.",
+      "Falsch: Der Radeffekt erzeugt eine seitliche Kraft am Heck, keinen Unterdruck am Ruder, der die Ruderwirkung verzögern würde.",
+      "Falsch: Der Radeffekt wirkt am Propeller als seitliche Kraft, nicht als Unterdruck, und erklärt nicht die verzögerte Ruderwirkung.",
+      "Richtig: Die Ruderwirkung setzt erst ein, sobald genug Wasser tatsächlich am Ruderblatt vorbeiströmt, was bei Rückwärtsfahrt länger dauert."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-185",
@@ -2587,7 +3875,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Blickrichtung von der Mündung zur Quelle ist umgekehrt zur tatsächlich geltenden Regel.",
+      "Richtig: Rechtes und linkes Ufer werden festgelegt, indem man sich von der Quelle zur Mündung blickend vorstellt, unabhängig von der eigenen Fahrtrichtung.",
+      "Falsch: Diese Aussage widerspricht sich in sich selbst und stimmt nicht mit der festen Zuordnung von rechtem und linkem Ufer überein.",
+      "Falsch: Die Ufer-Zuordnung ändert sich nicht je nach Fahrtrichtung, sie ist fest anhand der Blickrichtung Quelle zur Mündung definiert."
+    ],
+    "mnemonic": "Steh gedanklich an der Quelle und schau flussabwärts zur Mündung - so findest du rechts und links am Fluss."
   },
   {
     "id": "binnen-186",
@@ -2601,7 +3896,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein einzelnes weißes Rundumlicht allein deckt nicht die vorgeschriebene Lichterführung für ein schleppendes Kleinfahrzeug mit Maschinenantrieb ab.",
+      "Falsch: Zwei weiße Lichter übereinander entsprechen nicht der vorgeschriebenen Lichterführung für dieses Kleinfahrzeug beim Schleppen.",
+      "Falsch: Ein zusätzliches zweites Topplicht ist für ein schleppendes Kleinfahrzeug nicht vorgeschrieben.",
+      "Richtig: Es genügen die normalen Lichter eines Kleinfahrzeugs mit Maschinenantrieb, ein weiteres Schlepplicht ist beim Schleppen eines Kleinfahrzeugs nicht nötig."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-187",
@@ -2615,7 +3917,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Manövrierunfähigkeit wird mit einem anderen Signal angezeigt, nämlich vier kurzen Tönen mit Flagge oder Licht, nicht mit fünf kurzen Tönen.",
+      "Falsch: Rückwärtsfahrt der Maschine wird durch ein anderes Signal angezeigt, nicht durch fünf kurze Töne.",
+      "Richtig: Fünf kurze Töne bedeuten, dass Überholen an dieser Stelle nicht möglich ist.",
+      "Falsch: Ein reines Achtungssignal besteht typischerweise aus einem langen Ton, nicht aus fünf kurzen Tönen."
+    ],
+    "mnemonic": "Fünf kurze Töne: fünfmal Nein zum Überholen."
   },
   {
     "id": "binnen-188",
@@ -2629,7 +3938,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": "images/binnen/binnen-188.png"
+    "image": "images/binnen/binnen-188.png",
+    "optionExplanations": [
+      "Falsch: Eine Warnung vor der Ausfahrt aus Hafen oder Nebenfahrwasser ist ein anderes Signal als das hier beschriebene Verbot der Einfahrt.",
+      "Falsch: Eine gesperrte linke Kammer bei einer Doppelschleuse wird anders signalisiert, nicht durch dieses Tafelzeichen mit rotem Licht.",
+      "Richtig: Leuchtet das rote Licht, ist die Einfahrt in den Hafen oder die Nebenwasserstraße verboten.",
+      "Falsch: Ein Überholverbot auf einem Streckenabschnitt wird durch ein anderes Zeichen dargestellt, nicht durch dieses Einfahrtverbot."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-189",
@@ -2643,7 +3959,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Eine kreisende rote Flagge zeigt keine allgemeine Rücksichtnahme wegen Sog und Wellenschlag an, sondern einen Notfall.",
+      "Richtig: Das Kreisen einer roten Flagge ist ein Sichtzeichen, mit dem ein in Not befindliches Fahrzeug Hilfe herbeiruft.",
+      "Falsch: Das Zeichen hat für den durchgehenden Schiffsverkehr sehr wohl Bedeutung, es signalisiert Hilfebedarf und sollte beachtet werden.",
+      "Falsch: Das Zeichen zeigt echte Notlage an, nicht nur eine eingeschränkte Manövrierfähigkeit."
+    ],
+    "mnemonic": "Kreisende rote Flagge: ein Kreis, der um Hilfe ruft."
   },
   {
     "id": "binnen-190",
@@ -2657,7 +3980,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Wasserschutzpolizei ist für Kontrollen zuständig, nicht für die Zuteilung amtlich anerkannter Kennzeichen für Sportboote.",
+      "Richtig: Deutscher Motoryachtverband, Deutscher Segler-Verband und der Allgemeine Deutsche Automobilclub sind für die Zuteilung solcher Kennzeichen zuständig.",
+      "Falsch: Amtsgerichte führen das Schiffsregister für die Eigentumseintragung, das ist ein anderer Vorgang als die Kennzeichenzuteilung.",
+      "Falsch: Wasserstraßen- und Schifffahrtsämter verwalten die Wasserstraßen, sie sind nicht für die Vergabe dieser Kennzeichen zuständig."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-191",
@@ -2671,7 +4001,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Für die Teilnahme am Binnenschifffahrtsfunk ist das UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk erforderlich.",
+      "Falsch: Das Seefunkzeugnis betrifft den Seefunk und ist ein anderes Zeugnis als das für den Binnenschifffahrtsfunk geforderte.",
+      "Falsch: Ein CB-Sprechfunkzeugnis gibt es für diesen Zweck nicht, CB-Funk ist kein anerkannter Binnenschifffahrtsfunk.",
+      "Falsch: Das SRC-Zeugnis ist ein Zeugnis für den Seefunk und nicht das passende Zeugnis für den Binnenschifffahrtsfunk."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-192",
@@ -2685,7 +4022,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Lee ist die dem Wind abgewandte Seite, also die Seite, die im Windschatten liegt.",
+      "Falsch: Das beschreibt Backbord und hat mit der Windrichtung nichts zu tun.",
+      "Falsch: Das beschreibt Steuerbord und hat mit der Windrichtung nichts zu tun.",
+      "Falsch: Das ist die windzugewandte Seite, die heißt Luv, nicht Lee."
+    ],
+    "mnemonic": "Lee klingt wie 'leer' - dort ist der Wind schon vorbeigezogen, du stehst im Windschatten."
   },
   {
     "id": "binnen-193",
@@ -2699,7 +4043,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Diese Kombination aus Seitenlichtern und rotem Rundumlicht entspricht nicht der vorgeschriebenen Lichterführung für diesen Fall.",
+      "Falsch: Sobald der Motor mitläuft, gelten nicht mehr die Lichter für ein reines Segelfahrzeug, sondern die für ein Maschinenfahrzeug.",
+      "Richtig: Läuft die Maschine gleichzeitig mit, gilt das Fahrzeug lichtertechnisch als Maschinenfahrzeug und muss dessen Lichter führen.",
+      "Falsch: Zwei rote Rundumlichter übereinander gehören zu einem anderen Signal, nicht zur Lichterführung eines Fahrzeugs unter Segel mit Maschinenkraft."
+    ],
+    "mnemonic": "Läuft der Motor mit, zählt das Boot als Maschinenfahrzeug - Segel hin oder her."
   },
   {
     "id": "binnen-194",
@@ -2713,7 +4064,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": "images/binnen/binnen-194.png"
+    "image": "images/binnen/binnen-194.png",
+    "optionExplanations": [
+      "Richtig: Diese Lichterkombination bedeutet, dass die Einfahrt frei ist und der Gegenverkehr gesperrt bleibt.",
+      "Falsch: Das beschreibt eine Wartesituation auf das Ausfahrtsignal, nicht eine bereits freigegebene Einfahrt.",
+      "Falsch: Das beschreibt eine Wartesituation auf das Einfahrtsignal, während die Lichter hier bereits freie Einfahrt anzeigen.",
+      "Falsch: Ob sich das Schleusentor gerade öffnet, wird durch die Lichter nicht extra angezeigt, entscheidend ist allein die freigegebene Einfahrt."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-195",
@@ -2727,7 +4085,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Zu große oder zu kleine Ansaugdüsen sind bei einem plötzlichen Stillstand während der Fahrt keine typische, realistische Ursache.",
+      "Falsch: Ein offener Tankdeckel behindert den Kraftstofffluss normalerweise nicht, im Gegenteil kann ein fehlender Druckausgleich eher zum Problem werden.",
+      "Richtig: Eine geschlossene Belüftungsschraube oder eine verstopfte Kraftstoffleitung können den Kraftstofffluss unterbrechen und den Motor zum Stehen bringen.",
+      "Falsch: Eine lose Schraube an der Welle würde eher zu Vibrationen oder Antriebsverlust führen, nicht direkt zum Stillstand des Motors."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-196",
@@ -2741,7 +4106,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein gesonderter Nachweis der Zuverlässigkeit ist hier nicht die zusätzlich geforderte Voraussetzung.",
+      "Falsch: Unterhalb dieser Leistungsgrenze ist gerade kein Sportbootführerschein erforderlich, das widerspricht dem Sinn der genannten Leistungsschwelle.",
+      "Falsch: Ein Mindestalter von 14 Jahren ist zu niedrig angesetzt, gefordert sind mindestens 16 Jahre.",
+      "Richtig: Unterhalb dieser Leistungsgrenze braucht es keinen Sportbootführerschein, wohl aber ein Mindestalter von 16 Jahren."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-197",
@@ -2755,7 +4127,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Bei Erreichen der Hochwassermarke II muss die Schifffahrt für Sportboote vollständig eingestellt werden.",
+      "Falsch: Ein Verbot nur bei Nacht und unsichtigem Wetter beschreibt eine deutlich schwächere Einschränkung, als es Hochwassermarke II tatsächlich vorsieht.",
+      "Falsch: Überholverbot und Fahrverbot nur für Fahrzeuge ohne Sprechfunk beschreiben mildere Regelungen, nicht die vollständige Einstellung der Schifffahrt.",
+      "Falsch: Eine bloße Geschwindigkeitsbeschränkung greift zu kurz, bei dieser Marke muss die Schifffahrt komplett eingestellt werden."
+    ],
+    "mnemonic": "Marke II heißt Schluss - keine Fahrt mehr für die Sportschifffahrt."
   },
   {
     "id": "binnen-198",
@@ -2769,7 +4148,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Aus Sicht des Talfahrers liegt die grün markierte Fahrrinnenseite links, nicht rechts.",
+      "Richtig: An seiner Backbordseite hat der Talfahrer die linke Fahrrinnenseite, die durch grüne Spitztonnen oder Schwimmstangen gekennzeichnet ist.",
+      "Falsch: Sowohl die Seite als auch die Kennzeichnung stimmen nicht, rote Stumpftonnen markieren die andere Fahrrinnenseite.",
+      "Falsch: Die Seite stimmt, doch die Markierung ist falsch, an Backbord des Talfahrers stehen grüne, keine roten Zeichen."
+    ],
+    "mnemonic": "Bergfahrer hat Grün an Steuerbord, Talfahrer entsprechend Grün an Backbord."
   },
   {
     "id": "binnen-199",
@@ -2783,7 +4169,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Eine Zweifarbenlaterne ersetzt nur die Seitenlichter, ihr fehlt das weiße Hecklicht, das die Dreifarbenlaterne mit abdeckt.",
+      "Richtig: Als Ersatz für Seitenlichter und Hecklicht darf eine Dreifarbenlaterne an oder nahe der Mastspitze geführt werden.",
+      "Falsch: Sowohl der Laternentyp als auch der Anbringungsort sind falsch, benötigt wird eine Dreifarbenlaterne an oder nahe der Mastspitze.",
+      "Falsch: Der Laternentyp stimmt, aber der Anbringungsort nicht, vorgeschrieben ist eine Position an oder nahe der Mastspitze, nicht irgendeine gut sichtbare Stelle."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-200",
@@ -2797,7 +4190,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Ein vollständiges Aufstoppen ist nicht die vorgeschriebene Reaktion, verlangt wird ein Herabsetzen der Geschwindigkeit mit ausreichendem Abstand.",
+      "Falsch: Es gibt hier keine einseitige Ausweichpflicht nur für das gegen den Strom fahrende Fahrzeug, beide müssen Rücksicht nehmen.",
+      "Falsch: Eine Erhöhung der Geschwindigkeit widerspricht der Grundregel, in engem Fahrwasser ist vorsichtiges, langsameres Fahren gefordert.",
+      "Richtig: In engem Fahrwasser muss die Geschwindigkeit herabgesetzt und ein ausreichender Passierabstand eingehalten werden."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-201",
@@ -2811,7 +4211,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Motortemperatur, Öldruck und Ladekontrolle gehören zu den grundlegenden Werten, die während der Fahrt ständig überwacht werden sollten.",
+      "Falsch: Getriebeöltemperatur und Schraubendrehzahl gehören nicht zu den klassischen Basiswerten, die hierbei im Vordergrund stehen.",
+      "Falsch: Diese sehr technischen Einzelwerte sind nicht die praxisnahen Grundgrößen, auf die während der Fahrt regelmäßig geachtet wird.",
+      "Falsch: Keilriemenspannung wird eher bei der Wartung geprüft, nicht als laufende Überwachungsgröße während der Fahrt."
+    ],
+    "mnemonic": "Merke dir die drei Basis-Checks: Temperatur, Öldruck, Ladekontrolle."
   },
   {
     "id": "binnen-202",
@@ -2825,7 +4232,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Bei einer Fahrrinnenspaltung ist die Vorbeifahrt an beiden Seiten möglich, ein Halten nur links ist nicht vorgeschrieben.",
+      "Falsch: Die Vorbeifahrt ist nicht nur an Steuerbord möglich, sondern an beiden Seiten der gespaltenen Fahrrinne.",
+      "Falsch: Ein Halten nur rechts ist nicht vorgeschrieben, tatsächlich kann an beiden Seiten vorbeigefahren werden.",
+      "Richtig: Die rot-grün gestreifte Tonne zeigt eine Fahrrinnenspaltung an, bei der die Vorbeifahrt an beiden Seiten möglich ist."
+    ],
+    "mnemonic": "Rot UND Grün zusammen heißen: beide Wege sind offen."
   },
   {
     "id": "binnen-203",
@@ -2839,7 +4253,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Ein stillliegendes Fahrzeug führt ein von allen Seiten sichtbares weißes Rundumlicht auf der Fahrwasserseite.",
+      "Falsch: Topplicht und Hecklicht gehören zur Lichterführung eines fahrenden Fahrzeugs, nicht zu einem stillliegenden.",
+      "Falsch: Seitenlichter sind für die Fahrt gedacht, ein stillliegendes Fahrzeug braucht sie nicht zusätzlich zum Rundumlicht.",
+      "Falsch: Vorgeschrieben ist ein stetiges, nicht ein blinkendes weißes Licht für ein stillliegendes Fahrzeug."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-204",
@@ -2853,7 +4274,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Lichterführung zeigt keinen geplanten Kurs an, sondern die aktuelle Lage des Fahrzeugs im Raum.",
+      "Falsch: Eine exakte Position wie bei GPS zeigen die Lichter nicht, sie zeigen die Ausrichtung und Lage des Fahrzeugs an.",
+      "Falsch: Über die Geschwindigkeit eines Fahrzeugs geben die Lichter keine Auskunft, das ist keine Aufgabe der Lichterführung.",
+      "Richtig: Die Lichterführung zeigt anderen Verkehrsteilnehmern die Fahrtrichtung und die Lage eines Fahrzeugs an."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-205",
@@ -2867,7 +4295,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Seeschlag durch die Wellen beschreibt nur einen Teil der Gefahr, tatsächlich drohen sogar Kentern oder eine Kollision durch den Sog.",
+      "Falsch: Das ist kein Verstoß gegen abstrakte Grundregeln, sondern eine ganz konkrete physikalische Gefahr durch Wellen und Sog.",
+      "Richtig: Durch Bug- oder Heckwelle kann das kleine Fahrzeug kentern oder durch den Sog mit dem großen Fahrzeug kollidieren.",
+      "Falsch: Es geht hier nicht um die eigene Ausweichfähigkeit, sondern um die konkrete Gefahr durch Wellen und Sog des großen Fahrzeugs."
+    ],
+    "mnemonic": "Groß zieht Klein an - halte Abstand, sonst holt dich der Sog."
   },
   {
     "id": "binnen-206",
@@ -2881,7 +4316,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Der Radeffekt bewirkt kein Versetzen nach vorne, sondern eine seitliche Kraft am Heck.",
+      "Richtig: Der Radeffekt versetzt das Heck des Fahrzeugs seitlich, was Einfluss auf die Steuerung hat.",
+      "Falsch: Nicht der Bug, sondern das Heck wird durch den Radeffekt seitlich versetzt.",
+      "Falsch: Der Radeffekt bewirkt kein Versetzen nach hinten, sondern eine seitliche Verschiebung des Hecks."
+    ],
+    "mnemonic": "Der Propeller schiebt das Heck seitlich weg, wie ein drehendes Rad - daher der Name Radeffekt."
   },
   {
     "id": "binnen-207",
@@ -2895,7 +4337,14 @@
     ],
     "correctIndex": 0,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Richtig: Ein blockierter Propeller kann den Motor beim Einkuppeln der Antriebswelle abwürgen und zum Stehenbleiben bringen.",
+      "Falsch: Eine blockierte Kraftstoffzufuhr würde den Motor eher schon vor dem Einkuppeln zum Stehen bringen, nicht speziell dabei.",
+      "Falsch: Ein verschmutzter Ölfilter verursacht eher schleichende Schmierprobleme, keinen plötzlichen Stillstand genau beim Einkuppeln.",
+      "Falsch: Ein verschmutzter Luftfilter mindert eher die Leistung, führt aber nicht typischerweise zum plötzlichen Stehenbleiben beim Einkuppeln."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-208",
@@ -2909,7 +4358,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Seewasserstraßen deckt ein anderer Geltungsbereich ab, nämlich der Sportbootführerschein See, nicht der Binnen-Schein.",
+      "Richtig: Der Sportbootführerschein Binnenschifffahrtsstraßen gilt auf den Bundeswasserstraßen im Binnenbereich.",
+      "Falsch: Der Geltungsbereich beschränkt sich nicht auf alle Landesgewässer, sondern betrifft die Bundeswasserstraßen im Binnenbereich.",
+      "Falsch: Alle Landesgewässer zusätzlich einzubeziehen, überdehnt den tatsächlichen Geltungsbereich dieses Führerscheins."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-209",
@@ -2923,7 +4379,14 @@
     ],
     "correctIndex": 1,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die vage Formulierung Dunkelheit und schlechtes Wetter ersetzt nicht die klar definierte Zeitspanne von Sonnenuntergang bis Sonnenaufgang.",
+      "Richtig: Lichter müssen von Sonnenuntergang bis Sonnenaufgang sowie bei verminderter Sicht geführt oder gezeigt werden.",
+      "Falsch: Die Zeitspanne ist hier vertauscht, Lichter braucht es von Sonnenuntergang bis Sonnenaufgang, nicht tagsüber.",
+      "Falsch: Feste Uhrzeiten wie 18 bis 6 Uhr passen nicht zur eigentlichen Regel, die sich nach Sonnenuntergang und Sonnenaufgang richtet."
+    ],
+    "mnemonic": "Lichter an mit der Sonne, nicht nach der Uhr - von Sonnenuntergang bis Sonnenaufgang."
   },
   {
     "id": "binnen-210",
@@ -2937,7 +4400,14 @@
     ],
     "correctIndex": 3,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Eine mögliche Propellerblockade durch Pflanzen ist ein praktisches Problem, aber nicht der eigentliche Schutzgrund für diese Zonen.",
+      "Falsch: Schlecht erkennbare badende Personen sind ein Sicherheitsaspekt, aber nicht der Hauptgrund, warum diese Zonen gemieden werden sollten.",
+      "Falsch: Die Gefahr von Grundberührungen ist ein navigatorisches Risiko, nicht der eigentliche Naturschutzgrund für den Abstand.",
+      "Richtig: Schilf- und Röhrichtzonen sind oft wichtige Rast- und Brutplätze für Vögel sowie Laichplätze für Fische und deshalb besonders schützenswert."
+    ],
+    "mnemonic": "Schilf ist Kinderstube - für Vögel und Fische ein wichtiger Rückzugsort."
   },
   {
     "id": "binnen-211",
@@ -2951,7 +4421,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Die Tonne liegt nicht auf der linken, sondern auf der rechten Fahrrinnenseite des Talfahrers.",
+      "Falsch: Die Seite der Tonne stimmt, doch sie muss an der Steuerbordseite passiert werden, nicht an der Backbordseite.",
+      "Richtig: Eine rote Tonne liegt für den Talfahrer auf der rechten Fahrrinnenseite und wird an der Steuerbordseite des Schiffes passiert.",
+      "Falsch: Sowohl die Lage der Tonne als auch die Passierseite sind hier vertauscht."
+    ],
+    "mnemonic": "Für den Talfahrer gilt: Rot bedeutet rechts, an Steuerbord vorbei."
   },
   {
     "id": "binnen-212",
@@ -2965,7 +4442,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Eine fachgerechte Entsorgung der Gasflasche selbst ist nicht der geforderte Schritt beim bloßen Außerbetriebsetzen der Anlage.",
+      "Falsch: Ein vollständiges Entleeren des Behälters ist für das Außerbetriebsetzen nicht notwendig.",
+      "Richtig: Beim Außerbetriebsetzen der Flüssiggasanlage müssen Haupthahn und Absperrventile geschlossen werden.",
+      "Falsch: Das Gasfreimachen der gesamten Anlage ist ein weitergehender Schritt, etwa vor Reparaturen, nicht bei einem einfachen Außerbetriebsetzen erforderlich."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-213",
@@ -2979,7 +4463,14 @@
     ],
     "correctIndex": 2,
     "hasImage": false,
-    "image": null
+    "image": null,
+    "optionExplanations": [
+      "Falsch: Selbstfahrende Kleinfahrzeuge mit Maschinenantrieb brauchen die volle übliche Lichterführung, nicht nur ein einzelnes weißes Rundumlicht.",
+      "Falsch: Kleinfahrzeuge mit Maschinenantrieb gehören nicht in diese Gruppe, sie führen die vollständigen Fahrlichter, nicht nur ein Rundumlicht.",
+      "Richtig: Geschleppte oder längsseits gekuppelte Kleinfahrzeuge führen nachts lediglich ein weißes Rundumlicht.",
+      "Falsch: Geschobene Fahrzeuge haben eine eigene, andere Lichterführung als nur ein einzelnes weißes Rundumlicht."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-214",
@@ -2993,7 +4484,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": "images/binnen/binnen-214.png"
+    "image": "images/binnen/binnen-214.png",
+    "optionExplanations": [
+      "Falsch: Diese Ausnahme für Kleinfahrzeuge mit abgestellter Maschine beschreibt ein anderes, weniger strenges Zeichen als das hier gezeigte vollständige Durchfahrtsverbot.",
+      "Falsch: Eine Ausnahme für Kleinfahrzeuge ohne Antriebsmaschine besteht bei diesem Zeichen nicht, es gilt eine vollständige Sperrung.",
+      "Richtig: Das Zeichen verbietet die Durchfahrt vollständig und sperrt die Schifffahrt insgesamt.",
+      "Falsch: Die Sperrung beschränkt sich hier nicht nur auf Kleinfahrzeuge, sondern gilt für die Schifffahrt insgesamt."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-215",
@@ -3007,7 +4505,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-215.png"
+    "image": "images/binnen/binnen-215.png",
+    "optionExplanations": [
+      "Falsch: Eine Längenbeschränkung auf über 12 m gehört nicht zu diesem Zeichen, das Begegnungsverbot gilt unabhängig von der Fahrzeuglänge.",
+      "Falsch: Das ist ein Überholverbot, dieses Zeichen bedeutet aber ein Begegnungsverbot, das ist inhaltlich etwas anderes.",
+      "Falsch: Auch hier wird fälschlich ein Überholverbot beschrieben statt eines Begegnungsverbots, zudem passt der Zusatz zum Gegenverkehr nicht zur Aussage.",
+      "Richtig: Das Zeichen bedeutet ein Begegnungsverbot an einer Engstelle, hier dürfen sich Fahrzeuge nicht begegnen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-216",
@@ -3021,7 +4526,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-216.png"
+    "image": "images/binnen/binnen-216.png",
+    "optionExplanations": [
+      "Falsch: Diese Lichter beschreiben keinen Schubverband von achtern, sondern eine Fähre in besonderer Betriebsart.",
+      "Falsch: Diese Lichter beschreiben keinen Schubverband von der Steuerbordseite, sondern eine Fähre.",
+      "Falsch: Das beschreibt eine frei fahrende Fähre, gezeigt wird hier aber eine nicht frei fahrende Fähre mit anderem Lichterbild.",
+      "Richtig: Diese Lichterkombination zeigt eine nicht frei fahrende Fähre an, etwa eine seil- oder kettengebundene Fähre."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-217",
@@ -3035,7 +4547,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": "images/binnen/binnen-217.png"
+    "image": "images/binnen/binnen-217.png",
+    "optionExplanations": [
+      "Falsch: Das beschreibt ein festgefahrenes oder gesunkenes Fahrzeug mit einseitig erlaubter Vorbeifahrt, gezeigt wird hier aber schwimmendes Gerät bei der Arbeit.",
+      "Falsch: Bei diesem Lichterbild ist die Vorbeifahrt gerade erlaubt, nicht verboten.",
+      "Richtig: Die Lichter zeigen schwimmendes Gerät bei der Arbeit, an dem beidseitig vorbeigefahren werden darf, wobei Sog und Wellenschlag zu vermeiden sind.",
+      "Falsch: Es handelt sich nicht um ein festgefahrenes oder gesunkenes Fahrzeug, und die Vorbeifahrt ist hier erlaubt, nicht verboten."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-218",
@@ -3049,7 +4568,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": "images/binnen/binnen-218.png"
+    "image": "images/binnen/binnen-218.png",
+    "optionExplanations": [
+      "Richtig: Das Zeichen ist ein Haltegebot vor beweglichen Brücken, Sperrwerken und Schleusen.",
+      "Falsch: Eine dauernde Sperrung einer Teilstrecke wird durch ein anderes Zeichen angezeigt, nicht durch dieses Haltegebot.",
+      "Falsch: Das Zeichen richtet sich nicht speziell an Sportfahrzeuge, sondern ist ein allgemeines Haltegebot vor beweglichen Anlagen.",
+      "Falsch: Es handelt sich um ein Haltegebot, nicht um ein Gebot zur Abgabe eines Signaltons."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-219",
@@ -3063,7 +4589,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": "images/binnen/binnen-219.png"
+    "image": "images/binnen/binnen-219.png",
+    "optionExplanations": [
+      "Falsch: Diese Lichter beschreiben keinen Schubverband, sondern ein einzelnes Fahrzeug mit Maschinenantrieb dieser Länge.",
+      "Falsch: Sowohl die Fahrzeugart als auch die Längenangabe passen nicht zu dieser Lichterführung.",
+      "Richtig: Diese Lichter zeigen ein Fahrzeug mit Maschinenantrieb von mehr als 110 m Länge an.",
+      "Falsch: Ein Fahrzeug ohne Maschinenantrieb führt eine andere Lichterführung als die hier gezeigte für ein Fahrzeug mit Maschinenantrieb."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-220",
@@ -3077,7 +4610,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-220.png"
+    "image": "images/binnen/binnen-220.png",
+    "optionExplanations": [
+      "Falsch: Die Formulierung nur erlaubt macht daraus fälschlich eine verbindliche Vorschrift, tatsächlich ist es nur eine Empfehlung.",
+      "Richtig: Die Durchfahrt zwischen den beiden Tafeln wird empfohlen, ist aber keine strikte Vorschrift.",
+      "Falsch: Ein Zusatz zum Gegenverkehr ist bei diesem einfachen Empfehlungszeichen nicht enthalten.",
+      "Falsch: Empfohlen wird die Durchfahrt gerade zwischen den Tafeln, nicht außerhalb von ihnen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-221",
@@ -3091,7 +4631,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-221.png"
+    "image": "images/binnen/binnen-221.png",
+    "optionExplanations": [
+      "Falsch: Der Wendeplatz ist nur empfohlen, nicht vorgeschrieben, und Stillliegen ist hier für alle Fahrzeuge verboten, nicht nur teilweise erlaubt.",
+      "Richtig: Das Zeichen zeigt einen empfohlenen Wendeplatz, an dem das Stillliegen für alle Fahrzeuge verboten ist.",
+      "Falsch: Stillliegen ist an diesem Wendeplatz für alle Fahrzeuge verboten, nicht nur für größere, während für Kleinfahrzeuge eine Ausnahme gälte.",
+      "Falsch: Der Wendeplatz ist lediglich empfohlen, nicht vorgeschrieben."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-222",
@@ -3105,7 +4652,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": "images/binnen/binnen-222.png"
+    "image": "images/binnen/binnen-222.png",
+    "optionExplanations": [
+      "Richtig: Das Zeichen fordert die Abgabe eines langen Tons.",
+      "Falsch: Verlangt wird nur ein einziger langer Ton, keine zwei langen Töne.",
+      "Falsch: Verlangt wird ein langer Ton, kein kurzer.",
+      "Falsch: Ein zusätzlicher kurzer Ton vor dem langen gehört nicht zu diesem Zeichen."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-223",
@@ -3119,7 +4673,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-223.png"
+    "image": "images/binnen/binnen-223.png",
+    "optionExplanations": [
+      "Falsch: Das Fahrverbot betrifft hier Fahrzeuge mit Maschinenantrieb, nicht Fahrzeuge ohne Antriebsmaschine.",
+      "Richtig: Das Zeichen verbietet die Fahrt für Fahrzeuge mit Maschinenantrieb.",
+      "Falsch: Die Beschränkung nur auf Kleinfahrzeuge mit abgestellter Maschine ist hier zu eng gefasst, das Verbot betrifft Fahrzeuge mit Maschinenantrieb allgemein.",
+      "Falsch: Das Verbot beschränkt sich nicht nur auf Kleinfahrzeuge, sondern gilt für Fahrzeuge mit Maschinenantrieb generell."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-224",
@@ -3133,7 +4694,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": "images/binnen/binnen-224.png"
+    "image": "images/binnen/binnen-224.png",
+    "optionExplanations": [
+      "Falsch: Eine einfache Kursänderung nach Steuerbord ist ein anderes Signal als das hier beschriebene Wenden.",
+      "Falsch: Steuerbord ist die falsche Seite, das Signal bedeutet Wenden über Backbord.",
+      "Richtig: Das Schallsignal bedeutet, dass das Fahrzeug über Backbord wenden will.",
+      "Falsch: Es handelt sich nicht um eine einfache Kursänderung, sondern um das Signal für ein Wenden über Backbord."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-225",
@@ -3147,7 +4715,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": "images/binnen/binnen-225.png"
+    "image": "images/binnen/binnen-225.png",
+    "optionExplanations": [
+      "Richtig: Das Zeichen ordnet eine vorgeschriebene Fahrtrichtung an, die von allen betroffenen Fahrzeugen einzuhalten ist.",
+      "Falsch: Die vorgeschriebene Fahrtrichtung gilt nicht nur für Kleinfahrzeuge, sondern grundsätzlich für alle betroffenen Fahrzeuge.",
+      "Falsch: Es handelt sich um eine verbindliche Vorschrift, nicht nur um eine unverbindliche Empfehlung.",
+      "Falsch: Das Zeichen ordnet eine Fahrtrichtung positiv an, es verbietet nicht einfach eine bestimmte Richtung."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-226",
@@ -3161,7 +4736,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-226.png"
+    "image": "images/binnen/binnen-226.png",
+    "optionExplanations": [
+      "Falsch: Das Zeichen verbietet nicht das Fahren in zwei angezeigten Richtungen, sondern das Wenden.",
+      "Falsch: Eine Beschränkung auf die Mitte des Fahrwassers gehört nicht zu diesem allgemeinen Wendeverbot.",
+      "Falsch: Es geht nicht um verbotene Fahrtrichtungen, sondern um ein Verbot des Wendens.",
+      "Richtig: Das Zeichen bedeutet ein Wendeverbot."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-227",
@@ -3175,7 +4757,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": "images/binnen/binnen-227.png"
+    "image": "images/binnen/binnen-227.png",
+    "optionExplanations": [
+      "Falsch: Ein Hinweis auf Genehmigungsfreiheit ist nicht Teil dieses Zeichens, es kennzeichnet lediglich die erlaubte Fläche.",
+      "Falsch: Ein Vorrang für Wasserskiläufer und Wassermotorräder wird durch dieses Zeichen nicht begründet.",
+      "Richtig: Das Zeichen kennzeichnet Wasserflächen, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.",
+      "Falsch: Eine Genehmigungspflicht wird durch dieses Zeichen nicht ausgedrückt, es markiert lediglich die erlaubte Fläche."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-228",
@@ -3189,7 +4778,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-228.png"
+    "image": "images/binnen/binnen-228.png",
+    "optionExplanations": [
+      "Falsch: Eine vollständige Sperrung ohne jede Ausnahme für Kleinfahrzeuge entspricht nicht diesem Zeichen mit seiner Ausnahme.",
+      "Richtig: Die Wasserfläche ist gesperrt, Kleinfahrzeuge ohne Antriebsmaschine dürfen sie aber befahren.",
+      "Falsch: Die Formulierung ohne laufende Antriebsmaschine beschreibt eine andere Ausnahme, tatsächlich gilt die Ausnahme für Kleinfahrzeuge ganz ohne Antriebsmaschine.",
+      "Falsch: Das beschreibt eine vollständige Sperrung ohne Ausnahme, dabei erlaubt das Zeichen Kleinfahrzeugen ohne Antriebsmaschine die Durchfahrt."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-229",
@@ -3203,7 +4799,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-229.png"
+    "image": "images/binnen/binnen-229.png",
+    "optionExplanations": [
+      "Falsch: Das Zeichen fordert kein Geradeausfahren, sondern allgemeine Vorsicht.",
+      "Richtig: Das Zeichen gebietet, besondere Vorsicht walten zu lassen.",
+      "Falsch: Ein Anhaltegebot ist ein anderes Zeichen als dieses Gebot zu besonderer Vorsicht.",
+      "Falsch: Ein Gebot zur Abgabe eines Achtungssignals ist ein anderes, eigenständiges Zeichen, nicht dieses Vorsichtsgebot."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-230",
@@ -3217,7 +4820,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": "images/binnen/binnen-230.png"
+    "image": "images/binnen/binnen-230.png",
+    "optionExplanations": [
+      "Richtig: Das Zeichen markiert das Ende einer Gebots- oder Verbotsstrecke.",
+      "Falsch: Das Zeichen bezieht sich nicht auf eine nicht frei fahrende Fähre, sondern zeigt das Ende einer Strecke mit Gebot oder Verbot an.",
+      "Falsch: Ein Erlauben des Querens des Fahrwassers ist nicht die Bedeutung dieses Zeichens.",
+      "Falsch: Ein Erlauben des Wechselns der Fahrwasserseite ist nicht die Bedeutung dieses Zeichens, es markiert das Streckenende."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-231",
@@ -3231,7 +4841,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-231.png"
+    "image": "images/binnen/binnen-231.png",
+    "optionExplanations": [
+      "Falsch: Hier sind grüne und rote Seite vertauscht, tatsächlich ist die grüne Seite frei und die rote gesperrt.",
+      "Richtig: An der grünen Seite ist die Vorbeifahrt gestattet, die rote Seite ist gesperrt.",
+      "Falsch: Der Zusatz Sog und Wellenschlag vermeiden gehört nicht zu diesem einfachen Signal ohne Geschwindigkeitshinweis.",
+      "Falsch: Die rote Seite ist tatsächlich gesperrt, eine Vorbeifahrt selbst mit unverminderter Geschwindigkeit ist dort nicht erlaubt."
+    ],
+    "mnemonic": "Ampel-Merkregel: Grün heißt frei, Rot heißt halt."
   },
   {
     "id": "binnen-232",
@@ -3245,7 +4862,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-232.png"
+    "image": "images/binnen/binnen-232.png",
+    "optionExplanations": [
+      "Falsch: Eine Beschränkung nur für größere Fahrzeuge ist hier nicht gemeint, die Geschwindigkeitsangabe gilt allgemein.",
+      "Falsch: Die Geschwindigkeit wird nicht gegenüber der Strömung, sondern gegenüber dem Ufer gemessen.",
+      "Falsch: Das Zeichen richtet sich nicht nur an Kleinfahrzeuge, sondern gilt allgemein für die Geschwindigkeit gegenüber dem Ufer.",
+      "Richtig: 10 km/h ist hier die Höchstgeschwindigkeit gegenüber dem Ufer, also über Grund gemessen."
+    ],
+    "mnemonic": "Am Ufer gemessen, nicht gefühlt im Wasser - die Geschwindigkeit gilt über Grund."
   },
   {
     "id": "binnen-233",
@@ -3259,7 +4883,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-233.png"
+    "image": "images/binnen/binnen-233.png",
+    "optionExplanations": [
+      "Falsch: Der Zusatz Sog und Wellenschlag vermeiden gehört nicht zu diesem einfachen Sichtzeichen ohne diesen Hinweis.",
+      "Richtig: An der grünen Seite ist die Vorbeifahrt gestattet, die rote Seite ist gesperrt.",
+      "Falsch: Hier sind grüne und rote Seite vertauscht, tatsächlich ist die grüne Seite frei und die rote gesperrt.",
+      "Falsch: Die rote Seite ist gesperrt, eine Vorbeifahrt dort mit unverminderter Geschwindigkeit ist nicht möglich."
+    ],
+    "mnemonic": "Ampel-Merkregel: Grün heißt frei, Rot heißt halt."
   },
   {
     "id": "binnen-234",
@@ -3273,7 +4904,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-234.png"
+    "image": "images/binnen/binnen-234.png",
+    "optionExplanations": [
+      "Falsch: Das beschreibt ein festgefahrenes oder gesunkenes Fahrzeug mit einseitiger Vorbeifahrt, gezeigt wird hier aber schwimmendes Gerät mit beidseitiger Vorbeifahrt.",
+      "Richtig: Diese Sichtzeichen zeigen schwimmendes Gerät bei der Arbeit an, an dem beidseitig vorbeigefahren werden darf.",
+      "Falsch: Bei diesen Zeichen ist die Vorbeifahrt gerade erlaubt, nicht verboten.",
+      "Falsch: Es handelt sich nicht um ein festgefahrenes oder gesunkenes Fahrzeug, und die Vorbeifahrt ist hier erlaubt, nicht verboten."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-235",
@@ -3287,7 +4925,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": "images/binnen/binnen-235.png"
+    "image": "images/binnen/binnen-235.png",
+    "optionExplanations": [
+      "Richtig: Diese Lichter zeigen einen Schubverband in Fahrt an, gesehen von vorne.",
+      "Falsch: Die Ansicht von achtern zeigt ein anderes Lichterbild als das hier von vorne gezeigte.",
+      "Falsch: Eine Längenangabe unter 110 m wird durch dieses Lichterbild nicht ausgedrückt, es zeigt die Ansicht von vorne.",
+      "Falsch: Das Lichterbild zeigt einen fahrenden, keinen vor Anker liegenden Schubverband."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-236",
@@ -3301,7 +4946,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-236.png"
+    "image": "images/binnen/binnen-236.png",
+    "optionExplanations": [
+      "Falsch: Das beschreibt ein festgefahrenes oder gesunkenes Fahrzeug mit einseitiger Vorbeifahrt, gezeigt wird hier aber schwimmendes Gerät mit beidseitiger Vorbeifahrt.",
+      "Richtig: Diese Sichtzeichen zeigen schwimmendes Gerät bei der Arbeit an, an dem beidseitig vorbeigefahren werden darf.",
+      "Falsch: Es handelt sich nicht um ein festgefahrenes oder gesunkenes Fahrzeug, und die Vorbeifahrt ist hier erlaubt, nicht verboten.",
+      "Falsch: Bei diesen Zeichen ist die Vorbeifahrt gerade erlaubt, nicht verboten."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-237",
@@ -3315,7 +4967,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": "images/binnen/binnen-237.png"
+    "image": "images/binnen/binnen-237.png",
+    "optionExplanations": [
+      "Richtig: Das Zeichen kennzeichnet eine Liegestelle für Fahrzeuge mit explosiven Stoffen, für Kleinfahrzeuge ist sie verboten.",
+      "Falsch: Die Liegestelle ist nicht für alle Fahrzeuge gedacht, sondern speziell für solche mit explosiven Stoffen.",
+      "Falsch: Das Zeichen kennzeichnet nicht gesundheitsgefährdende, sondern explosive Stoffe.",
+      "Falsch: Das Zeichen kennzeichnet nicht brennbare, sondern explosive Stoffe."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-238",
@@ -3329,7 +4988,14 @@
     ],
     "correctIndex": 3,
     "hasImage": true,
-    "image": "images/binnen/binnen-238.png"
+    "image": "images/binnen/binnen-238.png",
+    "optionExplanations": [
+      "Falsch: Bei diesen Lichtern ist die Vorbeifahrt gerade erlaubt, nicht verboten.",
+      "Falsch: Es handelt sich nicht um ein festgefahrenes oder gesunkenes Fahrzeug, und die Vorbeifahrt ist hier erlaubt, nicht verboten.",
+      "Falsch: Das beschreibt ein festgefahrenes oder gesunkenes Fahrzeug mit einseitiger Vorbeifahrt, gezeigt wird hier aber schwimmendes Gerät mit beidseitiger Vorbeifahrt.",
+      "Richtig: Diese Lichter zeigen schwimmendes Gerät bei der Arbeit an, an dem beidseitig vorbeigefahren werden darf."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-239",
@@ -3343,7 +5009,14 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-239.png"
+    "image": "images/binnen/binnen-239.png",
+    "optionExplanations": [
+      "Falsch: Eine Längenschwelle ab 12 m gehört nicht zu diesem Zeichen, das Ankerverbot gilt allgemein.",
+      "Richtig: Das Zeichen verbietet das Ankern für alle Fahrzeuge.",
+      "Falsch: Das Zeichen verbietet speziell das Ankern, ein zusätzliches Verbot des Festmachens gehört nicht dazu.",
+      "Falsch: Eine Beschränkung auf Kleinfahrzeuge unter 12 m gehört nicht zu diesem Zeichen, das Ankerverbot gilt für alle Fahrzeuge."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-240",
@@ -3357,7 +5030,14 @@
     ],
     "correctIndex": 0,
     "hasImage": true,
-    "image": "images/binnen/binnen-240.png"
+    "image": "images/binnen/binnen-240.png",
+    "optionExplanations": [
+      "Richtig: Die Zahl gibt einen Mindestabstand in Metern an, der ab dem Aufstellungsort der Tafel auf der folgenden Strecke eingehalten werden muss.",
+      "Falsch: Es handelt sich um einen Mindest-, nicht um einen Maximalabstand.",
+      "Falsch: Die Zahl bezeichnet keine Geschwindigkeit in km/h, sondern einen einzuhaltenden Abstand in Metern.",
+      "Falsch: Die Zahl gibt keine Verengung des Fahrwassers an, sondern einen einzuhaltenden Mindestabstand."
+    ],
+    "mnemonic": "Zahl auf dem Schild heißt Meter, die du einhältst - keine Angabe in km/h."
   },
   {
     "id": "binnen-241",
@@ -3371,7 +5051,14 @@
     ],
     "correctIndex": 2,
     "hasImage": true,
-    "image": "images/binnen/binnen-241.png"
+    "image": "images/binnen/binnen-241.png",
+    "optionExplanations": [
+      "Falsch: Das Zeichen macht keine allgemeine Aussage über sichere Befahrbarkeit ohne Seegang, sondern gibt eine konkrete Verhaltensanweisung.",
+      "Falsch: Ein gefährdeter Strandbereich mit fester Meterangabe ist nicht das, was dieses Zeichen ausdrückt.",
+      "Richtig: Das Zeichen fordert dazu auf, Sog und Wellenschlag zu vermeiden.",
+      "Falsch: Das Zeichen trifft keine allgemeine Aussage über Gefahr durch Seegang, sondern verlangt konkret die Vermeidung von Sog und Wellenschlag."
+    ],
+    "mnemonic": null
   },
   {
     "id": "binnen-242",
@@ -3385,6 +5072,13 @@
     ],
     "correctIndex": 1,
     "hasImage": true,
-    "image": "images/binnen/binnen-242.png"
+    "image": "images/binnen/binnen-242.png",
+    "optionExplanations": [
+      "Falsch: Hier sind rote und rot-weiße Seite vertauscht, tatsächlich ist die rot-weiße Seite frei und die rein rote gesperrt.",
+      "Richtig: An der rot-weißen Seite ist die Vorbeifahrt gestattet, die rote Seite ist gesperrt, dabei sind Sog und Wellenschlag zu vermeiden.",
+      "Falsch: Seite und Sperrung stimmen, doch eine Vorbeifahrt mit unverminderter Geschwindigkeit ist nicht erlaubt, Sog und Wellenschlag sind zu vermeiden.",
+      "Falsch: Sowohl die freigegebene Seite ist vertauscht als auch fälschlich eine Vorbeifahrt mit unverminderter Geschwindigkeit angegeben."
+    ],
+    "mnemonic": "Weiß macht's frei: Rot-Weiß gestattet, reines Rot gesperrt."
   }
 ]
