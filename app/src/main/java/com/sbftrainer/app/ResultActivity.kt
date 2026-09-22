@@ -111,6 +111,15 @@ class ResultActivity : AppCompatActivity() {
         } else {
             binding.textDuration.visibility = View.GONE
         }
+
+        if (SessionState.wagerRounds > 0) {
+            val sign = if (SessionState.wagerNet >= 0) "+" else ""
+            binding.textWagerSummary.text =
+                getString(R.string.result_wager_format, sign, SessionState.wagerNet)
+            binding.textWagerSummary.visibility = View.VISIBLE
+        } else {
+            binding.textWagerSummary.visibility = View.GONE
+        }
     }
 
     private fun formatDuration(millis: Long): String {

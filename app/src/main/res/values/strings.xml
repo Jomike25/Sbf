@@ -84,6 +84,25 @@
     <string name="quiz_exit_confirm">Beenden</string>
     <string name="quiz_exit_cancel">Weiter üben</string>
 
+    <!-- Tipp-Joker (50:50) -->
+    <string name="quiz_hint_button">💡 Tipp</string>
+    <string name="quiz_hint_used_button">💡 genutzt</string>
+
+    <!-- Risiko-Joker: Einsatz von virtuellen XP, kein Echtgeld -->
+    <string name="quiz_wager_label">🎲 Risiko-Joker (nur eigene XP, kein Echtgeld)</string>
+    <string name="quiz_wager_option_10">🎲 10 XP</string>
+    <string name="quiz_wager_option_20">🎲 20 XP</string>
+    <string name="quiz_wager_option_50">🎲 50 XP</string>
+    <string name="quiz_wager_active_format">Einsatz aktiv: %1$d XP – richtig: +%1$d XP Bonus, falsch: –%1$d XP</string>
+    <string name="quiz_wager_won_format">🎲 Einsatz gewonnen: +%1$d XP</string>
+    <string name="quiz_wager_lost_format">🎲 Einsatz verloren: –%1$d XP</string>
+
+    <!-- Erklaerungs-Assistent -->
+    <string name="quiz_explain_button">🧠 Warum?</string>
+    <string name="quiz_explain_correct_answer_format">Richtige Antwort: %1$s</string>
+    <string name="quiz_explain_mnemonic_format">💡 Merkhilfe: %1$s</string>
+    <string name="quiz_explain_fallback">Für diese Frage gibt es noch keine ausführliche Begründung in der App – oben siehst du die laut Fragenkatalog richtige Antwort. Wir bauen die Erklärungen nach und nach aus.</string>
+
     <string name="result_title">Ergebnis</string>
     <string name="result_score_format">%1$d von %2$d richtig</string>
     <string name="result_percent_format">%1$d %%</string>
@@ -108,6 +127,7 @@
     <string name="result_praise_ok">Solide Basis – dranbleiben ⛵</string>
     <string name="result_praise_low">Noch wacklig – lieber gleich nochmal üben 🌊</string>
     <string name="result_goal_reached">🎯 Tagesziel geschafft!</string>
+    <string name="result_wager_format">🎲 Risiko-Joker-Bilanz: %1$s%2$d XP</string>
 
     <string name="stats_title">Fortschritt</string>
     <string name="stats_category_header_format">%1$s</string>

@@ -151,6 +151,23 @@ object GamificationStore {
     fun isExamCompleted(category: String, bogenNumber: Int): Boolean =
         examsCompleted.contains("$category-$bogenNumber")
 
+    /**
+     * Wendet einen XP-Gewinn/-Verlust aus dem Risiko-Joker an. XP faellt dabei nie unter 0.
+     * Persistiert sofort, damit Startseite/Statistik nach einer Runde konsistent bleiben.
+     */
+    @Synchronized
+    fun applyWager(delta: Int) {
+        xp = (xp + delta).coerceAtLeast(0)
+        persist()
+    }
+
+    /** Kosten des Tipp-Jokers abziehen, nie unter 0 XP. */
+    @Synchronized
+    fun spendOnHint(amount: Int) {
+        xp = (xp - amount).coerceAtLeast(0)
+        persist()
+    }
+
     @Synchronized
     fun unlockedIds(): Set<String> = unlocked.keys.toSet()
 

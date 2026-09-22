@@ -21,6 +21,10 @@ object SessionState {
     var xpFromAnswers: Int = 0
     var bonusXp: Int = 0
 
+    /** Netto-Ergebnis aller Risiko-Joker-Einsaetze dieser Runde (kann negativ sein). */
+    var wagerNet: Int = 0
+    var wagerRounds: Int = 0
+
     var startedAt: Long = 0L
     var durationMillis: Long = 0L
 
@@ -50,6 +54,8 @@ object SessionState {
         this.bestCombo = 0
         this.xpFromAnswers = 0
         this.bonusXp = 0
+        this.wagerNet = 0
+        this.wagerRounds = 0
         this.startedAt = System.currentTimeMillis()
         this.durationMillis = 0L
         this.levelBefore = Levels.levelFor(GamificationStore.xp)

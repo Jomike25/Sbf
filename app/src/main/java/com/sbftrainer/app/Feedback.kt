@@ -58,7 +58,9 @@ object Feedback {
         val generator = tones() ?: return
         try {
             if (correct) {
-                generator.startTone(ToneGenerator.TONE_PROP_BEEP, 120)
+                // Ein zweitoniges Bestaetigungssignal statt eines einzelnen, harten Pieptons -
+                // klingt freundlicher fuer eine richtige Antwort.
+                generator.startTone(ToneGenerator.TONE_CDMA_CONFIRM, 200)
             } else {
                 generator.startTone(ToneGenerator.TONE_PROP_NACK, 220)
             }

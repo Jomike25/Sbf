@@ -20,6 +20,11 @@ class QuizActivity : AppCompatActivity() {
     private var currentIndex = 0
     private var answered = false
     private var currentOrder: List<Int> = listOf(0, 1, 2, 3)
+    private var hintUsed = false
+
+    companion object {
+        private const val HINT_COST = 5
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,6 +58,9 @@ class QuizActivity : AppCompatActivity() {
         binding.buttonMark.setOnClickListener { toggleMark() }
         binding.buttonSound.setOnClickListener { toggleSound() }
         binding.buttonNext.setOnClickListener { goNext() }
+        binding.buttonHint.setOnClickListener { useHint() }
+        binding.chipGroupWager.setOnCheckedStateChangeListener { _, _ -> updateWagerLabel() }
+        binding.buttonExplain.setOnClickListener { toggleExplanation() }
 
         updateSoundIcon()
 
@@ -75,6 +83,7 @@ class QuizActivity : AppCompatActivity() {
 
     private fun showQuestion() {
         answered = false
+        hintUsed = false
         currentOrder = (0..3).shuffled()
 
         val q = SessionState.questions[currentIndex]
@@ -91,6 +100,7 @@ class QuizActivity : AppCompatActivity() {
             optionViews[slot].text = "${letters[slot]}) ${q.options[originalIndex]}"
             optionViews[slot].setBackgroundResource(R.drawable.bg_option_default)
             optionViews[slot].isEnabled = true
+            optionViews[slot].alpha = 1f
             optionViews[slot].translationX = 0f
         }
 
@@ -98,6 +108,7 @@ class QuizActivity : AppCompatActivity() {
         updateScoreAndCombo(animate = false)
         binding.textFeedback.visibility = View.GONE
         binding.scrollQuiz.scrollTo(0, 0)
+        resetJokerControls()
 
         binding.buttonNext.isEnabled = false
         binding.buttonNext.text = if (currentIndex == SessionState.questions.size - 1) {
@@ -144,6 +155,7 @@ class QuizActivity : AppCompatActivity() {
         val chosenOriginalIndex = currentOrder[slot]
         val correct = chosenOriginalIndex == q.correctIndex
         val correctSlot = currentOrder.indexOf(q.correctIndex)
+        val stake = currentWagerStake()
 
         for (i in 0..3) {
             optionViews[i].isEnabled = false
@@ -172,6 +184,8 @@ class QuizActivity : AppCompatActivity() {
         val earnedXp = GamificationStore.recordAnswer(correct, SessionState.combo)
         SessionState.xpFromAnswers += earnedXp
 
+        val wagerResultText = applyWager(stake, correct)
+
         Feedback.answer(binding.root, correct)
         if (correct) {
             Feedback.pop(optionViews[correctSlot], 1.04f)
@@ -179,18 +193,42 @@ class QuizActivity : AppCompatActivity() {
             Feedback.shake(optionViews[slot])
         }
 
-        showFeedback(correct, earnedXp, correctSlot, q)
+        showFeedback(correct, earnedXp, correctSlot, q, wagerResultText)
         updateScoreAndCombo(animate = true)
         animateQuizProgress(currentIndex + 1)
+        hideJokerControls()
+        showExplainButton(q)
 
         binding.buttonNext.isEnabled = true
     }
 
-    private fun showFeedback(correct: Boolean, earnedXp: Int, correctSlot: Int, q: Question) {
+    /** Verbucht einen aktiven Risiko-Joker-Einsatz und gibt den Feedback-Text dazu zurueck. */
+    private fun applyWager(stake: Int, correct: Boolean): String? {
+        if (stake <= 0) return null
+        SessionState.wagerRounds += 1
+        return if (correct) {
+            GamificationStore.applyWager(stake)
+            SessionState.wagerNet += stake
+            getString(R.string.quiz_wager_won_format, stake)
+        } else {
+            GamificationStore.applyWager(-stake)
+            SessionState.wagerNet -= stake
+            getString(R.string.quiz_wager_lost_format, stake)
+        }
+    }
+
+    private fun showFeedback(
+        correct: Boolean,
+        earnedXp: Int,
+        correctSlot: Int,
+        q: Question,
+        wagerResultText: String?
+    ) {
         val banner = binding.textFeedback
+        val baseText: String
         if (correct) {
             val combo = SessionState.combo
-            banner.text = when {
+            baseText = when {
                 combo >= 3 -> getString(R.string.quiz_feedback_combo_format, combo, earnedXp)
                 earnedXp > 0 -> getString(R.string.quiz_feedback_correct_xp_format, earnedXp)
                 else -> getString(R.string.quiz_feedback_correct)
@@ -199,12 +237,13 @@ class QuizActivity : AppCompatActivity() {
             banner.setTextColor(getColor(R.color.green_correct))
         } else {
             val letter = listOf("A", "B", "C", "D")[correctSlot]
-            banner.text = getString(
+            baseText = getString(
                 R.string.quiz_feedback_wrong_format, "$letter) ${q.options[q.correctIndex]}"
             )
             banner.setBackgroundResource(R.drawable.bg_feedback_wrong)
             banner.setTextColor(getColor(R.color.red_wrong))
         }
+        banner.text = if (wagerResultText != null) "$baseText\n$wagerResultText" else baseText
         Feedback.slideIn(banner)
     }
 
@@ -263,6 +302,109 @@ class QuizActivity : AppCompatActivity() {
         )
         binding.buttonSound.contentDescription =
             getString(if (on) R.string.quiz_sound_on else R.string.quiz_sound_off)
+    }
+
+    /** Blendet Tipp-Joker und Risiko-Joker aus, sobald eine Antwort gegeben wurde. */
+    private fun hideJokerControls() {
+        binding.containerJokers.visibility = View.GONE
+        binding.textWagerLabel.visibility = View.GONE
+        binding.chipGroupWager.visibility = View.GONE
+        binding.textWagerActive.visibility = View.GONE
+    }
+
+    /** Setzt Tipp- und Risiko-Joker fuer eine neue Frage zurueck. */
+    private fun resetJokerControls() {
+        binding.buttonHint.isEnabled = true
+        binding.buttonHint.text = getString(R.string.quiz_hint_button)
+        binding.containerJokers.visibility = View.VISIBLE
+
+        binding.chipGroupWager.clearCheck()
+        binding.chipGroupWager.visibility = View.VISIBLE
+        binding.textWagerLabel.visibility = View.VISIBLE
+        binding.textWagerActive.visibility = View.GONE
+        updateWagerAffordability()
+    }
+
+    /** Graut Einsaetze aus, die sich mit dem aktuellen XP-Stand nicht decken lassen. */
+    private fun updateWagerAffordability() {
+        val xp = GamificationStore.xp
+        binding.chipWager10.isEnabled = xp >= 10
+        binding.chipWager20.isEnabled = xp >= 20
+        binding.chipWager50.isEnabled = xp >= 50
+    }
+
+    private fun stakeForChipId(id: Int): Int = when (id) {
+        binding.chipWager10.id -> 10
+        binding.chipWager20.id -> 20
+        binding.chipWager50.id -> 50
+        else -> 0
+    }
+
+    private fun currentWagerStake(): Int {
+        val checkedId = binding.chipGroupWager.checkedChipId
+        return if (checkedId == View.NO_ID) 0 else stakeForChipId(checkedId)
+    }
+
+    private fun updateWagerLabel() {
+        val stake = currentWagerStake()
+        if (stake > 0) {
+            binding.textWagerActive.text = getString(R.string.quiz_wager_active_format, stake)
+            binding.textWagerActive.visibility = View.VISIBLE
+            Feedback.slideIn(binding.textWagerActive)
+        } else {
+            binding.textWagerActive.visibility = View.GONE
+        }
+    }
+
+    /** 50:50-Tipp: schliesst zwei zufaellige falsche Antworten aus, einmal pro Frage. */
+    private fun useHint() {
+        if (answered || hintUsed) return
+        hintUsed = true
+
+        val q = SessionState.questions[currentIndex]
+        val correctSlot = currentOrder.indexOf(q.correctIndex)
+        val wrongSlots = (0..3).filter { it != correctSlot }.shuffled().take(2)
+        for (slot in wrongSlots) {
+            optionViews[slot].isEnabled = false
+            optionViews[slot].alpha = 0.35f
+        }
+
+        GamificationStore.spendOnHint(HINT_COST)
+        binding.buttonHint.isEnabled = false
+        binding.buttonHint.text = getString(R.string.quiz_hint_used_button)
+        updateWagerAffordability()
+    }
+
+    /** Baut die Erklaerung fuer die eben beantwortete Frage auf und zeigt den Auf/Zu-Button. */
+    private fun showExplainButton(q: Question) {
+        val explanation = Explanations.explain(q)
+        binding.textExplainCorrect.text = getString(
+            R.string.quiz_explain_correct_answer_format, explanation.correctAnswerText
+        )
+        binding.textExplainWhy.text = if (explanation.isDetailed) {
+            explanation.why
+        } else {
+            getString(R.string.quiz_explain_fallback)
+        }
+        val mnemonic = explanation.mnemonic
+        if (mnemonic != null) {
+            binding.textExplainMnemonic.text =
+                getString(R.string.quiz_explain_mnemonic_format, mnemonic)
+            binding.textExplainMnemonic.visibility = View.VISIBLE
+        } else {
+            binding.textExplainMnemonic.visibility = View.GONE
+        }
+        binding.containerExplanation.visibility = View.GONE
+        binding.buttonExplain.visibility = View.VISIBLE
+    }
+
+    private fun toggleExplanation() {
+        val panel = binding.containerExplanation
+        if (panel.visibility == View.VISIBLE) {
+            panel.visibility = View.GONE
+        } else {
+            Feedback.slideIn(panel)
+        }
     }
 
     private fun showExitConfirmation() {

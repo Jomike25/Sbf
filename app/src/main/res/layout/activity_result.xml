@@ -124,6 +124,18 @@
                 android:textColor="@color/text_secondary"
                 android:textSize="12sp"
                 tools:text="Dauer: 6:12" />
+
+            <TextView
+                android:id="@+id/textWagerSummary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/flame_500"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:text="🎲 Risiko-Joker-Bilanz: +30 XP"
+                tools:visibility="visible" />
         </LinearLayout>
 
         <LinearLayout
