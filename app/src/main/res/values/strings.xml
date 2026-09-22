@@ -147,6 +147,7 @@
     <string name="stats_best_combo_format">Beste Serie: %1$d richtige</string>
     <string name="stats_longest_streak_format">Längster Streak: %1$d Tage</string>
     <string name="stats_perfect_rounds_format">Fehlerfreie Runden: %1$d</string>
+    <string name="stats_explanations_format">🧠 Erklärungen hinterlegt: %1$d von %2$d Fragen</string>
     <string name="stats_week_header">Letzte 7 Tage</string>
     <string name="stats_week_empty">In den letzten 7 Tagen noch nichts geübt</string>
     <string name="stats_weekday_format">%1$s</string>

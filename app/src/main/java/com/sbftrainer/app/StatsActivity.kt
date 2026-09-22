@@ -58,12 +58,16 @@ class StatsActivity : AppCompatActivity() {
 
         val answered = GamificationStore.totalAnswered
         val accuracy = if (answered > 0) GamificationStore.totalCorrect * 100 / answered else 0
+        val totalQuestions = QuestionRepository.getAll(this, QuestionRepository.CATEGORY_ALL).size
         binding.textOverview.text = listOf(
             getString(R.string.stats_total_answered_format, answered),
             getString(R.string.stats_overall_accuracy_format, accuracy),
             getString(R.string.stats_best_combo_format, GamificationStore.bestCombo),
             getString(R.string.stats_longest_streak_format, GamificationStore.longestStreak),
-            getString(R.string.stats_perfect_rounds_format, GamificationStore.perfectRounds)
+            getString(R.string.stats_perfect_rounds_format, GamificationStore.perfectRounds),
+            getString(
+                R.string.stats_explanations_format, Explanations.detailedCount(), totalQuestions
+            )
         ).joinToString("\n")
     }
 

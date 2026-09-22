@@ -173,6 +173,76 @@ object Explanations {
             "Geschwindigkeitseinheit."
     )
 
+
+    private val kleinfahrzeugOhneMaschine = RuleCard(
+        "Ein Kleinfahrzeug ohne Maschinenantrieb (z. B. unter Segel oder Rudern), das die " +
+            "eigentlich vorgeschriebenen Lichter nicht führen kann, zeigt ersatzweise " +
+            "mindestens ein von allen Seiten sichtbares weißes Rundumlicht. Seitenlichter " +
+            "allein, Topp-/Hecklicht oder eine Dreifarbenlaterne setzen dagegen eine feste " +
+            "Lichteranlage voraus, die ein einfaches Kleinfahrzeug ohne Maschine oft nicht hat."
+    )
+
+    private val schleppregelKleinfahrzeug = RuleCard(
+        "Für Kleinfahrzeuge gilt eine vereinfachte Regel: Sowohl beim Schleppen als auch beim " +
+            "Geschlepptwerden führt ein Kleinfahrzeug einfach die normalen Lichter eines " +
+            "Kleinfahrzeugs mit Maschinenantrieb – zusätzliche Schlepplichter, wie sie große " +
+            "Verbände zeigen müssen, sind hier nicht vorgeschrieben."
+    )
+
+    private val motorseglerLichter = RuleCard(
+        "Läuft ein Segelfahrzeug zusätzlich mit Maschinenkraft, gilt es – wie schon bei den " +
+            "Ausweichregeln – als Maschinenfahrzeug und muss deshalb auch dessen Lichter " +
+            "führen, nicht die Segellichter. Die anderen Antworten mischen Segel- und " +
+            "Maschinenlichter oder nennen Lichter für eine ganz andere Situation " +
+            "(Manövrierunfähigkeit).",
+        "Genau wie beim schwarzen Kegel gilt: Läuft die Maschine mit, zählt das Boot als " +
+            "Maschinenfahrzeug – auch bei den Lichtern."
+    )
+
+    private val schubverbandLichter = RuleCard(
+        "Ein Schubverband zeigt drei weiße Topplichter in einem Dreieck angeordnet, dazu die " +
+            "normalen Seitenlichter und drei weiße Hecklichter nebeneinander. Die " +
+            "Dreiecksanordnung der Topplichter unterscheidet ihn von einem einzelnen Fahrzeug " +
+            "oder anderen Verbandsformen, bei denen die Lichter anders angeordnet sind."
+    )
+
+    private val geschlepptesFahrzeugLichter = RuleCard(
+        "Ein geschlepptes Fahrzeug führt die normalen Seitenlichter (rot/grün) und zusätzlich " +
+            "ein weißes Hecklicht – keine roten Rundumlichter (die sind z. B. für " +
+            "Manövrierunfähigkeit reserviert) und kein weißes Rundumlicht (das wäre z. B. ein " +
+            "Ankerlicht)."
+    )
+
+    private val fischereiVorrang = RuleCard(
+        "Ein Fahrzeug beim Fischfang hat sowohl gegenüber einem Maschinenfahrzeug als auch " +
+            "gegenüber einem Segelfahrzeug Vorrang – beide müssen ausweichen, wenn " +
+            "Kollisionsgefahr besteht. Das gilt, obwohl Segelfahrzeuge gegenüber " +
+            "Maschinenfahrzeugen sonst meist im Vorteil sind."
+    )
+
+    private val ueberholendDef = RuleCard(
+        "Als überholend gilt ein Fahrzeug, wenn es sich einem anderen aus einer Richtung von " +
+            "mehr als 22,5° achterlicher als querab nähert – also aus dem Bereich, in dem man " +
+            "bei Nacht nur das weiße Hecklicht des anderen Fahrzeugs sehen würde, nicht dessen " +
+            "Seitenlichter. Die anderen Antworten nennen einen falschen Winkel oder den " +
+            "falschen Lichtbereich.",
+        "Siehst du nur das weiße Hecklicht und keine der farbigen Seitenlichter, bist du im " +
+            "Überhol-Sektor."
+    )
+
+    private val ueberholendVerhalten = RuleCard(
+        "Ein überholendes Fahrzeug muss dem zu überholenden Fahrzeug ausweichen, bis es klar " +
+            "vorbeigefahren ist. Ein Schallsignal zur „Zustimmung“ ist dafür nicht " +
+            "vorgeschrieben, und nur „Abstand halten“ oder „nicht behindern“ beschreibt die " +
+            "Ausweichpflicht nicht vollständig."
+    )
+
+    private val schleuseKleinfahrzeugReihenfolge = RuleCard(
+        "Kleinfahrzeuge fahren bei einer gemeinsamen Schleusung erst nach den größeren " +
+            "Fahrzeugen und erst auf Aufforderung der Schleusenaufsicht ein – nicht von sich " +
+            "aus und nicht vorher."
+    )
+
     private val cards: Map<String, RuleCard> = buildMap {
         for (id in listOf("binnen-1", "binnen-192", "see-1", "see-190")) put(id, luvLee)
         for (id in listOf("binnen-13", "see-43", "see-92")) put(id, farbenSeiten)
@@ -194,6 +264,15 @@ object Explanations {
         for (id in listOf("binnen-23", "binnen-131", "binnen-151")) put(id, motorseglerKegel)
         put("see-177", seemeileDef)
         put("see-165", knotenDef)
+        for (id in listOf("binnen-19", "see-18")) put(id, kleinfahrzeugOhneMaschine)
+        for (id in listOf("binnen-90", "binnen-186")) put(id, schleppregelKleinfahrzeug)
+        for (id in listOf("binnen-193", "see-191")) put(id, motorseglerLichter)
+        put("binnen-102", schubverbandLichter)
+        put("see-158", geschlepptesFahrzeugLichter)
+        for (id in listOf("see-13", "see-143")) put(id, fischereiVorrang)
+        put("see-170", ueberholendDef)
+        put("see-207", ueberholendVerhalten)
+        put("binnen-16", schleuseKleinfahrzeugReihenfolge)
     }
 
     /** Anzahl der Fragen mit handgeschriebener Begründung - für Statistik/Transparenz. */
